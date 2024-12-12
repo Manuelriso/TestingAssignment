@@ -1,0 +1,3 @@
+Command Line: /opt/synopsys/verdi/U-2023.03-SP2-1/platform/LINUXAMD64/bin/Novas -fdb_path /home/s331846/cv32e40p_assignments/run/vc-z01x/fdb -fdb_project default -campaign cv32e40p
+uname(Linux po.polito.it 3.10.0-1160.92.1.el7.x86_64 #1 SMP Tue Jun 20 11:48:01 UTC 2023 x86_64)
+au time 33.611767 5.170863 0.638909 delta 319983616 319983616 total 898281472 898281472
