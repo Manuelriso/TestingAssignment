@@ -1,0 +1,15 @@
+Info about observation and detection points used for the test
+=============================================================
+
+Inactive strobes are marked with [NS] (not strobed) prefix.
+All other strobes are active.
+
+Detection Points
+----------------
+tb_top.wrapper_i.top_i.fpu_gen_fp_wrapper_i.apu_gnt_o (/home/s329514/TestingAssignment/cv32e40p_assignments/fsim/strobe.sv, line 20)
+tb_top.wrapper_i.top_i.fpu_gen_fp_wrapper_i.apu_rdata_o[31:0] (/home/s329514/TestingAssignment/cv32e40p_assignments/fsim/strobe.sv, line 20)
+tb_top.wrapper_i.top_i.fpu_gen_fp_wrapper_i.apu_rflags_o[4:0] (/home/s329514/TestingAssignment/cv32e40p_assignments/fsim/strobe.sv, line 20)
+tb_top.wrapper_i.top_i.fpu_gen_fp_wrapper_i.apu_rvalid_o (/home/s329514/TestingAssignment/cv32e40p_assignments/fsim/strobe.sv, line 20)
+
+
+

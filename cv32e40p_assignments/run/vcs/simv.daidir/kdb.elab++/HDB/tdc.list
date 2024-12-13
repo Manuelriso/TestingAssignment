@@ -1,0 +1,16 @@
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/../bhv/include/cv32e40p_tracer_pkg.sv
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/../syn/out/cv32e40p_top.v
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/include/cv32e40p_apu_core_pkg.sv
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/include/cv32e40p_fpu_pkg.sv
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/include/cv32e40p_pkg.sv
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/amo_shim.sv
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_random_interrupt_generator.sv
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_tb_subsystem.sv
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/dp_ram.sv
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/include/perturbation_pkg.sv
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/mm_ram.sv
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/riscv_gnt_stall.sv
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/riscv_rvalid_stall.sv
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/tb_top.sv
+/home/s329514/TestingAssignment/cv32e40p_assignments/fsim/strobe.sv
+/home/s329514/TestingAssignment/cv32e40p_assignments/syn/techlib/NangateOpenCellLibrary.v

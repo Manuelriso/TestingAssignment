@@ -1,0 +1,337 @@
+#######################################################################################
+# log primitive debug message of FSDB dumping                                         #
+# This is for R&D to analyze when there are issues happening when FSDB dump           #
+#######################################################################################
+ANF: vcsd_get_serial_mode_status('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vcsd_get_serial_mode_status')
+ANF: vcsd_enable_sva_success_callback('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vcsd_enable_sva_success_callback')
+ANF: vcsd_disable_sva_success_callback('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vcsd_disable_sva_success_callback')
+ANF: vcsd_get_power_scope_name('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vcsd_get_power_scope_name')
+ANF: vcsd_dump_var_vpdg('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vcsd_dump_var_vpdg')
+ANF: vcsd_begin_no_value_var_info('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vcsd_begin_no_value_var_info')
+ANF: vcsd_end_no_value_var_info('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vcsd_end_no_value_var_info')
+ANF: vcsd_remove_xprop_merge_mode_callback('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vcsd_remove_xprop_merge_mode_callback')
+ANF: vhpi_get_cb_info('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhpi_get_cb_info')
+ANF: vhpi_free_handle('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhpi_free_handle')
+ANF: vhpi_fetch_vcsd_handle('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhpi_fetch_vcsd_handle')
+ANF: vhpi_fetch_vpi_handle('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhpi_fetch_vpi_handle')
+ANF: vhpi_has_verilog_parent('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhpi_has_verilog_parent')
+ANF: vhpi_is_verilog_scope('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhpi_is_verilog_scope')
+ANF: scsd_xprop_is_enabled('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: scsd_xprop_is_enabled')
+ANF: scsd_xprop_sig_is_promoted('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: scsd_xprop_sig_is_promoted')
+ANF: scsd_xprop_int_xvalue('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: scsd_xprop_int_xvalue')
+ANF: scsd_xprop_bool_xvalue('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: scsd_xprop_bool_xvalue')
+ANF: scsd_xprop_enum_xvalue('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: scsd_xprop_enum_xvalue')
+ANF: scsd_xprop_register_merge_mode_cb('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: scsd_xprop_register_merge_mode_cb')
+ANF: scsd_xprop_delete_merge_mode_cb('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: scsd_xprop_delete_merge_mode_cb')
+ANF: scsd_xprop_get_merge_mode('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: scsd_xprop_get_merge_mode')
+ANF: scsd_thread_get_info('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: scsd_thread_get_info')
+ANF: scsd_thread_vc_init('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: scsd_thread_vc_init')
+ANF: scsd_master_set_delta_sync_cbk('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: scsd_master_set_delta_sync_cbk')
+ANF: scsd_fgp_get_fsdb_cores('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: scsd_fgp_get_fsdb_cores')
+ANF: scsd_fgp_get_is_cpu_affinity_disabled('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: scsd_fgp_get_is_cpu_affinity_disabled')
+ANF: vdi_dt_get_vlog_variant_size_array_info('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vdi_dt_get_vlog_variant_size_array_info')
+ANF: vdi_flat_node_get_total_bit_size('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vdi_flat_node_get_total_bit_size')
+ANF: vhdi_dt_get_type('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_dt_get_type')
+ANF: vhdi_dt_get_key('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_dt_get_key')
+ANF: vhdi_dt_get_vhdl_enum_info('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_dt_get_vhdl_enum_info')
+ANF: vhdi_dt_get_vhdl_physical_info('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_dt_get_vhdl_physical_info')
+ANF: vhdi_dt_get_vhdl_array_info('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_dt_get_vhdl_array_info')
+ANF: vhdi_dt_get_vhdl_record_info('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_dt_get_vhdl_record_info')
+ANF: vhdi_dt_get_vhdl_integer_range_info('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_dt_get_vhdl_integer_range_info')
+ANF: vhdi_def_traverse_module('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_def_traverse_module')
+ANF: vhdi_def_traverse_scope('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_def_traverse_scope')
+ANF: vhdi_def_traverse_variable('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_def_traverse_variable')
+ANF: vhdi_def_get_module_id_by_vhpi('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_def_get_module_id_by_vhpi')
+ANF: vhdi_def_get_handle_by_module_id('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_def_get_handle_by_module_id')
+ANF: vhdi_def_get_variable_info_by_vhpi('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_def_get_variable_info_by_vhpi')
+ANF: vhdi_def_free('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_def_free')
+ANF: vhdi_ist_traverse_scope('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_ist_traverse_scope')
+ANF: vhdi_ist_traverse_variable('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_ist_traverse_variable')
+ANF: vhdi_ist_convert_by_vhpi('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_ist_convert_by_vhpi')
+ANF: vhdi_ist_clone('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_ist_clone')
+ANF: vhdi_ist_free('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_ist_free')
+ANF: vhdi_ist_hash_key('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_ist_hash_key')
+ANF: vhdi_ist_compare('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_ist_compare')
+ANF: vhdi_ist_get_value_addr('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_ist_get_value_addr')
+ANF: vhdi_set_scsd_callback('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_set_scsd_callback')
+ANF: vhdi_cbk_set_force_callback('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_cbk_set_force_callback')
+ANF: vhdi_trigger_init_force('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_trigger_init_force')
+ANF: vhdi_ist_check_scsd_callback('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_ist_check_scsd_callback')
+ANF: vhdi_ist_add_scsd_callback('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_ist_add_scsd_callback')
+ANF: vhdi_ist_remove_scsd_callback('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_ist_remove_scsd_callback')
+ANF: vhdi_ist_get_scsd_user_data('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_ist_get_scsd_user_data')
+ANF: vhdi_add_time_change_callback('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_add_time_change_callback')
+ANF: vhdi_get_real_value_by_value_addr('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_get_real_value_by_value_addr')
+ANF: vhdi_get_64_value_by_value_addr('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_get_64_value_by_value_addr')
+ANF: vhdi_xprop_inst_is_promoted('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_xprop_inst_is_promoted')
+ANF: vdi_ist_convert_by_vhdi('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vdi_ist_convert_by_vhdi')
+ANF: vhdi_ist_get_module_id('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_ist_get_module_id')
+ANF: vhdi_refine_foreign_scope_type('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_refine_foreign_scope_type')
+ANF: vhdi_flush_callback('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_flush_callback')
+ANF: vhdi_set_orig_name('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_set_orig_name')
+ANF: vhdi_set_dump_pt('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_set_dump_pt')
+ANF: vhdi_set_int_subtype('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_set_int_subtype')
+ANF: vhdi_set_fixed_point('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_set_fixed_point')
+ANF: vhdi_get_fsdb_option('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_get_fsdb_option')
+ANF: vhdi_fgp_get_mode('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_fgp_get_mode')
+ANF: vhdi_node_register_composite_var('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_node_register_composite_var')
+ANF: vhdi_node_analysis('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_node_analysis')
+ANF: vhdi_node_id('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_node_id')
+ANF: vhdi_node_ist_check_scsd_callback('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_node_ist_check_scsd_callback')
+ANF: vhdi_node_ist_add_scsd_callback('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_node_ist_add_scsd_callback')
+ANF: vhdi_node_ist_get_value_addr('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_node_ist_get_value_addr')
+ANF: vhdi_enc_def_traverse_module('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_enc_def_traverse_module')
+ANF: vhdi_enc_def_traverse_scope('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_enc_def_traverse_scope')
+ANF: vhdi_enc_def_traverse_variable('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_enc_def_traverse_variable')
+ANF: vhdi_enc_ist_traverse_scope('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_enc_ist_traverse_scope')
+ANF: vhdi_enc_ist_traverse_variable('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_enc_ist_traverse_variable')
+ANF: vhdi_enc_ist_get_module_id('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_enc_ist_get_module_id')
+ANF: vhdi_enc_def_get_handle_by_module_id('/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv: undefined symbol: vhdi_enc_def_get_handle_by_module_id')
+VCS compile option:
+ option[0]: /home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv
+ option[1]: ./simv
+ option[2]: +firmware=/home/s329514/TestingAssignment/cv32e40p_assignments/sbst/sbst.hex
+ option[3]: -fsim=task:/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-13-17:44:50_po.polito.it_PID32606/tasks/0xxxx/0xx/fsim:test1:DEFAULT:task3/task.json,job_id+2454335091
+ option[4]: -reportstats
+ option[5]: /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/bin/vcs1
+ option[6]: -Mcc=gcc
+ option[7]: -Mcplusplus=g++
+ option[8]: -Masflags=
+ option[9]: -Mcfl= -pipe -fPIC -O -I/opt/synopsys/vcs/U-2023.03-SP2-1/include 
+ option[10]: -Mxllcflags=
+ option[11]: -Mxcflags= -pipe -fPIC -I/opt/synopsys/vcs/U-2023.03-SP2-1/include
+ option[12]: -Mldflags= -rdynamic 
+ option[13]: -Mout=simv
+ option[14]: -Mamsrun=
+ option[15]: -Mvcsaceobjs=
+ option[16]: -Mobjects= /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libvirsim.so /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/liberrorinf.so /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libsnpsmalloc.so /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libvfs.so 
+ option[17]: -Mexternalobj=
+ option[18]: -Msaverestoreobj=/opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/vcs_save_restore_new.o
+ option[19]: -Mcrt0=
+ option[20]: -Mcrtn=
+ option[21]: -Mcsrc=
+ option[22]: -Msyslibs=/opt/synopsys/verdi/U-2023.03-SP2-1/share/PLI/VCS/LINUX64/pli.a -ldl 
+ option[23]: -kdb
+ option[24]: -Xufe=2steps
+ option[25]: -debug_access+all
+ option[26]: +vpi
+ option[27]: +vcsd1
+ option[28]: +itf+/opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/vcsdp_lite.tab
+ option[29]: -lca
+ option[30]: -full64
+ option[31]: -timescale=1ns/1ns
+ option[32]: -fsim
+ option[33]: +vpi
+ option[34]: -fsim=dut:tb_top.wrapper_i.top_i
+ option[35]: +vpi
+ option[36]: -fsim=portfaults
+ option[37]: +vpi
+ option[38]: -debug_access
+ option[39]: +vcs+fsdbon
+ option[40]: -suppress=TFIPC
+ option[41]: -top
+ option[42]: tb_top
+ option[43]: -top
+ option[44]: strobe
+ option[45]: -picarchive
+ option[46]: -P
+ option[47]: /opt/synopsys/verdi/U-2023.03-SP2-1/share/PLI/VCS/LINUX64/verdi.tab
+ option[48]: -fsdb
+ option[49]: -sverilog
+ option[50]: -gen_obj
+ option[51]: -v
+ option[52]: /home/s329514/TestingAssignment/cv32e40p_assignments/syn/techlib/NangateOpenCellLibrary.v
+ option[53]: -f
+ option[54]: /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../cv32e40p_manifest_gate.flist
+ option[55]: /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/include/perturbation_pkg.sv
+ option[56]: /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_random_interrupt_generator.sv
+ option[57]: /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/dp_ram.sv
+ option[58]: /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/tb_top.sv
+ option[59]: /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_tb_subsystem.sv
+ option[60]: /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/riscv_rvalid_stall.sv
+ option[61]: /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/riscv_gnt_stall.sv
+ option[62]: /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/amo_shim.sv
+ option[63]: /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/mm_ram.sv
+ option[64]: /home/s329514/TestingAssignment/cv32e40p_assignments/fsim/strobe.sv
+ option[65]: -load
+ option[66]: /opt/synopsys/verdi/U-2023.03-SP2-1/share/PLI/VCS/LINUX64/libnovas.so:FSDBDumpCmd
+ option[67]: timescale=1ns/1ns
+Chronologic Simulation VCS Release U-2023.03-SP2-1_Full64
+Linux 3.10.0-1160.92.1.el7.x86_64 #1 SMP Tue Jun 20 11:48:01 UTC 2023 x86_64
+CPU cores: 8
+Limit information:
+======================================
+cputime		unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		8193 kbytes
+coredumpsize		0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		4096
+memorylocked		64 kbytes
+maxproc		4096
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+SYNOPSYS_LC_ROOT=/eda/synopsys/2022-23/RHELx86/LC_2022.03-SP5/
+MANPATH=/opt/synopsys/vcs/U-2023.03-SP2-1/doc/man:
+XDG_SESSION_ID=14362
+TERM_PROGRAM=vscode
+HOSTNAME=po.polito.it
+SYNOPSYS_TMAX=/opt/synopsys/txs/V-2023.12-SP1
+FSIM=1 
+SNPS_SYN=/eda/synopsys/2022-23/RHELx86/SYN_2022.12
+FSDB_VCS_ENABLE_NATIVE_VC=1
+SSL_CERT_FILE=/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+SNPS_LC=/eda/synopsys/2022-23/RHELx86/LC_2022.12
+SNPS_FUSA_TASK_PRIVATE_DIR=/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-13-17:44:50_po.polito.it_PID32606/tasks/0xxxx/0xx/fsim:test1:DEFAULT:task3
+SNPS_FUSA_TASK=-1
+PULP_RISCV_GCC_TOOLCHAIN=/opt/riscv
+NOVAS_HOME=/opt/synopsys/verdi/U-2023.03-SP2-1
+TERM=xterm-256color
+SHELL=/bin/bash
+CDPL_LOGDIR=/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-13-17:44:50_po.polito.it_PID32606/cdpl
+HISTSIZE=1000
+TB_CLK_NS=10.0
+MAKEFLAGS=
+SSH_CLIENT=93.39.144.129 20835 22
+DESIGN_RTL_DIR=/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl
+SNPS_FUSA_WRITE_FAULT_RESULTS_FROM_FCM=1
+TERM_PROGRAM_VERSION=1.95.0
+SYN_PPOWER=/eda/synopsys/2022-23/RHELx86/PRIMEPOWER_2022.12
+TB_DIR=/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core
+QUESTASIM_HOME=/eda/Siemens/2022-23/RHELx86/QUESTA-CORE-PRIME_2022.4/questasim/linux_x86_64
+FSDB_GATE=0
+VCS_TARGET_ARCH=amd64
+SNPS_FUSA_FCM_WORKER_TIMEOUT=21600
+FSDB_PACKED_MODE=0
+CDPL_HEARTBEAT=300
+VCS_WORK_DIR=/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs
+SNPS_TMAX=/opt/synopsys/txs/V-2023.12-SP1
+LC_ALL=C
+SG_HTML_BROWSER=/usr/bin/firefox
+ZOIXHOME=/eda/synopsys/2022-23/RHELx86/Z01X_2022.06-SP2
+QT_GRAPHICSSYSTEM_CHECKED=1
+USER=s329514
+LD_LIBRARY_PATH=:/eda/synopsys/2022-23/RHELx86/LC_2022.12linux64/lc/shlib
+MTI_HOME=/eda/Siemens/2022-23/RHELx86/QUESTA-CORE-PRIME_2022.4/questasim/linux_x86_64
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+FIRMWARE=/home/s329514/TestingAssignment/cv32e40p_assignments/sbst/sbst.hex
+MTI_VCO_MODE=64
+MAKELEVEL=1
+SNPSLMD_LICENSE_FILE=27020@led-x3850-3.polito.it
+SNPS_FUSA_FCM_START_DIR=/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x
+MFLAGS=
+FSDB_ENTRY_TASK_DISABLE=1
+MAIL=/var/spool/mail/s329514
+PATH=/opt/corev/bin:/opt/riscv/bin:/opt/synopsys/verdi/U-2023.03-SP2-1/bin:/opt/synopsys/vcs/U-2023.03-SP2-1/bin:/home/s329514/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/bin/remote-cli:/opt/corev/bin:/opt/riscv/bin:/opt/synopsys/verdi/U-2023.03-SP2-1/bin:/opt/synopsys/vcs/U-2023.03-SP2-1/bin:/opt/corev/bin:/opt/riscv/bin:/opt/synopsys/verdi/U-2023.03-SP2-1/bin:/opt/synopsys/vcs/U-2023.03-SP2-1/bin:/usr/local/bin:/usr/bin:/eda/Siemens/2022-23/RHELx86/QUESTA-CORE-PRIME_2022.4/questasim/linux_x86_64:/eda/synopsys/2022-23/RHELx86/LC_2022.12/bin:/eda/synopsys/2022-23/RHELx86/PRIMEPOWER_2022.12/bin:/eda/synopsys/2022-23/RHELx86/PT_2022.12/bin:/eda/synopsys/2022-23/RHELx86/SPYGLASS_2022.06-SP2/SPYGLASS_HOME/bin:/eda/synopsys/2022-23/RHELx86/SYN_2022.12/bin:/eda/synopsys/2022-23/RHELx86/Z01X_2022.06-SP2/bin:/opt/synopsys/txs/V-2023.12-SP1/bin:/usr/local/sbin:/usr/sbin:/eda/Siemens/2022-23/RHELx86/QUESTA-CORE-PRIME_2022.4/questasim/linux_x86_64:/eda/synopsys/2022-23/RHELx86/LC_2022.12/bin:/eda/synopsys/2022-23/RHELx86/PRIMEPOWER_2022.12/bin:/eda/synopsys/2022-23/RHELx86/PT_2022.12/bin:/eda/synopsys/2022-23/RHELx86/SPYGLASS_2022.06-SP2/SPYGLASS_HOME/bin:/eda/synopsys/2022-23/RHELx86/SYN_2022.12/bin:/eda/synopsys/2022-23/RHELx86/Z01X_2022.06-SP2/bin:/opt/synopsys/txs/V-2023.12-SP1/bin:/home/s329514/.local/bin:/home/s329514/bin:/eda/Siemens/2022-23/RHELx86/QUESTA-CORE-PRIME_2022.4/questasim/linux_x86_64:/eda/synopsys/2022-23/RHELx86/LC_2022.12/bin:/eda/synopsys/2022-23/RHELx86/PRIMEPOWER_2022.12/bin:/eda/synopsys/2022-23/RHELx86/PT_2022.12/bin:/eda/synopsys/2022-23/RHELx86/SPYGLASS_2022.06-SP2/SPYGLASS_HOME/bin:/eda/synopsys/2022-23/RHELx86/SYN_2022.12/bin:/eda/synopsys/2022-23/RHELx86/Z01X_2022.06-SP2/bin:/opt/synopsys/txs/V-2023.12-SP1/bin
+SNPS_Z01X=/eda/synopsys/2022-23/RHELx86/Z01X_2022.06-SP2
+SNPS_FUSA_FCM_FDB_TASK_ID=-1
+SNPS_FDB_STORAGE_PATH=/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fdb
+SNPS_FUSA_TEST_NAME=test1
+VERDI_HOME=/opt/synopsys/verdi/U-2023.03-SP2-1
+PWD=/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x
+VCS_HOME=/opt/synopsys/vcs/U-2023.03-SP2-1
+LANG=en_US.UTF-8
+SNPS_FUSA_FCM_WORKER_ID=1
+CDPL_WORKERID=1
+SG_PDF_VIEWER=/usr/bin/xpdf
+MODEL_TECH=/eda/Siemens/2022-23/RHELx86/QUESTA-CORE-PRIME_2022.4/questasim/linux_x86_64
+KDEDIRS=/usr
+SYN_CLK_NS=5.0
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+SNPS_PT=/eda/synopsys/2022-23/RHELx86/PT_2022.12
+FSDB_DELTA=0
+FSDB_DYNAMIC_ALIAS=0
+LM_LICENSE_FILE=27020@led-x3850-3.polito.it:1717@led-x3850-3.polito.it
+SSL_CERT_DIR=/etc/pki/tls/certs
+HISTCONTROL=ignoredups
+SNPS_FUSA_FAILURE_MODE=DEFAULT
+SHLVL=10
+RISCV=/opt/riscv
+HOME=/home/s329514
+VSCODE_GIT_ASKPASS_MAIN=/home/s329514/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/extensions/git/dist/askpass-main.js
+LOGNAME=s329514
+SPYGLASS_HOME=/eda/synopsys/2022-23/RHELx86/SPYGLASS_2022.06-SP2/SPYGLASS_HOME
+CVS_RSH=ssh
+CDPL_SERVER=130.192.163.95:34713
+VSCODE_GIT_IPC_HANDLE=/run/user/329514/vscode-git-b160659b9d.sock
+SSH_CONNECTION=93.39.144.129 20835 130.192.163.95 22
+XDG_DATA_DIRS=/home/s329514/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VSCODE_IPC_HOOK_CLI=/run/user/329514/vscode-ipc-c5d388c8-89ac-4367-a7c8-3ce70af2929d.sock
+SNPS_FUSA_FCM_WORKER_LOG_DIR=/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-13-17:44:50_po.polito.it_PID32606/worker
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+BROWSER=/home/s329514/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/bin/helpers/browser.sh
+SYNOPSYS_SYN_ROOT=/eda/synopsys/2022-23/RHELx86/SYN_2022.12
+GIT_ASKPASS=/home/s329514/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/extensions/git/dist/askpass.sh
+VSCODE_GIT_ASKPASS_NODE=/home/s329514/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/node
+COREV=YES
+XDG_RUNTIME_DIR=/run/user/329514
+CDPL_ID=1:1:1:1:1302887760
+SNPS_FUSA_FCM_WORKER_STARTED_FILE=/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-13-17:44:50_po.polito.it_PID32606/worker/worker_started
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+VERDI3_NEW_INTERACTIVE_DEBUG=
+FSDB_PLI_EXIT_LOAD_FAIL=1
+CDPL_DEBUG_SUBMIT_TIMEOUT=120
+SNPS_FDB_SERVER=localhost:54146
+SNPS_VERDI=/opt/synopsys/verdi/U-2023.03-SP2-1
+COLORTERM=truecolor
+OLDPWD=/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x
+_=/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_STACK_EXEC=true
+VCS_EXEC_DONE=1
+VCS_STOP_SAFE=1
+DVE=/opt/synopsys/vcs/U-2023.03-SP2-1/gui/dve
+SPECMAN_OUTPUT_TO_TTY=1
+FLEXLM_BORROWFILE=/home/s329514/.po.polito.it-borrow.txt
+Runtime command line arguments:
+argv[0]=/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv
+argv[1]=./simv
+argv[2]=+firmware=/home/s329514/TestingAssignment/cv32e40p_assignments/sbst/sbst.hex
+argv[3]=-fsim=task:/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-13-17:44:50_po.polito.it_PID32606/tasks/0xxxx/0xx/fsim:test1:DEFAULT:task3/task.json,job_id+2454335091
+argv[4]=-reportstats
+295 profile - 100
+          CPU/Mem usage: 0.090 sys,  0.500 user,  390.72M mem
+296 Elapsed time:    0:00:00    Fri Dec 13 17:45:28 2024
+297 User CPU time used: 0 seconds
+298 System CPU time used: 0 seconds
+299 pliAppInit
+300 ndpGetenv(FSDB_GATE): 0
+301 ndpGetenv(FSDB_DELTA): 0
+302 ndpGetenv(FSDB_DYNAMIC_ALIAS): 0
+303 ndpGetenv(FSDB_PACKED_MODE): 0
+304 [SC]Init: MemoryConsumed=0.00MB ElapsedTime=0hour 0min. 0sec.
+305 FSDB_GATE & FSDB_RTL is disabled.
+306 FSDB_ALIAS_ARRAY_ELEM is set to 4294967295.
+307 Enable Parallel Dumping.
+308 pliAppMiscSet: New Sim Round
+309 pliEntryInit
+310 ndpGetenv(FSDB_ENTRY_TASK_DISABLE): 1
+311 *Verdi* WARNING: All FSDB design task is disabled
+312 LIBSSCORE=found /opt/synopsys/verdi/U-2023.03-SP2-1/share/PLI/lib/LINUXAMD64/libsscore_vcs202303.so through $NOVAS_HOME setting.
+313 FSDB Dumper for VCS, Release Verdi_U-2023.03-SP2-1, Linux x86_64/64bit, 10/11/2023
+314 (C) 1996 - 2023 by Synopsys, Inc.
+315 End of simulation at 229610000
+316 Memory usage: 508.576 M
+317 Maximum resident set size: 188 MB
+318 Hard page faults: 0
+319 Soft page faults: 59873
+320 Elapsed time:    0:00:43    Fri Dec 13 17:46:11 2024
+321 User CPU time used: 42 seconds
+322 System CPU time used: 0 seconds
+323 Parallel profile     - ProducerThread:1 ConsumerThread:1 Buffer:64MB
+324                      - BlockUsed:1 Acquire:0 BufferUsed:0
+325                      - Flush:1 Expand:0 ProducerWait:0 ConsumerWait:0
+326                      - MainProducerTime:43.091195698 TotalConsumerTime:0.000000000
+327                      - ElapsedTime:42.529393000
+328 Producer   0 profile - BlockUsed:1 Acquire:0 BufferUsed:0
+329 Consumer   0 profile - Affinity:-1 CPUTime:0.000000000 LifeTime:0.000000000 (-nan%)
+330                      - BlockUsed:1 Acquire:0 BufferUsed:0
+331 SimExit
+332 Elapsed time:    0:00:43    Fri Dec 13 17:46:11 2024
+333 User CPU time used: 42 seconds
+334 System CPU time used: 0 seconds
+335 Sim process exit

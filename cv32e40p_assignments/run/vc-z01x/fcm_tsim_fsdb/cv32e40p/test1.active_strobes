@@ -1,0 +1,5 @@
+# Don't edit this file!
+# The file contains a list of active strobe ids executed during the toggle simulation.
+# It might be used by vc_coats when reusing FSDB for a different campaign.
+
+1

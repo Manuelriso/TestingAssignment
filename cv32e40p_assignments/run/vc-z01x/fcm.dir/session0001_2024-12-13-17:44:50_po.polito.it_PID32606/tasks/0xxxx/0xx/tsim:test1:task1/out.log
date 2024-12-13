@@ -1,0 +1,75 @@
+will invoke: "/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv ./simv +firmware=/home/s329514/TestingAssignment/cv32e40p_assignments/sbst/sbst.hex +fsdbfile+/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm_tsim_fsdb/cv32e40p/test1.fsdb +vc_zoix_internal_toggle_sim +fsdb+max_var_elem=4096 +fsdb+packed_size=4096 +fsdb+mda +fsdb+packedmda +fsdb+struct +fsdb+no_msg+FSDB_PACKED_SIZE+packed -tsim=limit_toggle:1 -reportstats -tsim=task:/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-13-17:44:50_po.polito.it_PID32606/tasks/0xxxx/0xx/tsim:test1:task1/task.json,job_id+2454335043"
+
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Warning : License for product VC-ZOIX-FSIM-BASE will expire within 19 days, on: 31-dec-2024.
+
+If you would like to temporarily disable this message, set 
+ the VCS_LIC_EXPIRE_WARNING environment variable to the number of days
+before expiration that you want this message to start (the minimum is 0).
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2-1_Full64; Runtime version U-2023.03-SP2-1_Full64;  Dec 13 17:44 2024
+
+Note-[FSIM-TSIM-INJECTION] Faults injection recorded.
+  Faults will be enabled at time 41000ps during fault simulation.
+
+*Verdi* Loading libsscore_vcs202303.so
+*Verdi* : Max var size is set to 4096.
+*Verdi* : Max element size is set to 4096.
+FSDB Dumper for VCS, Release Verdi_U-2023.03-SP2-1, Linux x86_64/64bit, 10/11/2023
+(C) 1996 - 2023 by Synopsys, Inc.
+*Verdi* : Create FSDB file '/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm_tsim_fsdb/cv32e40p/test1.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* WARNING: Var 'tb_top.wrapper_i.ram_i.dp_ram_i.mem' will be ignored because its total element is larger than or equal to 4096.
+*Verdi* : You may set environmental parameter "FSDB_MAX_VAR_ELEM" to enable the dumping.
+*Verdi* : End of traversing.
+ZOIX INJECTION
+
+Note-[FSDB_DYN_ACTIVE] Reduction of value changes in the FSDB file active.
+  Switch '-tsim=limit_toggle*' has been given. Value changes in the FSDB file 
+  will be reduced, for example, scalar signals will appear flat-lined after 
+  the next few toggles.
+  Change runtime switch to '-tsim=limit_toggle:0' if you want a regular, 
+  unreduced FSDB file.
+
+EXIT SUCCESS
+$finish called from file "/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/tb_top.sv", line 155.
+[TESTBENCH] 229610ns: test application time = 22956 clock cycles (229560 ns)
+$finish at simulation time  229610ns
+
+Note-[FSDB_DYN_SUMMARY] Reduction of value changes in the FSDB file summary.
+  Value changes in FSDB have been reduced.
+  Strobing points: excluded from filtering, fully recorded.
+  Signals: 45674 (99.9%) instrumented, 8 not instrumented, 0 strobes.
+  Value changes: 644761 (39.8%) blocked since fault injection, 973928 
+  forwarded during filtering + 0 from non-instrumented signals + 0 from mem 
+  accesses.
+  Change runtime switch to '-tsim=limit_toggle:0' if you want a regular, 
+  unreduced FSDB file.
+
+
+Note-[DTL-LAST-STROBE_TIME-RECORDED] Last strobe time recorded.
+  Last strobe was recorded at time 229605000 ps.
+
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 229610000 ps
+
+Simulation Performance Summary
+==============================
+Simulation started at :  Fri Dec 13 17:44:50 2024
+Elapsed Time          :  26 sec
+CPU Time              :  25.0 sec
+Virtual memory size   :  503.9 MB
+Resident set size     :  165.7 MB
+Shared memory size    :  40.7 MB
+Private memory size   :  125.0 MB
+Major page faults     :  1
+Machine name          :  po.polito.it
+==============================
+
+Fri Dec 13 17:45:15 2024
+
+command completed with exit code 0
+
+Exit:0

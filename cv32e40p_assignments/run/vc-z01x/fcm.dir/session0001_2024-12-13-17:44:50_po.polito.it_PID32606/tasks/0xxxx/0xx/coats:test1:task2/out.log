@@ -1,0 +1,54 @@
+will invoke: "cd /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-13-17:44:50_po.polito.it_PID32606/tasks/0xxxx/0xx/coats:test1:task2 && vc_coats -full64 -daidir /home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv.daidir -test test1 -fsdb /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm_tsim_fsdb/cv32e40p/test1.fsdb -fdb_server po.polito.it:54146 -fdb_project default -campaign cv32e40p -l /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-13-17:44:50_po.polito.it_PID32606/tasks/0xxxx/0xx/coats:test1:task2/vc_coats.log "
+
+
+        VC COATS (Controllability Observability And Testability System) 
+
+              Version U-2023.03-SP2-1 for linux64 - Oct 13, 2023 
+
+                    Copyright (c) 2019 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Loading design...
+Done (CPU time: 0s, elapsed time: 0s, memory increased by 37Mb, peak: 56Mb).
+Loading FSDB...
+logDir = /tmp/
+Last strobe occured at time: 229605000. Ignoring all toggle data after this time.
+Done (CPU time: 0s, elapsed time: 1s, memory increased by 91Mb, peak: 149Mb).
+Loading design details...
+Done (CPU time: 0s, elapsed time: 0s, memory increased by 8Mb, peak: 158Mb).
+Observability analysis for test1...
+Done (CPU time: 0s, elapsed time: 0s, memory increased by 1Mb, peak: 160Mb).
+Reconvergence check...
+Done (CPU time: 4s, elapsed time: 4s, memory increased by 11Mb, peak: 171Mb).
+Reading faults from FDB...
+Done (CPU time: 0s, elapsed time: 1s, memory increased by 25Mb, peak: 208Mb).
+Processing faults...
+Done (45566 faults processed, CPU time: 2s, elapsed time: 1s, memory increased by 5Mb, peak: 208Mb).
+Writing results to FDB...
+Done (CPU time: 0s, elapsed time: 1s, memory increased by 0Mb, peak: 208Mb).
+
+##### Testability results for test1 #####
+Analyzed prime NA faults: 45566 (from total 95448)
+Not strobed:              0
+Not observable:           45127
+Not controllable:         238
+Fault reduction:          99% 
+
+CPU time: 6s, elapsed time: 8s, peak memory: 210MB.
+
+command completed with exit code 0
+
+Exit:0

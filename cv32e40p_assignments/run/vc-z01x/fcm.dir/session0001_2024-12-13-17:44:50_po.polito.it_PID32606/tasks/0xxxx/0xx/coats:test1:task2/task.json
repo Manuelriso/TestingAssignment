@@ -1,0 +1,29 @@
+{
+    "task": {
+        "state": "NEW",
+        "session_id": "1",
+        "task_id": "2",
+        "testcase_id": "0",
+        "campaign_guid": "4755801206503243778",
+        "campaign_name": "cv32e40p",
+        "testcase_guid": "5116089176692883456",
+        "testcase_name": "test1",
+        "command": "cd '\/home\/s329514\/TestingAssignment\/cv32e40p_assignments\/run\/vc-z01x\/fcm.dir\/session0001_2024-12-13-17:44:50_po.polito.it_PID32606\/tasks\/0xxxx\/0xx\/coats:test1:task2' && vc_coats -full64 -daidir '\/home\/s329514\/TestingAssignment\/cv32e40p_assignments\/run\/vcs\/simv.daidir' -test test1 -fsdb '\/home\/s329514\/TestingAssignment\/cv32e40p_assignments\/run\/vc-z01x\/fcm_tsim_fsdb\/cv32e40p\/test1.fsdb' -fdb_server po.polito.it:54146 -fdb_project default -campaign cv32e40p -l '\/home\/s329514\/TestingAssignment\/cv32e40p_assignments\/run\/vc-z01x\/fcm.dir\/session0001_2024-12-13-17:44:50_po.polito.it_PID32606\/tasks\/0xxxx\/0xx\/coats:test1:task2\/vc_coats.log' ",
+        "work_dir": "\/home\/s329514\/TestingAssignment\/cv32e40p_assignments\/run\/vc-z01x\/fcm.dir\/session0001_2024-12-13-17:44:50_po.polito.it_PID32606\/tasks\/0xxxx\/0xx\/coats:test1:task2",
+        "log_file": "\/home\/s329514\/TestingAssignment\/cv32e40p_assignments\/run\/vc-z01x\/fcm.dir\/session0001_2024-12-13-17:44:50_po.polito.it_PID32606\/tasks\/0xxxx\/0xx\/coats:test1:task2\/out.log",
+        "fcm_required_task_id": "1",
+        "fcm_run_count": "1",
+        "fcm_host_name": "po.polito.it",
+        "fcm_start_timestamp": "1734108316",
+        "fcm_task_type": "coats",
+        "fdb_server": "po.polito.it:54146",
+        "fdb_project": "default",
+        "fdb_path": "\/home\/s329514\/TestingAssignment\/cv32e40p_assignments\/run\/vc-z01x\/fdb",
+        "attributes": {
+            "fcm_fsdb_file": "\/home\/s329514\/TestingAssignment\/cv32e40p_assignments\/run\/vc-z01x\/fcm_tsim_fsdb\/cv32e40p\/test1.fsdb"
+        },
+        "faults": [
+            "1"
+        ]
+    }
+}

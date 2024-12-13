@@ -1,0 +1,7 @@
+# Master Broadcast File
+time 1734108290
+pid 32606
+log /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-13-17:44:50_po.polito.it_PID32606/cdpl/master.po.polito.it.32606.log
+tcp 130.192.163.95:37141
+wlog /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-13-17:44:50_po.polito.it_PID32606/cdpl/worker.W1.po.polito.it.32680.log
+status done

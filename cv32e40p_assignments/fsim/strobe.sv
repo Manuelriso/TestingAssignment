@@ -1,7 +1,7 @@
 `timescale 1ps / 1ps
 
 `ifndef TOPLEVEL
-	`define TOPLEVEL tb_top.wrapper_i.top_i.core_i
+	`define TOPLEVEL tb_top.wrapper_i.top_i.fpu_gen_fp_wrapper_i
 `endif
 
 module strobe;

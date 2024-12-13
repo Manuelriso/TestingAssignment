@@ -1,0 +1,56 @@
+
+                          VC Fault Campaign Compiler 
+
+              Version U-2023.03-SP2-1 for linux64 - Oct 13, 2023 
+
+                    Copyright (c) 2019 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Command: vc_fcc -full64 -daidir /home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv.daidir -sff /home/s329514/TestingAssignment/cv32e40p_assignments/fsim/config.sff,/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/faults.ssf -campaign cv32e40p -overwrite 
+
+Loading design information...
+Done (CPU time: 0s, elapsed time: 0s, memory increased by 38Mb, peak: 59Mb).
+
+Warning-[FCC-STATUS-DEFINITIONS-MULTIPLE] Multiple StatusDefinitions blocks exist.
+/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/faults.ssf, 9
+  Only the first StatusDefinitions block is processed. All subsequent 
+  StatusDefinitions blocks will be ignored.
+
+Parsing fault list...
+Done (95448 faults generated, CPU time: 6s, elapsed time: 7s, memory increased by 172Mb, peak: 234Mb).
+Collecting design strobes...
+Done (CPU time: 0s, elapsed time: 0s, memory increased by 0Mb, peak: 235Mb).
+Loading design details...
+Done (CPU time: 0s, elapsed time: 0s, memory increased by 26Mb, peak: 261Mb).
+Constant propagation...
+Done (CPU time: 0s, elapsed time: 0s, memory increased by 9Mb, peak: 270Mb).
+Static testability analysis...
+Done (CPU time: 2s, elapsed time: 2s, memory increased by 12Mb, peak: 282Mb).
+Reconvergence check...
+Done (CPU time: 0s, elapsed time: 0s, memory increased by 0Mb, peak: 282Mb).
+Pruning...
+Done (CPU time: 1s, elapsed time: 1s, memory increased by 1Mb, peak: 283Mb).
+Collapsing...
+Done (CPU time: 2s, elapsed time: 2s, memory increased by 22Mb, peak: 305Mb).
+Preparing to write to FDB...
+Done (CPU time: 1s, elapsed time: 1s, memory increased by 1Mb, peak: 307Mb).
+Writing fault campaign to FDB...
+Done (CPU time: 0s, elapsed time: 2s, memory increased by 1Mb, peak: 307Mb).
+Total faults generated: 95448.
+Collapsed faults:       45864.
+Untestable faults:      4018.
+Fault reduction:        52%.
+CPU time: 14s, elapsed time: 16s, peak memory: 309MB.

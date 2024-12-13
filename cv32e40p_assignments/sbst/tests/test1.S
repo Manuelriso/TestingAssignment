@@ -23,6 +23,7 @@ test1:
 
     # You can write your code here 
 
+	addi s1,s1,4
 	la a0, test_vector_A
 	la a2, test_results
 #	li s5, 63

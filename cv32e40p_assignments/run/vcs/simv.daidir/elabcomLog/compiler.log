@@ -1,0 +1,24 @@
+*design* DebussyLib (btIdent Verdi_U-2023.03-SP2-1)
+Command arguments:  -lib  simv.daidir/work  -saveLevel  -elab  simv.daidir/kdb  -simflow  -simdir  simv.daidir/kdb_libs  -topfile  simv.daidir/.elabcomTopFile  -pkgfile  simv.daidir/.elabcomPkgFile  -ssv  -ssy  -Lf  work  +disable_message+C00380+C00381  +disable_message+C00388+C00389  -SNPS_ELABCOM  -saveElab 
+
+*Warning* Failed to find the specified instance parameter PULP_XPULP in the master cv32e40p_top
+"/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_tb_subsystem.sv", 81: 
+
+*Warning* Failed to find the specified instance parameter PULP_CLUSTER in the master cv32e40p_top
+"/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_tb_subsystem.sv", 81: 
+
+*Warning* Failed to find the specified instance parameter FPU in the master cv32e40p_top
+"/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_tb_subsystem.sv", 81: 
+
+*Warning* Failed to find the specified instance parameter FPU_ADDMUL_LAT in the master cv32e40p_top
+"/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_tb_subsystem.sv", 81: 
+
+*Warning* Failed to find the specified instance parameter FPU_OTHERS_LAT in the master cv32e40p_top
+"/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_tb_subsystem.sv", 81: 
+
+*Warning* Failed to find the specified instance parameter ZFINX in the master cv32e40p_top
+"/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_tb_subsystem.sv", 81: 
+
+*Warning* Failed to find the specified instance parameter NUM_MHPMCOUNTERS in the master cv32e40p_top
+"/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_tb_subsystem.sv", 81: 
+Total	0 error(s),   7 warning(s)

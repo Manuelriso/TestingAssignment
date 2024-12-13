@@ -1,0 +1,216 @@
+2024-12-13 17:44:24.868 CET [user=]LOG:  database system was shut down at 2024-12-13 17:44:22 CET
+2024-12-13 17:44:24.884 CET [user=]LOG:  database system is ready to accept connections
+2024-12-13 17:44:25.056 CET [user=[unknown]]LOG:  connection received: host=[local]
+2024-12-13 17:44:25.057 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=pg_isready
+2024-12-13 17:44:25.061 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=[local]
+2024-12-13 17:44:25.080 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=51180
+2024-12-13 17:44:25.081 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=pg_isready
+2024-12-13 17:44:25.082 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.003 user=s329514 database=postgres host=po.polito.it port=51180
+2024-12-13 17:44:25.583 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=51192
+2024-12-13 17:44:25.584 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=pg_isready
+2024-12-13 17:44:25.585 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.003 user=s329514 database=postgres host=po.polito.it port=51192
+2024-12-13 17:44:25.594 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=51196
+2024-12-13 17:44:25.595 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:44:25.598 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=51196
+2024-12-13 17:44:25.604 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=51198
+2024-12-13 17:44:25.605 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:44:25.608 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=51200
+2024-12-13 17:44:25.608 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:44:25.609 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.006 user=s329514 database=postgres host=po.polito.it port=51198
+2024-12-13 17:44:25.613 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.006 user=s329514 database=postgres host=po.polito.it port=51200
+2024-12-13 17:44:25.659 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=51202
+2024-12-13 17:44:25.660 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=vc_fcm.exe
+2024-12-13 17:44:25.665 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.007 user=s329514 database=postgres host=po.polito.it port=51202
+2024-12-13 17:44:25.667 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=51204
+2024-12-13 17:44:25.667 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=vc_fcm.exe
+2024-12-13 17:44:25.958 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=51222
+2024-12-13 17:44:25.959 CET [user=s329514]LOG:  connection authorized: user=s329514 database=default application_name=vc_fcm.exe
+2024-12-13 17:44:26.770 CET [user=s329514]LOG:  disconnection: session time: 0:00:01.104 user=s329514 database=postgres host=po.polito.it port=51204
+2024-12-13 17:44:26.771 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.815 user=s329514 database=default host=po.polito.it port=51222
+2024-12-13 17:44:26.787 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=51244
+2024-12-13 17:44:26.788 CET [user=s329514]LOG:  connection authorized: user=s329514 database=default application_name=fault_compiler
+2024-12-13 17:44:28.704 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=51318
+2024-12-13 17:44:28.705 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:44:28.709 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.006 user=s329514 database=postgres host=po.polito.it port=51318
+2024-12-13 17:44:31.801 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=51422
+2024-12-13 17:44:31.801 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:44:31.805 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=51422
+2024-12-13 17:44:33.964 CET [user=s329514]LOG:  disconnection: session time: 0:00:07.177 user=s329514 database=default host=po.polito.it port=51244
+2024-12-13 17:44:34.860 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=51532
+2024-12-13 17:44:34.860 CET [user=s329514]LOG:  connection authorized: user=s329514 database=default application_name=fault_compiler
+2024-12-13 17:44:34.900 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=51536
+2024-12-13 17:44:34.901 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:44:34.905 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.007 user=s329514 database=postgres host=po.polito.it port=51536
+2024-12-13 17:44:37.999 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=51636
+2024-12-13 17:44:38.000 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:44:38.004 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=51636
+2024-12-13 17:44:41.104 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=51742
+2024-12-13 17:44:41.105 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:44:41.110 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.007 user=s329514 database=postgres host=po.polito.it port=51742
+2024-12-13 17:44:44.202 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=51848
+2024-12-13 17:44:44.203 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:44:44.206 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=51848
+2024-12-13 17:44:47.298 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=51956
+2024-12-13 17:44:47.299 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:44:47.302 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.004 user=s329514 database=postgres host=po.polito.it port=51956
+2024-12-13 17:44:50.064 CET [user=s329514]LOG:  disconnection: session time: 0:00:15.205 user=s329514 database=default host=po.polito.it port=51532
+2024-12-13 17:44:50.397 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=52064
+2024-12-13 17:44:50.398 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:44:50.401 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.006 user=s329514 database=postgres host=po.polito.it port=52064
+2024-12-13 17:44:50.435 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=52070
+2024-12-13 17:44:50.435 CET [user=s329514]LOG:  connection authorized: user=s329514 database=default application_name=vc_fcm.exe
+2024-12-13 17:44:53.484 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=52178
+2024-12-13 17:44:53.485 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:44:53.489 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=52178
+2024-12-13 17:44:56.590 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=52284
+2024-12-13 17:44:56.590 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:44:56.594 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=52284
+2024-12-13 17:44:59.685 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=52390
+2024-12-13 17:44:59.686 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:44:59.691 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.007 user=s329514 database=postgres host=po.polito.it port=52390
+2024-12-13 17:45:02.790 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=52496
+2024-12-13 17:45:02.791 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:45:02.794 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=52496
+2024-12-13 17:45:05.887 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=52598
+2024-12-13 17:45:05.888 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:45:05.892 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.006 user=s329514 database=postgres host=po.polito.it port=52598
+2024-12-13 17:45:08.992 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=52704
+2024-12-13 17:45:08.993 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:45:08.996 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=52704
+2024-12-13 17:45:12.093 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=52808
+2024-12-13 17:45:12.094 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:45:12.098 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=52808
+2024-12-13 17:45:15.191 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=52914
+2024-12-13 17:45:15.192 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:45:15.196 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=52914
+2024-12-13 17:45:16.842 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=52980
+2024-12-13 17:45:16.842 CET [user=s329514]LOG:  connection authorized: user=s329514 database=default application_name=vc_coats.exe
+2024-12-13 17:45:18.284 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=53032
+2024-12-13 17:45:18.285 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:45:18.288 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=53032
+2024-12-13 17:45:21.373 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=53132
+2024-12-13 17:45:21.374 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:45:21.377 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=53132
+2024-12-13 17:45:24.474 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=53236
+2024-12-13 17:45:24.474 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:45:24.478 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=53236
+2024-12-13 17:45:24.810 CET [user=s329514]LOG:  disconnection: session time: 0:00:07.969 user=s329514 database=default host=po.polito.it port=52980
+2024-12-13 17:45:27.580 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=53340
+2024-12-13 17:45:27.580 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:45:27.585 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.007 user=s329514 database=postgres host=po.polito.it port=53340
+2024-12-13 17:45:30.691 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=53456
+2024-12-13 17:45:30.691 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:45:30.695 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=53456
+2024-12-13 17:45:33.802 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=53562
+2024-12-13 17:45:33.802 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:45:33.806 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.004 user=s329514 database=postgres host=po.polito.it port=53562
+2024-12-13 17:45:36.904 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=53666
+2024-12-13 17:45:36.904 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:45:36.909 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.006 user=s329514 database=postgres host=po.polito.it port=53666
+2024-12-13 17:45:40.016 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=53770
+2024-12-13 17:45:40.017 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:45:40.021 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.006 user=s329514 database=postgres host=po.polito.it port=53770
+2024-12-13 17:45:43.117 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=53874
+2024-12-13 17:45:43.117 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:45:43.121 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=53874
+2024-12-13 17:45:46.219 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=53984
+2024-12-13 17:45:46.220 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:45:46.224 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.006 user=s329514 database=postgres host=po.polito.it port=53984
+2024-12-13 17:45:49.317 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=54088
+2024-12-13 17:45:49.318 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:45:49.321 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.004 user=s329514 database=postgres host=po.polito.it port=54088
+2024-12-13 17:45:52.421 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=54192
+2024-12-13 17:45:52.421 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:45:52.425 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=54192
+2024-12-13 17:45:55.518 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=54292
+2024-12-13 17:45:55.519 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:45:55.523 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.007 user=s329514 database=postgres host=po.polito.it port=54292
+2024-12-13 17:45:58.625 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=54398
+2024-12-13 17:45:58.626 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:45:58.631 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.006 user=s329514 database=postgres host=po.polito.it port=54398
+2024-12-13 17:46:01.719 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=54502
+2024-12-13 17:46:01.720 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:46:01.723 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=54502
+2024-12-13 17:46:04.814 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=54610
+2024-12-13 17:46:04.815 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:46:04.821 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.008 user=s329514 database=postgres host=po.polito.it port=54610
+2024-12-13 17:46:07.935 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=54712
+2024-12-13 17:46:07.936 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:46:07.941 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.007 user=s329514 database=postgres host=po.polito.it port=54712
+2024-12-13 17:46:11.050 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=54816
+2024-12-13 17:46:11.051 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:46:11.055 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.006 user=s329514 database=postgres host=po.polito.it port=54816
+2024-12-13 17:46:14.156 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=54922
+2024-12-13 17:46:14.157 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:46:14.161 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.006 user=s329514 database=postgres host=po.polito.it port=54922
+2024-12-13 17:46:17.261 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=55026
+2024-12-13 17:46:17.262 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:46:17.270 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.010 user=s329514 database=postgres host=po.polito.it port=55026
+2024-12-13 17:46:18.249 CET [user=s329514]LOG:  disconnection: session time: 0:01:27.814 user=s329514 database=default host=po.polito.it port=52070
+2024-12-13 17:46:20.366 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=55136
+2024-12-13 17:46:20.366 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:46:20.371 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.006 user=s329514 database=postgres host=po.polito.it port=55136
+2024-12-13 17:46:23.453 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=55238
+2024-12-13 17:46:23.454 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:46:23.458 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=55238
+2024-12-13 17:46:26.544 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=55336
+2024-12-13 17:46:26.545 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:46:26.549 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.006 user=s329514 database=postgres host=po.polito.it port=55336
+2024-12-13 17:46:29.641 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=55444
+2024-12-13 17:46:29.641 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:46:29.645 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=55444
+2024-12-13 17:46:32.734 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=55548
+2024-12-13 17:46:32.735 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:46:32.739 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=55548
+2024-12-13 17:46:35.829 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=55658
+2024-12-13 17:46:35.830 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:46:35.834 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.006 user=s329514 database=postgres host=po.polito.it port=55658
+2024-12-13 17:46:38.918 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=55756
+2024-12-13 17:46:38.919 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:46:38.923 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.006 user=s329514 database=postgres host=po.polito.it port=55756
+2024-12-13 17:46:42.014 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=55862
+2024-12-13 17:46:42.015 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:46:42.018 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=55862
+2024-12-13 17:46:45.103 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=55964
+2024-12-13 17:46:45.103 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:46:45.107 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.004 user=s329514 database=postgres host=po.polito.it port=55964
+2024-12-13 17:46:48.196 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=56074
+2024-12-13 17:46:48.196 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:46:48.200 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=56074
+2024-12-13 17:46:51.285 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=56180
+2024-12-13 17:46:51.285 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:46:51.289 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=56180
+2024-12-13 17:46:54.374 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=56280
+2024-12-13 17:46:54.375 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:46:54.379 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.006 user=s329514 database=postgres host=po.polito.it port=56280
+2024-12-13 17:46:57.460 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=56382
+2024-12-13 17:46:57.461 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:46:57.465 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.006 user=s329514 database=postgres host=po.polito.it port=56382
+2024-12-13 17:47:00.554 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=56488
+2024-12-13 17:47:00.554 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:47:00.558 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=56488
+2024-12-13 17:47:03.648 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=56596
+2024-12-13 17:47:03.648 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:47:03.652 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=56596
+2024-12-13 17:47:06.739 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=56702
+2024-12-13 17:47:06.740 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:47:06.744 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.006 user=s329514 database=postgres host=po.polito.it port=56702
+2024-12-13 17:47:09.830 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=56802
+2024-12-13 17:47:09.831 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:47:09.835 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=56802
+2024-12-13 17:47:12.922 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=56902
+2024-12-13 17:47:12.923 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:47:12.926 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.005 user=s329514 database=postgres host=po.polito.it port=56902
+2024-12-13 17:47:16.012 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=57012
+2024-12-13 17:47:16.013 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:47:16.018 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.007 user=s329514 database=postgres host=po.polito.it port=57012
+2024-12-13 17:47:19.108 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=57118
+2024-12-13 17:47:19.109 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:47:19.112 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.006 user=s329514 database=postgres host=po.polito.it port=57118
+2024-12-13 17:47:22.199 CET [user=[unknown]]LOG:  connection received: host=po.polito.it port=57222
+2024-12-13 17:47:22.200 CET [user=s329514]LOG:  connection authorized: user=s329514 database=postgres application_name=psql
+2024-12-13 17:47:22.205 CET [user=s329514]LOG:  disconnection: session time: 0:00:00.007 user=s329514 database=postgres host=po.polito.it port=57222
+2024-12-13 17:47:22.212 CET [user=]LOG:  received smart shutdown request
+2024-12-13 17:47:22.222 CET [user=]LOG:  background worker "logical replication launcher" (PID 30328) exited with exit code 1
+2024-12-13 17:47:22.226 CET [user=]LOG:  shutting down
+2024-12-13 17:47:22.677 CET [user=]LOG:  database system is shut down
