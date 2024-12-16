@@ -20,7 +20,7 @@ PRODUCT_TIMESTAMP=product_timestamp
 DEPLIBS=
 VCSUCLI=-lvcsucli
 LLVM_FLAGS=
-RUNTIME=-lvgfsim -lvcsnew -lsimprofile -luclinative /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/vcs_tls.o $(DEPLIBS) 
+RUNTIME=-lvcsnew -lsimprofile -luclinative /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/vcs_tls.o $(DEPLIBS) 
 
 VCS_SAVE_RESTORE_OBJ=/opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/vcs_save_restore_new.o
 
@@ -49,7 +49,7 @@ CRT0=
 # C run time startup
 CRTN=
 # Machine specific libraries
-SYSLIBS=/opt/synopsys/verdi/U-2023.03-SP2-1/share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm -lpthread -ldl
+SYSLIBS=-ldl  -lc -lm -lpthread -ldl
 
 # Default defines
 SHELL=/bin/sh
@@ -121,6 +121,6 @@ $(PRODUCT_TIMESTAMP) : product_clean_order
 	@touch $(PRODUCT_TIMESTAMP)
 	@-if [ -d ./objs ]; then find ./objs -type d -empty -delete; fi
 
-$(PRODUCT) :  $(LD_VERSION_CHECK)  $(OBJS) $(DOTLIBS) $(DPI_STUB_OBJS) $(PLI_STUB_OBJS) $(CMODLIB) $(SYSC_STUB_LIB) $(DPI_ALLOW_MAIN_SO) /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libvgfsim.so /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libvcsnew.so /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libsimprofile.so /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libuclinative.so /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/vcs_tls.o /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libvcsucli.so  $(VCS_SAVE_RESTORE_OBJ) 
+$(PRODUCT) :  $(LD_VERSION_CHECK)  $(OBJS) $(DOTLIBS) $(DPI_STUB_OBJS) $(PLI_STUB_OBJS) $(CMODLIB) $(SYSC_STUB_LIB) $(DPI_ALLOW_MAIN_SO)  /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libvcsnew.so /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libsimprofile.so /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libuclinative.so /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/vcs_tls.o /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libvcsucli.so  $(VCS_SAVE_RESTORE_OBJ) 
 	@touch $(PRODUCT)
 

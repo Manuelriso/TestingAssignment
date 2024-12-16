@@ -1,0 +1,31 @@
+will invoke: "/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv ./simv +firmware=/home/s329514/TestingAssignment/cv32e40p_assignments/sbst/sbst.hex -fsim=task:/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/fsim:test1:DEFAULT:task3/task.json,job_id+3896926677 -reportstats"
+
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Warning : License for product VC-ZOIX-FSIM-BASE will expire within 16 days, on: 31-dec-2024.
+
+If you would like to temporarily disable this message, set 
+ the VCS_LIC_EXPIRE_WARNING environment variable to the number of days
+before expiration that you want this message to start (the minimum is 0).
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2-1_Full64; Runtime version U-2023.03-SP2-1_Full64;  Dec 16 17:59 2024
+Info: FailureMode DEFAULT specified by the task
+*Verdi* Loading libsscore_vcs202303.so
+*Verdi* WARNING: All FSDB design task is disabled
+FSDB Dumper for VCS, Release Verdi_U-2023.03-SP2-1, Linux x86_64/64bit, 10/11/2023
+(C) 1996 - 2023 by Synopsys, Inc.
+Info : Injecting 201 faults at simulation time 41000ps.
+
+            Fault Simulation Summary            
+------------------------------------------------
+Faults Simulated                   201
+
+Observed Not Diagnosed             186 ( 92.54%)
+
+SIGINT received
+waiting to die
+all terminated
+Error! Exit code 255, failed to execute "/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv ./simv +firmware=/home/s329514/TestingAssignment/cv32e40p_assignments/sbst/sbst.hex -fsim=task:/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/fsim:test1:DEFAULT:task3/task.json,job_id+3896926677 -reportstats"
+
+Exit:255

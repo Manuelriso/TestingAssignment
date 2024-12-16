@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1734386029.446540072, "rt":6.36, "ut":4.58, "st":0.25}}
+{"vcselab":{"timestamp_begin":1734386035.884326721, "rt":1.35, "ut":0.30, "st":0.12}}
+{"link":{"timestamp_begin":1734386037.291022142, "rt":0.44, "ut":0.10, "st":0.08}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1734386028.563464715}
+{"VCS_COMP_START_TIME": 1734386028.563464715}
+{"VCS_COMP_END_TIME": 1734386037.813191617}
+{"VCS_USER_OPTIONS": "-f /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../cv32e40p_fpu_manifest.flist /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/include/perturbation_pkg.sv /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_random_interrupt_generator.sv /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/dp_ram.sv /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/tb_top.sv /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_tb_subsystem.sv /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/riscv_rvalid_stall.sv /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/riscv_gnt_stall.sv /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/amo_shim.sv /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/mm_ram.sv -sverilog -full64 -timescale=1ns/1ns -suppress=TFIPC -top tb_top"}
+{"vcs1": {"peak_mem": 358904}}
+{"vcselab": {"peak_mem": 231356}}

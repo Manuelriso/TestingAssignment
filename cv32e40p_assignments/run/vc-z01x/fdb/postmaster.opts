@@ -1,1 +1,1 @@
-/opt/synopsys/vcs/U-2023.03-SP2-1/etc/fdb/PostgreSQL/linux64/pgsql/bin/postgres "-D" "/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fdb" "-p" "49952" "-c" "log_line_prefix=%m [user=%u]" "-c" "log_hostname=true"
+/opt/synopsys/vcs/U-2023.03-SP2-1/etc/fdb/PostgreSQL/linux64/pgsql/bin/postgres "-D" "/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fdb" "-p" "63461" "-c" "log_line_prefix=%m [user=%u]" "-c" "log_hostname=true"

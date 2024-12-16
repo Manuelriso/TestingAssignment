@@ -22,7 +22,7 @@
 Command: vc_fcc -full64 -daidir /home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv.daidir -sff /home/s329514/TestingAssignment/cv32e40p_assignments/fsim/config.sff,/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/faults.ssf -campaign cv32e40p -overwrite 
 
 Loading design information...
-Done (CPU time: 0s, elapsed time: 1s, memory increased by 38Mb, peak: 59Mb).
+Done (CPU time: 0s, elapsed time: 0s, memory increased by 38Mb, peak: 59Mb).
 
 Warning-[FCC-STATUS-DEFINITIONS-MULTIPLE] Multiple StatusDefinitions blocks exist.
 /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/faults.ssf, 9
@@ -30,27 +30,27 @@ Warning-[FCC-STATUS-DEFINITIONS-MULTIPLE] Multiple StatusDefinitions blocks exis
   StatusDefinitions blocks will be ignored.
 
 Parsing fault list...
-Done (95448 faults generated, CPU time: 6s, elapsed time: 6s, memory increased by 172Mb, peak: 234Mb).
+Done (95448 faults generated, CPU time: 7s, elapsed time: 8s, memory increased by 172Mb, peak: 234Mb).
 Collecting design strobes...
-Done (CPU time: 1s, elapsed time: 0s, memory increased by 0Mb, peak: 235Mb).
+Done (CPU time: 0s, elapsed time: 0s, memory increased by 0Mb, peak: 235Mb).
 Loading design details...
 Done (CPU time: 0s, elapsed time: 0s, memory increased by 26Mb, peak: 261Mb).
 Constant propagation...
-Done (CPU time: 0s, elapsed time: 1s, memory increased by 9Mb, peak: 270Mb).
+Done (CPU time: 1s, elapsed time: 1s, memory increased by 9Mb, peak: 270Mb).
 Static testability analysis...
-Done (CPU time: 2s, elapsed time: 1s, memory increased by 12Mb, peak: 282Mb).
+Done (CPU time: 0s, elapsed time: 0s, memory increased by 2Mb, peak: 272Mb).
 Reconvergence check...
-Done (CPU time: 0s, elapsed time: 0s, memory increased by 0Mb, peak: 282Mb).
+Done (CPU time: 0s, elapsed time: 0s, memory increased by 0Mb, peak: 272Mb).
 Pruning...
-Done (CPU time: 1s, elapsed time: 1s, memory increased by 1Mb, peak: 283Mb).
+Done (CPU time: 1s, elapsed time: 1s, memory increased by 1Mb, peak: 272Mb).
 Collapsing...
-Done (CPU time: 2s, elapsed time: 2s, memory increased by 22Mb, peak: 305Mb).
+Done (CPU time: 2s, elapsed time: 2s, memory increased by 25Mb, peak: 298Mb).
 Preparing to write to FDB...
-Done (CPU time: 1s, elapsed time: 1s, memory increased by 1Mb, peak: 307Mb).
+Done (CPU time: 1s, elapsed time: 1s, memory increased by 1Mb, peak: 299Mb).
 Writing fault campaign to FDB...
-Done (CPU time: 1s, elapsed time: 2s, memory increased by 1Mb, peak: 307Mb).
+Done (CPU time: 1s, elapsed time: 2s, memory increased by 1Mb, peak: 300Mb).
 Total faults generated: 95448.
 Collapsed faults:       45864.
 Untestable faults:      4018.
 Fault reduction:        52%.
-CPU time: 14s, elapsed time: 16s, peak memory: 309MB.
+CPU time: 13s, elapsed time: 15s, peak memory: 301MB.

@@ -1,0 +1,268 @@
+1734368261.864700: 19326-7f6401a63800: cdpl_log.c:231: in cdpl_log_open(): info: @@start_of_log@@
+1734368261.864725: 19326-7f6401a63800: cdpl_log.c:869: in cdpl_log_dump_sysinfo(): info: time: 2024/12/16 17:57:41 CET +0100
+1734368261.864729: 19326-7f6401a63800: cdpl_log.c:871: in cdpl_log_dump_sysinfo(): info: version: T-2022.03-SP1-2 
+1734368261.864733: 19326-7f6401a63800: cdpl_log.c:873: in cdpl_log_dump_sysinfo(): info: system: Linux 3.10.0-1160.92.1.el7.x86_64 #1 SMP Tue Jun 20 11:48:01 UTC 2023
+1734368261.864737: 19326-7f6401a63800: cdpl_log.c:878: in cdpl_log_dump_sysinfo(): info: processor: x86_64 64-bits
+1734368261.864740: 19326-7f6401a63800: cdpl_log.c:882: in cdpl_log_dump_sysinfo(): info: hostname: po.polito.it
+1734368261.864743: 19326-7f6401a63800: cdpl_log.c:233: in cdpl_log_open(): debug: path: /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/cdpl/master.po.polito.it.19326.log
+1734368261.864747: 19326-7f6401a63800: cdpl_log.c:234: in cdpl_log_open(): debug: dir: /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/cdpl
+1734368261.864761: 19326-7f6401a63800: cdpl_server.c:543: in cdpl_sv_init(): info: new server S935432027
+1734368261.864769: 19326-7f6401a63800: cdpl_ipc.c:3090: in cdpl_ipc_init(): info: requesting IPv4 protocol
+1734368261.865581: 19326-7f6401a63800: cdpl_ipc.c:807: in _selectaddrfamily(): info: selected IPv4 protocol
+1734368261.866124: 19326-7f6401a63800: cdpl_server.c:657: in cdpl_sv_new_master(): info: new master M1
+1734368261.866144: 19326-7f6401a63800: cdpl_server.c:5431: in cdpl_sv_ctl_master(): info: farm submit command timeout set to 120
+1734368261.866148: 19326-7f6401a63800: cdpl_server.c:5494: in cdpl_sv_ctl_master(): info: Setting worker heartbeat to 300 seconds
+1734368261.866151: 19326-7f6401a63800: cdpl_server.c:5503: in cdpl_sv_ctl_master(): info: Setting worker heartbeat timeout to 2 heartbeats
+1734368261.866158: 19326-7f6401a63800: cdpl_compat_master.c:2436: in cdplInitMaster(): info: bcast dir is `/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/cdpl'
+1734368261.866203: 19326-7f6401a63800: cdpl_server.c:5394: in cdpl_sv_ctl_master(): info: farm worker timeout set to 300
+1734368261.866207: 19326-7f6401a63800: cdpl_server.c:5431: in cdpl_sv_ctl_master(): info: farm submit command timeout set to 120
+1734368261.866209: 19326-7f6401a63800: cdpl_server.c:5447: in cdpl_sv_ctl_master(): info: maximum number of task execution attempts set to 1
+1734368261.866262: 19326-7f6401a63800: cdpl_farm.c:2334: in cdpl_farm_new_sh(): info: creating SH farm on localhost
+1734368261.866277: 19326-7f6401a63800: cdpl_compat_master.c:207: in _set_farm_env(): info: exporting CDPL_LOGDIR as `/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/cdpl'
+1734368261.866283: 19326-7f6401a63800: cdpl_compat_master.c:227: in _set_farm_env(): info: exporting SNPSLMD_LICENSE_FILE as `27020@led-x3850-3.polito.it'
+1734368261.866288: 19326-7f6401a63800: cdpl_compat_master.c:262: in _set_farm_env(): info: exporting CDPL_HEARTBEAT as `300'
+1734368261.866292: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting VERDI_HOME as `/opt/synopsys/verdi/U-2023.03-SP2-1'
+1734368261.866303: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting PATH as `/opt/corev/bin:/opt/riscv/bin:/opt/synopsys/verdi/U-2023.03-SP2-1/bin:/opt/synopsys/vcs/U-2023.03-SP2-1/bin:/home/s329514/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/bin/remote-cli:/opt/corev/bin:/o
+1734368261.866307: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting VCS_HOME as `/opt/synopsys/vcs/U-2023.03-SP2-1'
+1734368261.866310: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting SNPS_FUSA_FCM_WORKER_LOG_DIR as `/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/worker'
+1734368261.866317: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting SNPS_FUSA_FCM_START_DIR as `/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x'
+1734368261.866320: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting FSDB_PACKED_MODE as `0'
+1734368261.866323: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting FSDB_GATE as `0'
+1734368261.866326: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting FSDB_DYNAMIC_ALIAS as `0'
+1734368261.866329: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting FSDB_DELTA as `0'
+1734368261.866332: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting FSDB_VCS_ENABLE_NATIVE_VC as `1'
+1734368261.866335: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting SNPS_FUSA_WRITE_FAULT_RESULTS_FROM_FCM as `1'
+1734368261.866338: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting SNPS_FUSA_FCM_WORKER_TIMEOUT as `21600'
+1734368261.866340: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting FSDB_PLI_EXIT_LOAD_FAIL as `1'
+1734368261.866352: 19326-7f6401a63800: cdpl_farm.c:2749: in cdpl_farm_add_withcap(): debug: added `localhost' (capacity: 1)
+1734368261.866366: 19326-7f6401a63800: cdpl_server.c:3062: in cdpl_sv_start(): debug: starting server
+1734368261.866370: 19326-7f6401a63800: cdpl_ipc.c:3237: in cdpl_ipc_start(): debug: starting IPC server 130.192.163.95:43551
+1734368261.866479: 19326-7f6401a63800: cdpl_server.c:738: in cdpl_sv_new_job(): info: new job J1 in M1
+1734368261.866491: 19326-7f63f9e41700: cdpl_server_ipc.c:1056: in _sv_ipc_thread(): debug: ready
+1734368261.866539: 19326-7f6401a63800: cdpl_compat_master.c:1340: in _add_worker(): info: new worker type 10, min:1, max:1, cmd:`/opt/synopsys/vcs/U-2023.03-SP2-1/linux64/bin/fcm_worker'
+1734368261.866568: 19326-7f6401a63800: cdpl_server.c:900: in cdpl_sv_new_bin_withfarm(): info: new bin B1 in J1
+1734368261.866768: 19326-7f6401a63800: cdpl_server.c:1824: in _sv_gen_task(): info: new task T0 in B1 (prio 0)
+1734368261.866893: 19326-7f6401a63800: cdpl_server.c:1824: in _sv_gen_task(): info: new task T1 in B1 (prio 0)
+1734368261.866905: 19326-7f6401a63800: cdpl_server.c:1461: in _sv_add_deps(): debug: T1 depends on upstream task T0
+1734368261.866916: 19326-7f6401a63800: cdpl_compat_master.c:3503: in cdplScheduleTasks(): debug: scheduling tasks
+1734368261.866923: 19326-7f6401a63800: cdpl_server.c:1230: in cdpl_sv_schedule_all_tasks(): debug: scheduling all tasks
+1734368261.866934: 19326-7f6401a63800: cdpl_server.c:3116: in cdpl_sv_start_job(): info: starting job J1
+1734368261.866941: 19326-7f6401a63800: cdpl_server.c:62: in _sv_start_bin(): debug: starting bin B1 (min: 0, max: 1)
+1734368261.867009: 19326-7f63f9640700: cdpl_server_sched.c:2363: in _sv_scheduler_thread(): debug: scheduler for bin B1 started
+1734368261.867031: 19326-7f63f9640700: cdpl_server_sched.c:2324: in _scheduler_run(): debug: will start a new worker
+1734368261.867078: 19326-7f63f9640700: cdpl_farm.c:3449: in cdpl_farm_submit(): debug: 1 running processes
+1734368261.867085: 19326-7f63f9640700: cdpl_farm.c:1821: in _pickahost(): debug: `localhost' now reaches maximum capacity
+1734368261.867090: 19326-7f63f9640700: cdpl_farm.c:3457: in cdpl_farm_submit(): debug: new command C1 in bin B1 assigned to host `localhost'
+1734368261.867136: 19326-7f63f9640700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W1 (as C1) in bin B1
+1734368261.867155: 19326-7f63f8e3f700: cdpl_farm.c:1948: in _schedule(): debug: started
+1734368261.867167: 19326-7f63f8e3f700: cdpl_farm.c:1953: in _schedule(): info: worker submit command timeout set to 120 seconds
+1734368261.867175: 19326-7f63f8e3f700: cdpl_farm.c:2085: in _schedule(): debug: submitting command C1 in bin B1
+1734368261.867188: 19326-7f63f8e3f700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/bin/fcm_worker
+1734368261.867716: 19326-7f63f8e3f700: cdpl_farm.c:2109: in _schedule(): debug: C1 in bin B1 running on slot 0
+1734368261.867749: 19326-7f63f8e3f700: cdpl_farm.c:1968: in _schedule(): debug: idle
+1734368261.906026: 19326-7f63fa642700: cdpl_ipc.c:1679: in _epoll_accept(): debug: new connection from `130.192.163.95:52232'
+1734368261.906107: 19326-7f63f9e41700: cdpl_server_ipc.c:1099: in _sv_ipc_thread(): debug: received ACCEPT notification
+1734368261.906124: 19326-7f63f9e41700: cdpl_ipc.c:2231: in cdpl_ipc_host_accept(): debug: accepted host `130.192.163.95:52232'
+1734368261.906241: 19326-7f63f9e41700: cdpl_server_ipc.c:1120: in _sv_ipc_thread(): debug: received HELLO message
+1734368261.906252: 19326-7f63f9e41700: cdpl_server_ipc.c:342: in _sv_on_hello(): debug: looking up W1
+1734368261.906261: 19326-7f63f9e41700: cdpl_server_ipc.c:452: in _sv_on_hello(): info: W1 is `130.192.163.95:52232'
+1734368261.906265: 19326-7f63f9e41700: cdpl_server_ipc.c:453: in _sv_on_hello(): debug: hello W1 (B1)
+1734368261.906268: 19326-7f63f9e41700: cdpl_server_ipc.c:454: in _sv_on_hello(): info: W1 log file is /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/cdpl/worker.W1.po.polito.it.19377.log
+1734368261.906287: 19326-7f63f9e41700: cdpl_server_ipc.c:481: in _sv_on_hello(): info: up to 1 alive workers in B1
+1734368261.906323: 19326-7f63f9640700: cdpl_server_sched.c:955: in _assign(): info: assigning task T0 to worker W1
+1734368261.906877: 19326-7f63f9e41700: cdpl_server_ipc.c:1142: in _sv_ipc_thread(): debug: received RELAY message
+1734368261.906891: 19326-7f63f9e41700: cdpl_server_ipc.c:589: in _sv_on_relay(): debug: RELAY message from W1, size = 56
+1734368261.906899: 19326-7f63f9e41700: cdpl_server_ipc.c:591: in _sv_on_relay(): debug: RELAY message from W1, content = STARTWORKER;0;19377;po.polito.it;1734368261;1734368261;
+1734368261.909323: 19326-7f63f9e41700: cdpl_server_ipc.c:1142: in _sv_ipc_thread(): debug: received RELAY message
+1734368261.909335: 19326-7f63f9e41700: cdpl_server_ipc.c:589: in _sv_on_relay(): debug: RELAY message from W1, size = 54
+1734368261.909339: 19326-7f63f9e41700: cdpl_server_ipc.c:591: in _sv_on_relay(): debug: RELAY message from W1, content = STARTTASK;1;19377;po.polito.it;1734368261;1734368261;
+1734368262.167839: 19326-7f63f8e3f700: cdpl_farm.c:2012: in _schedule(): debug: waking up
+1734368262.167872: 19326-7f63f8e3f700: cdpl_farm.c:1048: in _onexit(): debug: C1 in bin B1 exited normally on slot 0
+1734368262.167876: 19326-7f63f8e3f700: cdpl_farm.c:857: in _release_cmd(): debug: freeing command C1 in bin B1
+1734368262.167879: 19326-7f63f8e3f700: cdpl_farm.c:1968: in _schedule(): debug: idle
+1734368262.906538: 19326-7f63f9e41700: cdpl_server_ipc.c:255: in _sv_on_heartbeat(): debug: received HEARTBEAT from worker W1 at 130.192.163.95:52232
+1734368292.168583: 19326-7f63f8e3f700: cdpl_farm.c:2012: in _schedule(): debug: waking up
+1734368292.168618: 19326-7f63f8e3f700: cdpl_farm.c:1968: in _schedule(): debug: idle
+1734368322.168716: 19326-7f63f8e3f700: cdpl_farm.c:2012: in _schedule(): debug: waking up
+1734368322.168737: 19326-7f63f8e3f700: cdpl_farm.c:1968: in _schedule(): debug: idle
+1734368350.937582: 19326-7f63f9e41700: cdpl_server_ipc.c:1142: in _sv_ipc_thread(): debug: received RELAY message
+1734368350.937604: 19326-7f63f9e41700: cdpl_server_ipc.c:589: in _sv_on_relay(): debug: RELAY message from W1, size = 7
+1734368350.937609: 19326-7f63f9e41700: cdpl_server_ipc.c:591: in _sv_on_relay(): debug: RELAY message from W1, content = INFO;1
+1734368350.938008: 19326-7f63f9e41700: cdpl_server_ipc.c:1125: in _sv_ipc_thread(): debug: received FINISH message
+1734368350.938021: 19326-7f63f9e41700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T0
+1734368350.938028: 19326-7f63f9e41700: cdpl_server_ipc.c:862: in _sv_on_finish(): debug: stat T0: utime=87825 stime=317
+1734368350.938034: 19326-7f63f9e41700: cdpl_server_ipc.c:867: in _sv_on_finish(): debug: statm T0: vsize=256580 rss=2652 shared=2244 text=5340 data=230004
+1734368350.938056: 19326-7f63f9e41700: cdpl_server_ipc.c:736: in _schedule_deps(): debug: T1 is ready to run in B1
+1734368350.938103: 19326-7f63f9640700: cdpl_server_sched.c:955: in _assign(): info: assigning task T1 to worker W1
+1734368350.939150: 19326-7f63f9e41700: cdpl_server_ipc.c:1142: in _sv_ipc_thread(): debug: received RELAY message
+1734368350.939164: 19326-7f63f9e41700: cdpl_server_ipc.c:589: in _sv_on_relay(): debug: RELAY message from W1, size = 54
+1734368350.939168: 19326-7f63f9e41700: cdpl_server_ipc.c:591: in _sv_on_relay(): debug: RELAY message from W1, content = STARTTASK;2;19377;po.polito.it;1734368350;1734368350;
+1734368351.889594: 19326-7f6401a63800: cdpl_server.c:222: in _sv_free_task_safe(): debug: freeing task T0
+1734368351.889604: 19326-7f6401a63800: cdpl_server.c:272: in _sv_free_task_safe(): debug: freeing dependencies for task T0
+1734368352.169576: 19326-7f63f8e3f700: cdpl_farm.c:2012: in _schedule(): debug: waking up
+1734368352.169595: 19326-7f63f8e3f700: cdpl_farm.c:1968: in _schedule(): debug: idle
+1734368356.944442: 19326-7f63f9e41700: cdpl_server_ipc.c:1142: in _sv_ipc_thread(): debug: received RELAY message
+1734368356.944460: 19326-7f63f9e41700: cdpl_server_ipc.c:589: in _sv_on_relay(): debug: RELAY message from W1, size = 7
+1734368356.944466: 19326-7f63f9e41700: cdpl_server_ipc.c:591: in _sv_on_relay(): debug: RELAY message from W1, content = INFO;2
+1734368356.944831: 19326-7f63f9e41700: cdpl_server_ipc.c:1125: in _sv_ipc_thread(): debug: received FINISH message
+1734368356.944841: 19326-7f63f9e41700: cdpl_server_ipc.c:857: in _sv_on_finish(): info: worker W1 completed task T1
+1734368356.944845: 19326-7f63f9e41700: cdpl_server_ipc.c:862: in _sv_on_finish(): debug: stat T1: utime=3478 stime=299
+1734368356.944849: 19326-7f63f9e41700: cdpl_server_ipc.c:867: in _sv_on_finish(): debug: statm T1: vsize=256580 rss=2692 shared=2284 text=5340 data=230004
+1734368357.894722: 19326-7f6401a63800: cdpl_server.c:222: in _sv_free_task_safe(): debug: freeing task T1
+1734368357.895026: 19326-7f6401a63800: cdpl_server.c:2890: in cdpl_sv_halt_job_errno(): info: stopping job J1
+1734368357.895033: 19326-7f6401a63800: cdpl_server.c:2911: in cdpl_sv_halt_job_errno(): debug: signal bin B1 scheduler to stop
+1734368357.895050: 19326-7f63f9640700: cdpl_server_sched.c:2365: in _sv_scheduler_thread(): debug: scheduler for bin B1 stopped
+1734368357.895072: 19326-7f63f9640700: cdpl_ipc.c:1474: in _host_drop__UNSAFE(): debug: dropping host `130.192.163.95:52232'
+1734368357.895124: 19326-7f63f9640700: cdpl_server_sched.c:2711: in _sv_drop_worker(): info: down to 0 alive workers in B1
+1734368357.895131: 19326-7f63f9640700: cdpl_farm.c:3624: in cdpl_farm_dismiss(): debug: down to 0 running processes
+1734368357.895136: 19326-7f63f9640700: cdpl_farm.c:1873: in _unpickhost(): debug: `localhost' is once again available
+1734368357.895141: 19326-7f63f9640700: cdpl_server_sched.c:114: in _free_worker_2(): debug: freeing worker W1
+1734368357.895145: 19326-7f63f9640700: cdpl_ipc.c:2249: in cdpl_ipc_host_release(): debug: releasing host `130.192.163.95:52232'
+1734368357.895345: 19326-7f6401a63800: cdpl_server.c:288: in _sv_free_job(): info: freeing job J1
+1734368357.895353: 19326-7f6401a63800: cdpl_server.c:92: in _sv_free_bin(): debug: freeing bin B1
+1734368357.895365: 19326-7f6401a63800: cdpl_farm.c:2478: in cdpl_farm_free(): info: freeing farm
+1734368357.895439: 19326-7f63f8e3f700: cdpl_farm.c:2012: in _schedule(): debug: waking up
+1734368357.895454: 19326-7f63f8e3f700: cdpl_farm.c:2019: in _schedule(): debug: dying
+1734368357.895582: 19326-7f6401a63800: cdpl_farm.c:903: in _killall(): debug: killing all remaining commands
+1734368357.895598: 19326-7f6401a63800: cdpl_server.c:3011: in cdpl_sv_free(): info: freeing server S935432027
+1734368357.895604: 19326-7f63f9e41700: cdpl_server_ipc.c:1110: in _sv_ipc_thread(): debug: received DROP notification
+1734368357.895634: 19326-7f6401a63800: cdpl_server.c:2976: in cdpl_sv_kill_errno(): info: killing server
+1734368357.895652: 19326-7f6401a63800: cdpl_ipc.c:3282: in cdpl_ipc_kill(): debug: stopping event server
+1734368357.895686: 19326-7f63fa642700: cdpl_ipc.c:2188: in _epoll_main(): debug: server going down...
+1734368357.895752: 19326-7f63f9e41700: cdpl_server_ipc.c:1074: in _sv_ipc_thread(): debug: leaving now
+1734368357.895794: 19326-7f6401a63800: cdpl_server.c:328: in _sv_free_master(): info: freeing master M1
+1734368357.895806: 19326-7f6401a63800: cdpl_hash.c:68: in cdpl_h_destroy(): debug: put operations: 1
+1734368357.895810: 19326-7f6401a63800: cdpl_hash.c:69: in cdpl_h_destroy(): debug: put collisions: 0
+1734368357.895815: 19326-7f6401a63800: cdpl_hash.c:70: in cdpl_h_destroy(): debug: get operations: 0
+1734368357.895819: 19326-7f6401a63800: cdpl_hash.c:71: in cdpl_h_destroy(): debug: get iterations: 0
+1734368357.895831: 19326-7f6401a63800: cdpl_monitor.c:1328: in cdpl_mn_free(): debug: freeing monitor server
+1734368357.895835: 19326-7f6401a63800: cdpl_ipc.c:3333: in cdpl_ipc_free(): debug: releasing IPC handle
+1734368357.895838: 19326-7f6401a63800: cdpl_ipc.c:1399: in _host_free__UNSAFE(): debug: freeing host `130.192.163.95:52232'
+1734368357.895842: 19326-7f6401a63800: cdpl_ipc.c:1438: in _host_free__UNSAFE(): debug: [0 outq, 0 spR, 0 spW]
+1734368357.895862: 19326-7f6401a63800: cdpl_ipc.c:3372: in cdpl_ipc_free(): debug: done
+1734368357.895867: 19326-7f6401a63800: cdpl_log.c:374: in cdpl_log_close(): info: @@end_of_log@@
+1734368359.915588: 19326-7f6401a63800: cdpl_log.c:231: in cdpl_log_open(): info: @@start_of_log@@
+1734368359.915615: 19326-7f6401a63800: cdpl_log.c:869: in cdpl_log_dump_sysinfo(): info: time: 2024/12/16 17:59:19 CET +0100
+1734368359.915619: 19326-7f6401a63800: cdpl_log.c:871: in cdpl_log_dump_sysinfo(): info: version: T-2022.03-SP1-2 
+1734368359.915622: 19326-7f6401a63800: cdpl_log.c:873: in cdpl_log_dump_sysinfo(): info: system: Linux 3.10.0-1160.92.1.el7.x86_64 #1 SMP Tue Jun 20 11:48:01 UTC 2023
+1734368359.915626: 19326-7f6401a63800: cdpl_log.c:878: in cdpl_log_dump_sysinfo(): info: processor: x86_64 64-bits
+1734368359.915629: 19326-7f6401a63800: cdpl_log.c:882: in cdpl_log_dump_sysinfo(): info: hostname: po.polito.it
+1734368359.915633: 19326-7f6401a63800: cdpl_log.c:233: in cdpl_log_open(): debug: path: /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/cdpl/master.po.polito.it.19326.log
+1734368359.915636: 19326-7f6401a63800: cdpl_log.c:234: in cdpl_log_open(): debug: dir: /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/cdpl
+1734368359.915644: 19326-7f6401a63800: cdpl_server.c:543: in cdpl_sv_init(): info: new server S1939640017
+1734368359.915649: 19326-7f6401a63800: cdpl_ipc.c:3090: in cdpl_ipc_init(): info: requesting IPv4 protocol
+1734368359.916324: 19326-7f6401a63800: cdpl_ipc.c:807: in _selectaddrfamily(): info: selected IPv4 protocol
+1734368359.916879: 19326-7f6401a63800: cdpl_server.c:657: in cdpl_sv_new_master(): info: new master M1
+1734368359.916893: 19326-7f6401a63800: cdpl_server.c:5431: in cdpl_sv_ctl_master(): info: farm submit command timeout set to 120
+1734368359.916896: 19326-7f6401a63800: cdpl_server.c:5494: in cdpl_sv_ctl_master(): info: Setting worker heartbeat to 300 seconds
+1734368359.916899: 19326-7f6401a63800: cdpl_server.c:5503: in cdpl_sv_ctl_master(): info: Setting worker heartbeat timeout to 2 heartbeats
+1734368359.916906: 19326-7f6401a63800: cdpl_compat_master.c:2436: in cdplInitMaster(): info: bcast dir is `/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/cdpl'
+1734368359.916966: 19326-7f6401a63800: cdpl_server.c:5394: in cdpl_sv_ctl_master(): info: farm worker timeout set to 300
+1734368359.916969: 19326-7f6401a63800: cdpl_server.c:5431: in cdpl_sv_ctl_master(): info: farm submit command timeout set to 120
+1734368359.916972: 19326-7f6401a63800: cdpl_server.c:5447: in cdpl_sv_ctl_master(): info: maximum number of task execution attempts set to 1
+1734368359.917024: 19326-7f6401a63800: cdpl_farm.c:2334: in cdpl_farm_new_sh(): info: creating SH farm on localhost
+1734368359.917034: 19326-7f6401a63800: cdpl_compat_master.c:207: in _set_farm_env(): info: exporting CDPL_LOGDIR as `/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/cdpl'
+1734368359.917039: 19326-7f6401a63800: cdpl_compat_master.c:227: in _set_farm_env(): info: exporting SNPSLMD_LICENSE_FILE as `27020@led-x3850-3.polito.it'
+1734368359.917043: 19326-7f6401a63800: cdpl_compat_master.c:262: in _set_farm_env(): info: exporting CDPL_HEARTBEAT as `300'
+1734368359.917048: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting VERDI_HOME as `/opt/synopsys/verdi/U-2023.03-SP2-1'
+1734368359.917059: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting PATH as `/opt/corev/bin:/opt/riscv/bin:/opt/synopsys/verdi/U-2023.03-SP2-1/bin:/opt/synopsys/vcs/U-2023.03-SP2-1/bin:/home/s329514/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/bin/remote-cli:/opt/corev/bin:/o
+1734368359.917062: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting VCS_HOME as `/opt/synopsys/vcs/U-2023.03-SP2-1'
+1734368359.917065: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting SNPS_FUSA_FCM_WORKER_LOG_DIR as `/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/worker'
+1734368359.917069: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting SNPS_FUSA_FCM_START_DIR as `/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x'
+1734368359.917072: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting FSDB_PACKED_MODE as `0'
+1734368359.917075: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting FSDB_GATE as `0'
+1734368359.917078: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting FSDB_DYNAMIC_ALIAS as `0'
+1734368359.917080: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting FSDB_DELTA as `0'
+1734368359.917083: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting FSDB_VCS_ENABLE_NATIVE_VC as `1'
+1734368359.917086: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting SNPS_FUSA_WRITE_FAULT_RESULTS_FROM_FCM as `1'
+1734368359.917089: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting SNPS_FUSA_FCM_WORKER_TIMEOUT as `21600'
+1734368359.917092: 19326-7f6401a63800: cdpl_compat_master.c:348: in _set_farm_env(): info: exporting FSDB_PLI_EXIT_LOAD_FAIL as `1'
+1734368359.917101: 19326-7f6401a63800: cdpl_farm.c:2749: in cdpl_farm_add_withcap(): debug: added `localhost' (capacity: 1)
+1734368359.917110: 19326-7f6401a63800: cdpl_server.c:3062: in cdpl_sv_start(): debug: starting server
+1734368359.917113: 19326-7f6401a63800: cdpl_ipc.c:3237: in cdpl_ipc_start(): debug: starting IPC server 130.192.163.95:46881
+1734368359.917213: 19326-7f6401a63800: cdpl_server.c:738: in cdpl_sv_new_job(): info: new job J1 in M1
+1734368359.917229: 19326-7f6401a63800: cdpl_compat_master.c:1340: in _add_worker(): info: new worker type 10, min:1, max:1, cmd:`/opt/synopsys/vcs/U-2023.03-SP2-1/linux64/bin/fcm_worker'
+1734368359.917235: 19326-7f6401a63800: cdpl_server.c:900: in cdpl_sv_new_bin_withfarm(): info: new bin B1 in J1
+1734368359.917241: 19326-7f63fa642700: cdpl_server_ipc.c:1056: in _sv_ipc_thread(): debug: ready
+1734368359.918112: 19326-7f6401a63800: cdpl_server.c:1824: in _sv_gen_task(): info: new task T0 in B1 (prio 0)
+1734368359.918124: 19326-7f6401a63800: cdpl_compat_master.c:3503: in cdplScheduleTasks(): debug: scheduling tasks
+1734368359.918128: 19326-7f6401a63800: cdpl_server.c:1230: in cdpl_sv_schedule_all_tasks(): debug: scheduling all tasks
+1734368359.918135: 19326-7f6401a63800: cdpl_server.c:3116: in cdpl_sv_start_job(): info: starting job J1
+1734368359.918148: 19326-7f6401a63800: cdpl_server.c:62: in _sv_start_bin(): debug: starting bin B1 (min: 0, max: 1)
+1734368359.918219: 19326-7f63f8e3f700: cdpl_server_sched.c:2363: in _sv_scheduler_thread(): debug: scheduler for bin B1 started
+1734368359.918260: 19326-7f63f8e3f700: cdpl_server_sched.c:2324: in _scheduler_run(): debug: will start a new worker
+1734368359.918303: 19326-7f63f8e3f700: cdpl_farm.c:3449: in cdpl_farm_submit(): debug: 1 running processes
+1734368359.918310: 19326-7f63f8e3f700: cdpl_farm.c:1821: in _pickahost(): debug: `localhost' now reaches maximum capacity
+1734368359.918317: 19326-7f63f8e3f700: cdpl_farm.c:3457: in cdpl_farm_submit(): debug: new command C1 in bin B1 assigned to host `localhost'
+1734368359.918371: 19326-7f63f8e3f700: cdpl_server_sched.c:700: in _sv_launch_worker(): info: started worker W1 (as C1) in bin B1
+1734368359.918389: 19326-7f63f9640700: cdpl_farm.c:1948: in _schedule(): debug: started
+1734368359.918404: 19326-7f63f9640700: cdpl_farm.c:1953: in _schedule(): info: worker submit command timeout set to 120 seconds
+1734368359.918411: 19326-7f63f9640700: cdpl_farm.c:2085: in _schedule(): debug: submitting command C1 in bin B1
+1734368359.918421: 19326-7f63f9640700: cdpl_sh.c:49: in _sh_detached_submit(): info: SH : /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/bin/fcm_worker
+1734368359.921280: 19326-7f63f9640700: cdpl_farm.c:2109: in _schedule(): debug: C1 in bin B1 running on slot 0
+1734368359.921411: 19326-7f63f9640700: cdpl_farm.c:1968: in _schedule(): debug: idle
+1734368359.962832: 19326-7f63f9e41700: cdpl_ipc.c:1679: in _epoll_accept(): debug: new connection from `130.192.163.95:55280'
+1734368359.962899: 19326-7f63fa642700: cdpl_server_ipc.c:1099: in _sv_ipc_thread(): debug: received ACCEPT notification
+1734368359.962922: 19326-7f63fa642700: cdpl_ipc.c:2231: in cdpl_ipc_host_accept(): debug: accepted host `130.192.163.95:55280'
+1734368359.963328: 19326-7f63fa642700: cdpl_server_ipc.c:1120: in _sv_ipc_thread(): debug: received HELLO message
+1734368359.963335: 19326-7f63fa642700: cdpl_server_ipc.c:342: in _sv_on_hello(): debug: looking up W1
+1734368359.963345: 19326-7f63fa642700: cdpl_server_ipc.c:452: in _sv_on_hello(): info: W1 is `130.192.163.95:55280'
+1734368359.963349: 19326-7f63fa642700: cdpl_server_ipc.c:453: in _sv_on_hello(): debug: hello W1 (B1)
+1734368359.963353: 19326-7f63fa642700: cdpl_server_ipc.c:454: in _sv_on_hello(): info: W1 log file is /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/cdpl/worker.W1.po.polito.it.28073.log
+1734368359.963370: 19326-7f63fa642700: cdpl_server_ipc.c:481: in _sv_on_hello(): info: up to 1 alive workers in B1
+1734368359.963388: 19326-7f63fa642700: cdpl_server_ipc.c:1142: in _sv_ipc_thread(): debug: received RELAY message
+1734368359.963392: 19326-7f63fa642700: cdpl_server_ipc.c:589: in _sv_on_relay(): debug: RELAY message from W1, size = 56
+1734368359.963398: 19326-7f63fa642700: cdpl_server_ipc.c:591: in _sv_on_relay(): debug: RELAY message from W1, content = STARTWORKER;0;28073;po.polito.it;1734368359;1734368359;
+1734368359.963426: 19326-7f63f8e3f700: cdpl_server_sched.c:955: in _assign(): info: assigning task T0 to worker W1
+1734368359.965573: 19326-7f63fa642700: cdpl_server_ipc.c:1142: in _sv_ipc_thread(): debug: received RELAY message
+1734368359.965582: 19326-7f63fa642700: cdpl_server_ipc.c:589: in _sv_on_relay(): debug: RELAY message from W1, size = 54
+1734368359.965586: 19326-7f63fa642700: cdpl_server_ipc.c:591: in _sv_on_relay(): debug: RELAY message from W1, content = STARTTASK;3;28073;po.polito.it;1734368359;1734368359;
+1734368360.221524: 19326-7f63f9640700: cdpl_farm.c:2012: in _schedule(): debug: waking up
+1734368360.221594: 19326-7f63f9640700: cdpl_farm.c:1048: in _onexit(): debug: C1 in bin B1 exited normally on slot 0
+1734368360.221603: 19326-7f63f9640700: cdpl_farm.c:857: in _release_cmd(): debug: freeing command C1 in bin B1
+1734368360.221607: 19326-7f63f9640700: cdpl_farm.c:1968: in _schedule(): debug: idle
+1734368360.963955: 19326-7f63fa642700: cdpl_server_ipc.c:255: in _sv_on_heartbeat(): debug: received HEARTBEAT from worker W1 at 130.192.163.95:55280
+1734368390.222578: 19326-7f63f9640700: cdpl_farm.c:2012: in _schedule(): debug: waking up
+1734368390.222618: 19326-7f63f9640700: cdpl_farm.c:1968: in _schedule(): debug: idle
+1734368420.222709: 19326-7f63f9640700: cdpl_farm.c:2012: in _schedule(): debug: waking up
+1734368420.222740: 19326-7f63f9640700: cdpl_farm.c:1968: in _schedule(): debug: idle
+1734368450.223598: 19326-7f63f9640700: cdpl_farm.c:2012: in _schedule(): debug: waking up
+1734368450.223656: 19326-7f63f9640700: cdpl_farm.c:1968: in _schedule(): debug: idle
+1734368480.223771: 19326-7f63f9640700: cdpl_farm.c:2012: in _schedule(): debug: waking up
+1734368480.223862: 19326-7f63f9640700: cdpl_farm.c:1968: in _schedule(): debug: idle
+1734368492.571937: 19326-7f6401a63800: cdpl_server.c:3732: in _sv_kill_task(): debug: killing task T0
+1734368492.571948: 19326-7f6401a63800: cdpl_server.c:3785: in _sv_kill_task(): debug: interrupting T0
+1734368492.571965: 19326-7f6401a63800: cdpl_ipc.c:1474: in _host_drop__UNSAFE(): debug: dropping host `130.192.163.95:55280'
+1734368492.572017: 19326-7f6401a63800: cdpl_server_sched.c:2711: in _sv_drop_worker(): info: down to 0 alive workers in B1
+1734368492.572024: 19326-7f6401a63800: cdpl_server.c:222: in _sv_free_task_safe(): debug: freeing task T0
+1734368492.572046: 19326-7f6401a63800: cdpl_server.c:2875: in cdpl_sv_halt_job_errno(): info: killing job J1
+1734368492.572050: 19326-7f6401a63800: cdpl_server.c:2911: in cdpl_sv_halt_job_errno(): debug: signal bin B1 scheduler to stop
+1734368492.572229: 19326-7f63f8e3f700: cdpl_server_sched.c:2365: in _sv_scheduler_thread(): debug: scheduler for bin B1 stopped
+1734368492.572253: 19326-7f63f8e3f700: cdpl_farm.c:3624: in cdpl_farm_dismiss(): debug: down to 0 running processes
+1734368492.572277: 19326-7f63f8e3f700: cdpl_farm.c:1873: in _unpickhost(): debug: `localhost' is once again available
+1734368492.572477: 19326-7f63fa642700: cdpl_server_ipc.c:1110: in _sv_ipc_thread(): debug: received DROP notification
+1734368492.572815: 19326-7f63f8e3f700: cdpl_server_sched.c:114: in _free_worker_2(): debug: freeing worker W1
+1734368492.572830: 19326-7f63f8e3f700: cdpl_ipc.c:2249: in cdpl_ipc_host_release(): debug: releasing host `130.192.163.95:55280'
+1734368492.572865: 19326-7f6401a63800: cdpl_server.c:288: in _sv_free_job(): info: freeing job J1
+1734368492.572876: 19326-7f6401a63800: cdpl_server.c:92: in _sv_free_bin(): debug: freeing bin B1
+1734368492.572890: 19326-7f6401a63800: cdpl_farm.c:2478: in cdpl_farm_free(): info: freeing farm
+1734368492.573114: 19326-7f63f9640700: cdpl_farm.c:2012: in _schedule(): debug: waking up
+1734368492.573125: 19326-7f63f9640700: cdpl_farm.c:2019: in _schedule(): debug: dying
+1734368492.573162: 19326-7f6401a63800: cdpl_farm.c:903: in _killall(): debug: killing all remaining commands
+1734368492.573180: 19326-7f6401a63800: cdpl_server.c:3011: in cdpl_sv_free(): info: freeing server S1939640017
+1734368492.573184: 19326-7f6401a63800: cdpl_server.c:2976: in cdpl_sv_kill_errno(): info: killing server
+1734368492.573188: 19326-7f6401a63800: cdpl_ipc.c:3282: in cdpl_ipc_kill(): debug: stopping event server
+1734368492.573243: 19326-7f63fa642700: cdpl_server_ipc.c:1074: in _sv_ipc_thread(): debug: leaving now
+1734368492.573274: 19326-7f6401a63800: cdpl_server.c:328: in _sv_free_master(): info: freeing master M1
+1734368492.573285: 19326-7f6401a63800: cdpl_hash.c:68: in cdpl_h_destroy(): debug: put operations: 1
+1734368492.573288: 19326-7f6401a63800: cdpl_hash.c:69: in cdpl_h_destroy(): debug: put collisions: 0
+1734368492.573306: 19326-7f6401a63800: cdpl_hash.c:70: in cdpl_h_destroy(): debug: get operations: 0
+1734368492.573310: 19326-7f6401a63800: cdpl_hash.c:71: in cdpl_h_destroy(): debug: get iterations: 0
+1734368492.573316: 19326-7f6401a63800: cdpl_monitor.c:1328: in cdpl_mn_free(): debug: freeing monitor server
+1734368492.573323: 19326-7f6401a63800: cdpl_ipc.c:3327: in cdpl_ipc_free(): debug: waiting for event server to shutdown
+1734368492.573422: 19326-7f63f9e41700: cdpl_ipc.c:2188: in _epoll_main(): debug: server going down...
+1734368492.573453: 19326-7f6401a63800: cdpl_ipc.c:3333: in cdpl_ipc_free(): debug: releasing IPC handle
+1734368492.573463: 19326-7f6401a63800: cdpl_ipc.c:1399: in _host_free__UNSAFE(): debug: freeing host `130.192.163.95:55280'
+1734368492.573467: 19326-7f6401a63800: cdpl_ipc.c:1438: in _host_free__UNSAFE(): debug: [0 outq, 0 spR, 0 spW]
+1734368492.573487: 19326-7f6401a63800: cdpl_ipc.c:3372: in cdpl_ipc_free(): debug: done
+1734368492.573495: 19326-7f6401a63800: cdpl_log.c:374: in cdpl_log_close(): info: @@end_of_log@@

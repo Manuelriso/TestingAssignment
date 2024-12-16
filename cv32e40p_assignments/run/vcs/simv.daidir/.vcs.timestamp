@@ -1,12 +1,11 @@
-0
-60
-+itf+/opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/vcsdp_lite.tab
-+vcs+fsdbon
-+vcsd1
-+vpi
-+vpi
-+vpi
-+vpi
+6        
+0 common_cells/registers.svh
+0 /opt/synopsys/vcs/U-2023.03-SP2-1/etc/systemverilog/common_cells/registers.svh
+0 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/include/common_cells/registers.svh
+0 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/../bhv/common_cells/registers.svh
+0 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/../bhv/include/common_cells/registers.svh
+0 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/../sva/common_cells/registers.svh
+37
 -Mamsrun=
 -Masflags=
 -Mcc=gcc
@@ -20,36 +19,21 @@
 -Mobjects= /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libvirsim.so /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/liberrorinf.so /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libsnpsmalloc.so /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libvfs.so
 -Mout=simv
 -Msaverestoreobj=/opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/vcs_save_restore_new.o
--Msyslibs=/opt/synopsys/verdi/U-2023.03-SP2-1/share/PLI/VCS/LINUX64/pli.a -ldl
+-Msyslibs=-ldl
 -Mvcsaceobjs=
 -Mxcflags= -pipe -fPIC -I/opt/synopsys/vcs/U-2023.03-SP2-1/include
 -Mxllcflags=
--P
--Xufe=2steps
--debug_access
--debug_access+all
--f /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../cv32e40p_manifest_gate.flist
--fsdb
--fsim
--fsim=dut:tb_top.wrapper_i.top_i
--fsim=portfaults
+-f /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../cv32e40p_fpu_manifest.flist
 -full64
 -gen_obj
--kdb
--lca
 -picarchive
 -suppress=TFIPC
 -sverilog
 -timescale=1ns/1ns
 -top
--top
--v
 /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/bin/vcs1
 tb_top
-strobe
-/opt/synopsys/verdi/U-2023.03-SP2-1/share/PLI/VCS/LINUX64/verdi.tab
-/home/s329514/TestingAssignment/cv32e40p_assignments/syn/techlib/NangateOpenCellLibrary.v
-/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../cv32e40p_manifest_gate.flist
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../cv32e40p_fpu_manifest.flist
 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/include/perturbation_pkg.sv
 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_random_interrupt_generator.sv
 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/dp_ram.sv
@@ -59,16 +43,15 @@ strobe
 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/riscv_gnt_stall.sv
 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/amo_shim.sv
 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/mm_ram.sv
-/home/s329514/TestingAssignment/cv32e40p_assignments/fsim/strobe.sv
-78
+75
 ZOIXHOME=/eda/synopsys/2022-23/RHELx86/Z01X_2022.06-SP2
-XDG_SESSION_ID=14935
+XDG_SESSION_ID=15048
 XDG_RUNTIME_DIR=/run/user/329514
 XDG_DATA_DIRS=/home/s329514/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
-VSCODE_IPC_HOOK_CLI=/run/user/329514/vscode-ipc-e660e8c2-9652-4cb4-97b9-aab9d1d03e08.sock
-VSCODE_GIT_IPC_HANDLE=/run/user/329514/vscode-git-916c26878b.sock
-VSCODE_GIT_ASKPASS_NODE=/home/s329514/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/node
-VSCODE_GIT_ASKPASS_MAIN=/home/s329514/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/askpass-main.js
+VSCODE_IPC_HOOK_CLI=/run/user/329514/vscode-ipc-b7592786-edae-4f9a-a6b7-da9caeff35e3.sock
+VSCODE_GIT_IPC_HANDLE=/run/user/329514/vscode-git-b160659b9d.sock
+VSCODE_GIT_ASKPASS_NODE=/home/s329514/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/node
+VSCODE_GIT_ASKPASS_MAIN=/home/s329514/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/extensions/git/dist/askpass-main.js
 VSCODE_GIT_ASKPASS_EXTRA_ARGS=
 VMR_MODE_FLAG=64
 VERDI_HOME=/opt/synopsys/verdi/U-2023.03-SP2-1
@@ -79,7 +62,6 @@ VCS_PYTHON3=/opt/synopsys/vcs/U-2023.03-SP2-1/linux64/bin/Python-3.6.1/bin/pytho
 VCS_PATHMAP_PRELOAD_DONE=1
 VCS_MX_HOME_INTERNAL=1
 VCS_MODE_FLAG=64
-VCS_LCAMSG_PRINT_OFF=1
 VCS_HOME=/opt/synopsys/vcs/U-2023.03-SP2-1
 VCS_EXEC_DONE=1
 VCS_DEPTH=0
@@ -87,7 +69,7 @@ VCS_ARG_ADDED_FOR_TMP=1
 VCS_ARCH=linux64
 UNAME=/bin/uname
 TOOL_HOME=/opt/synopsys/vcs/U-2023.03-SP2-1/linux64
-TERM_PROGRAM_VERSION=1.95.2
+TERM_PROGRAM_VERSION=1.95.0
 TERM_PROGRAM=vscode
 TB_DIR=/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core
 TB_CLK_NS=10.0
@@ -98,11 +80,10 @@ SYNOPSYS_SYN_ROOT=/eda/synopsys/2022-23/RHELx86/SYN_2022.12
 SYNOPSYS_LC_ROOT=/eda/synopsys/2022-23/RHELx86/LC_2022.03-SP5/
 SSL_CERT_FILE=/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
 SSL_CERT_DIR=/etc/pki/tls/certs
-SSH_CONNECTION=172.29.9.68 51972 130.192.163.95 22
-SSH_CLIENT=172.29.9.68 51972 22
+SSH_CONNECTION=93.39.145.117 35450 130.192.163.95 22
+SSH_CLIENT=93.39.145.117 35450 22
 SPYGLASS_HOME=/eda/synopsys/2022-23/RHELx86/SPYGLASS_2022.06-SP2/SPYGLASS_HOME
 SNPS_Z01X=/eda/synopsys/2022-23/RHELx86/Z01X_2022.06-SP2
-SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
 SNPS_VERDI=/opt/synopsys/verdi/U-2023.03-SP2-1
 SNPS_VCS_PYTHON3=/opt/synopsys/vcs/U-2023.03-SP2-1/linux64/bin/Python-3.6.1/bin/python3
 SNPS_VCS_CLANG_PATH=/opt/synopsys/vcs/U-2023.03-SP2-1/linux64/clang
@@ -132,8 +113,7 @@ LESSOPEN=||/usr/bin/lesspipe.sh %s
 LC_ALL=C
 KDEDIRS=/usr
 HISTCONTROL=ignoredups
-GIT_ASKPASS=/home/s329514/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/askpass.sh
-FSIM=1 
+GIT_ASKPASS=/home/s329514/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/extensions/git/dist/askpass.sh
 FIRMWARE=/home/s329514/TestingAssignment/cv32e40p_assignments/sbst/sbst.hex
 DESIGN_RTL_DIR=/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl
 CVS_RSH=ssh
@@ -141,9 +121,8 @@ COREV=YES
 COLORTERM=truecolor
 0
 0
-23
-1734020132 /home/s329514/TestingAssignment/cv32e40p_assignments/syn/techlib/NangateOpenCellLibrary.v
-1734351223 /home/s329514/TestingAssignment/cv32e40p_assignments/fsim/strobe.sv
+70
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_common_cells/include/common_cells/registers.svh
 1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/mm_ram.sv
 1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/amo_shim.sv
 1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/riscv_gnt_stall.sv
@@ -155,20 +134,68 @@ COLORTERM=truecolor
 1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/include/perturbation_pkg.sv
 1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/../bhv/cv32e40p_tb_wrapper.sv
 1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/../bhv/include/cv32e40p_tracer_pkg.sv
-1734020132 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/../syn/techlib/NangateOpenCellLibrary_cv32e40p_clock_gate.sv
-1734020132 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/../syn/out/cv32e40p_top.v
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/../bhv/cv32e40p_sim_clock_gate.sv
+1734105439 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_top.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_fp_wrapper.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_top.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_divsqrt_multi.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_opgroup_block.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_opgroup_multifmt_slice.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_opgroup_fmt_slice.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_noncomp.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_fma_multi.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_cast_multi.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_rounding.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_classifier.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_divsqrt_th_32.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fpu/rtl/pa_fpu_src_type.v
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fpu/rtl/pa_fpu_frbus.v
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fpu/rtl/pa_fpu_dp.v
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_top.v
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_srt_single.v
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_special.v
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_round_single.v
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_prepare.v
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_pack_single.v
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_ff1.v
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_ctrl.v
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/clk/rtl/gated_clk_cell.v
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_pkg.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_common_cells/src/lzc.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_common_cells/src/rr_arb_tree.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_common_cells/src/cf_math_pkg.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_core.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_sleep_unit.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_prefetch_controller.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_obi_interface.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_controller.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_apu_disp.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_popcnt.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_ff_one.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_alu.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_alu_div.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_ex_stage.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_int_controller.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_mult.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_hwloop_regs.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_prefetch_buffer.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_fifo.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_compressed_decoder.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_decoder.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_aligner.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_id_stage.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_load_store_unit.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_register_file_ff.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_cs_registers.sv
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_if_stage.sv
 1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/include/cv32e40p_pkg.sv
 1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/include/cv32e40p_fpu_pkg.sv
 1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/include/cv32e40p_apu_core_pkg.sv
-1734020132 /home/s329514/TestingAssignment/cv32e40p_assignments/syn/techlib/NangateOpenCellLibrary.v
-1697253799 /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/evcd_pli.tab
-1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../cv32e40p_manifest_gate.flist
-1697019014 /opt/synopsys/verdi/U-2023.03-SP2-1/share/PLI/VCS/LINUX64/verdi.tab
-1697253802 /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/vcsdp_lite.tab
+1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../cv32e40p_fpu_manifest.flist
 4
 1697255420 /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libvirsim.so
 1697254610 /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/liberrorinf.so
 1697254517 /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libsnpsmalloc.so
 1697254604 /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libvfs.so
-1734351828 simv.daidir
+1734386037 simv.daidir
 -1 partitionlib

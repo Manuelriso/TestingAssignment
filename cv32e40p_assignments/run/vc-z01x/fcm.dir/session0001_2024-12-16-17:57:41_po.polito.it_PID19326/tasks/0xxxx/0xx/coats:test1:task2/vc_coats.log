@@ -1,0 +1,47 @@
+
+        VC COATS (Controllability Observability And Testability System) 
+
+              Version U-2023.03-SP2-1 for linux64 - Oct 13, 2023 
+
+                    Copyright (c) 2019 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Loading design...
+Done (CPU time: 0s, elapsed time: 0s, memory increased by 36Mb, peak: 57Mb).
+Loading FSDB...
+Last strobe occured at time: 861285000. Ignoring all toggle data after this time.
+Done (CPU time: 0s, elapsed time: 2s, memory increased by 92Mb, peak: 151Mb).
+Loading design details...
+Done (CPU time: 1s, elapsed time: 0s, memory increased by 8Mb, peak: 161Mb).
+Observability analysis for test1...
+Done (CPU time: 0s, elapsed time: 0s, memory increased by 1Mb, peak: 162Mb).
+Reconvergence check...
+Done (CPU time: 0s, elapsed time: 0s, memory increased by 0Mb, peak: 162Mb).
+Reading faults from FDB...
+Done (CPU time: 0s, elapsed time: 1s, memory increased by 24Mb, peak: 194Mb).
+Processing faults...
+Done (45566 faults processed, CPU time: 2s, elapsed time: 1s, memory increased by 5Mb, peak: 194Mb).
+Writing results to FDB...
+Done (CPU time: 0s, elapsed time: 1s, memory increased by 6Mb, peak: 199Mb).
+
+##### Testability results for test1 #####
+Analyzed prime NA faults: 45566 (from total 95448)
+Not strobed:              0
+Not observable:           45127
+Not controllable:         238
+Fault reduction:          99% 
+
+CPU time: 3s, elapsed time: 5s, peak memory: 201MB.

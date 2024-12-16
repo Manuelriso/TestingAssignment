@@ -1,12 +1,12 @@
-/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv ./simv +firmware=/home/s329514/TestingAssignment/cv32e40p_assignments/sbst/sbst.hex +fsdbfile+/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm_tsim_fsdb/cv32e40p/test1.fsdb +vc_zoix_internal_toggle_sim +fsdb+max_var_elem=4096 +fsdb+packed_size=4096 +fsdb+mda +fsdb+packedmda +fsdb+struct +fsdb+no_msg+FSDB_PACKED_SIZE+packed -tsim=limit_toggle:1 -reportstats -tsim=task:/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-13:24:20_po.polito.it_PID16361/tasks/0xxxx/0xx/tsim:test1:task1/task.json,job_id+3095979408
+/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv ./simv +firmware=/home/s329514/TestingAssignment/cv32e40p_assignments/sbst/sbst.hex +fsdbfile+/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm_tsim_fsdb/cv32e40p/test1.fsdb +vc_zoix_internal_toggle_sim +fsdb+max_var_elem=4096 +fsdb+packed_size=4096 +fsdb+mda +fsdb+packedmda +fsdb+struct +fsdb+no_msg+FSDB_PACKED_SIZE+packed -tsim=limit_toggle:1 -reportstats -tsim=task:/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/tsim:test1:task1/task.json,job_id+3896926629
 Simulation Performance Summary
 ==============================
-Simulation started at :  Mon Dec 16 13:24:21 2024
-Elapsed Time          :  63 sec
-CPU Time              :  60.9 sec
-Virtual memory size   :  507.0 MB
-Resident set size     :  168.9 MB
-Shared memory size    :  31.1 MB
-Private memory size   :  137.8 MB
-Major page faults     :  53
+Simulation started at :  Mon Dec 16 17:57:41 2024
+Elapsed Time          :  90 sec
+CPU Time              :  88.0 sec
+Virtual memory size   :  509.0 MB
+Resident set size     :  171.1 MB
+Shared memory size    :  40.5 MB
+Private memory size   :  164.1 MB
+Major page faults     :  0
 Machine name          :  po.polito.it

@@ -1,13 +1,13 @@
-2024-12-16 13:23:54 [fdb_start:12374]  Start server for /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fdb
-2024-12-16 13:23:54 [fdb_start:12374]  Info: Starting the PostgreSQL server as 's329514'.
-Info: Using port '49952' for the PostgreSQL connection.
+2024-12-16 17:57:16 [fdb_start:15345]  Start server for /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fdb
+2024-12-16 17:57:17 [fdb_start:15345]  Info: Starting the PostgreSQL server as 's329514'.
+Info: Using port '63461' for the PostgreSQL connection.
 Info: PostgreSQL server is ready.
-2024-12-16 13:23:54 [fdb_start:12374]  Found a server on po.polito.it:49952 pid=13912 for fdb_path /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fdb
-2024-12-16 13:23:54 [fdb_start:12374]  Started server po.polito.it:49952 pid=13912 fdb_path /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fdb
-2024-12-16 13:23:54 [fdb_start:12374]  Create fdb_monitor config file /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fdb/server/monitor.conf
-2024-12-16 13:23:54 [fdb_start:12374]  Starting fdb_monitor
-2024-12-16 13:23:54 [fdb_start:12374]  FDB fdb_monitor started
-2024-12-16 13:23:54 [fdb_start:12374]  Create the project 'default'
-2024-12-16 13:23:56 [fdb_start:12374]  Info: Creating an FDB with name default.
-Info: Successfully created an FDB. Clients can now access the FDB for project 'default' on po.polito.it:49952 (as long as the server is running).
-2024-12-16 13:23:56 [fdb_start:12374]  Project 'default' created
+2024-12-16 17:57:17 [fdb_start:15345]  Found a server on po.polito.it:63461 pid=16855 for fdb_path /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fdb
+2024-12-16 17:57:17 [fdb_start:15345]  Started server po.polito.it:63461 pid=16855 fdb_path /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fdb
+2024-12-16 17:57:17 [fdb_start:15345]  Create fdb_monitor config file /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fdb/server/monitor.conf
+2024-12-16 17:57:17 [fdb_start:15345]  Starting fdb_monitor
+2024-12-16 17:57:17 [fdb_start:15345]  FDB fdb_monitor started
+2024-12-16 17:57:17 [fdb_start:15345]  Create the project 'default'
+2024-12-16 17:57:19 [fdb_start:15345]  Info: Creating an FDB with name default.
+Info: Successfully created an FDB. Clients can now access the FDB for project 'default' on po.polito.it:63461 (as long as the server is running).
+2024-12-16 17:57:19 [fdb_start:15345]  Project 'default' created

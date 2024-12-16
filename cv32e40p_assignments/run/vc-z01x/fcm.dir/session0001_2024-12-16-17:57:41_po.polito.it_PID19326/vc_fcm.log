@@ -1,0 +1,109 @@
+
+                           VC Fault Campaign Manager 
+
+              Version U-2023.03-SP2-1 for linux64 - Oct 13, 2023 
+
+                    Copyright (c) 2019 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+                            (TCL Interactive Shell)                             
+        Designed using: eltclsh 1.17 - Copyright (C) 2001-2018 LAAS-CNRS        
+
+po.polito.it:63461 (cv32e40p) vc_fcm> set_config -global_max_jobs 1
+po.polito.it:63461 (cv32e40p) vc_fcm> ## DYNAMIC RUNTIME
+po.polito.it:63461 (cv32e40p) vc_fcm> create_testcases -name {"test1"} \
+po.polito.it:63461 (cv32e40p) vc_fcm>     -exec ${::env(VCS_WORK_DIR)}/simv \
+po.polito.it:63461 (cv32e40p) vc_fcm>     -args "./simv +firmware=${::env(FIRMWARE)}"
+po.polito.it:63461 (cv32e40p) vc_fcm> # Start fault simulation
+po.polito.it:63461 (cv32e40p) vc_fcm> fsim -verbose
+------------------------------------------------------------------------
+Testability Analysis
+
+Scanning database for testcases and previous results from testability analysis ...
+   Task 1 (tsim) created for testcase 'test1'
+   Task 2 (coats) created for testcase 'test1'
+Preparation took 0s
+
+
+Starting execution of 1 tsim and 1 coats tasks using 1 worker
+Will store resulting fsdb files in /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm_tsim_fsdb/cv32e40p
+
+Check progress of tasks by their output files stored in /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/*/out.log
+and by section 1 in /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/summary.csv
+
+  Time  | Workers |     Tasks        |  Time   Mem | results from completed task(s)
+        |act./req.|active    done    |   [s]   [MB]|                               
+--------+---------+------------------+-------------+-------------------------------
+17:57:41|   -/   1|    2     - (  0%)|     -      -|<START>
+17:59:11|   1/   1|    1     1 ( 50%)|    89    171|Task1(tsim,test1)
+17:59:17|   0/   0|    0     2 (100%)|     6    201|Task2(coats,test1), NC:238 NO:45127 
+17:59:17|   -/   -|    -     2 (100%)|     -      -|<FINISH>
+
+Testability analysis completed: 2 task(s) were run, all succeeded
+
+------------------------------------------------------------------------
+Fault Simulation
+
+Preparing...
+
+Selected fault status: NA NN AN 
+Failure modes: DEFAULT
+
+Scanning database for faults and results, keep only faults with selected status ...
+FM 'DEFAULT' has 49584 prime faults (95448 total faults), 201 selected for fault simulation
+   Testcase 'test1': 201 testable prime faults that have no previous results
+Workload: 201 combinations of FM x testcase x prime FID
+
+
+Create initial set of tasks
+   Task 3 created with 201 prime faults for faultsim of FM 'DEFAULT' with testcase 'test1'
+Preparation took 2s
+
+
+Starting execution of task3 using 1 worker
+Check progress of tasks by their output files stored in /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/*/out.log
+and by section 1 in /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/summary.csv
+
+  Time  | Workers |          Workload               |  Time   Mem | results from completed task(s)
+        |act./req.|  queued   active     done       |   [s]   [MB]| (testable prime faults)       
+--------+---------+---------------------------------+-------------+-------------------------------
+17:59:19|   -/   1|       0      201        0 (  0%)|     -      -|<START>
+
+Fault simulation in progress
+(1) - Continue fault simulation
+(2) - Print summary of running tasks
+(3) - Print summary of fault campaign
+(4) - Print definitions of running tasks
+(0) - Stop fault simulation
+Please enter your choice: Are you sure you want to stop fault simulation? [y/n] (default: n): 
+Fault simulation in progress
+(1) - Continue fault simulation
+(2) - Print summary of running tasks
+(3) - Print summary of fault campaign
+(4) - Print definitions of running tasks
+(0) - Stop fault simulation
+Please enter your choice: Are you sure you want to stop fault simulation? [y/n] (default: n): 
+Fault simulation in progress
+(1) - Continue fault simulation
+(2) - Print summary of running tasks
+(3) - Print summary of fault campaign
+(4) - Print definitions of running tasks
+(0) - Stop fault simulation
+Please enter your choice: Are you sure you want to stop fault simulation? [y/n] (default: n): 
+Fault simulation aborted: 1 task(s) were run, 0 succeeded, 0 failed, 1 aborted
+
+Received signal SIGINT. Terminating...
+

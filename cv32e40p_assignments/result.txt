@@ -1,0 +1,306 @@
+rm -rf /home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs
+mkdir -p /home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs
+cd /home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs &&\
+vcs -f /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../cv32e40p_fpu_manifest.flist /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/include/perturbation_pkg.sv /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_random_interrupt_generator.sv /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/dp_ram.sv /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/tb_top.sv /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_tb_subsystem.sv /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/riscv_rvalid_stall.sv /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/riscv_gnt_stall.sv /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/amo_shim.sv /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/mm_ram.sv  -sverilog -full64 -timescale=1ns/1ns  -suppress=TFIPC \
+	-top tb_top 
+                         Chronologic VCS (TM)
+      Version U-2023.03-SP2-1_Full64 -- Mon Dec 16 22:53:50 2024
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/include/cv32e40p_apu_core_pkg.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/include/cv32e40p_fpu_pkg.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/include/cv32e40p_pkg.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_if_stage.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_cs_registers.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_register_file_ff.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_load_store_unit.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_id_stage.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_aligner.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_decoder.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_compressed_decoder.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_fifo.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_prefetch_buffer.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_hwloop_regs.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_mult.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_int_controller.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_ex_stage.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_alu_div.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_alu.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_ff_one.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_popcnt.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_apu_disp.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_controller.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_obi_interface.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_prefetch_controller.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_sleep_unit.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_core.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_common_cells/src/cf_math_pkg.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_common_cells/src/rr_arb_tree.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_common_cells/src/lzc.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_pkg.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/clk/rtl/gated_clk_cell.v'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_ctrl.v'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_ff1.v'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_pack_single.v'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_prepare.v'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_round_single.v'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_special.v'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_srt_single.v'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fdsu/rtl/pa_fdsu_top.v'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fpu/rtl/pa_fpu_dp.v'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fpu/rtl/pa_fpu_frbus.v'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/vendor/opene906/E906_RTL_FACTORY/gen_rtl/fpu/rtl/pa_fpu_src_type.v'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_divsqrt_th_32.sv'
+Parsing included file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_common_cells/include/common_cells/registers.svh'.
+Back to file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_divsqrt_th_32.sv'.
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_classifier.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_rounding.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_cast_multi.sv'
+Parsing included file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_common_cells/include/common_cells/registers.svh'.
+Back to file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_cast_multi.sv'.
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_fma_multi.sv'
+Parsing included file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_common_cells/include/common_cells/registers.svh'.
+Back to file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_fma_multi.sv'.
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_noncomp.sv'
+Parsing included file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_common_cells/include/common_cells/registers.svh'.
+Back to file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_noncomp.sv'.
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_opgroup_fmt_slice.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_opgroup_multifmt_slice.sv'
+Parsing included file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_common_cells/include/common_cells/registers.svh'.
+Back to file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_opgroup_multifmt_slice.sv'.
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_opgroup_block.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_divsqrt_multi.sv'
+Parsing included file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_common_cells/include/common_cells/registers.svh'.
+Back to file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_divsqrt_multi.sv'.
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/vendor/pulp_platform_fpnew/src/fpnew_top.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_fp_wrapper.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_top.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/../bhv/cv32e40p_sim_clock_gate.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/../bhv/include/cv32e40p_tracer_pkg.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/../bhv/cv32e40p_tb_wrapper.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/include/perturbation_pkg.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_random_interrupt_generator.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/dp_ram.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/tb_top.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_tb_subsystem.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/riscv_rvalid_stall.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/riscv_gnt_stall.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/amo_shim.sv'
+Parsing design file '/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/mm_ram.sv'
+Top Level Modules:
+       tb_top
+
+Warning-[AOUP] Attempt to override undefined parameter
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_tb_subsystem.sv, 81
+  Attempting to override undefined parameter "PULP_XPULP", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/cv32e40p_tb_subsystem.sv, 81
+  Attempting to override undefined parameter "PULP_CLUSTER", will ignore it.
+
+TimeScale is 1 ns / 1 ns
+
+Warning-[IDTS] Ignoring dynamic type sensitivity
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/mm_ram.sv, 255
+"sig_file"
+  Dynamic types used in always_comb, always_latch, always (@*) will be ignored
+  for the inferred sensitivity list. 
+  
+  Declared at: 
+  /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/mm_ram.sv,
+  249
+  
+
+
+Warning-[IDTS] Ignoring dynamic type sensitivity
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/mm_ram.sv, 256
+"sig_file"
+  Dynamic types used in always_comb, always_latch, always (@*) will be ignored
+  for the inferred sensitivity list. 
+  
+  Declared at: 
+  /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/mm_ram.sv,
+  249
+  
+
+
+Warning-[IDTS] Ignoring dynamic type sensitivity
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/mm_ram.sv, 259
+"error_str"
+  Dynamic types used in always_comb, always_latch, always (@*) will be ignored
+  for the inferred sensitivity list. 
+  
+  Declared at: 
+  /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/mm_ram.sv,
+  253
+  
+
+
+Warning-[IDTS] Ignoring dynamic type sensitivity
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/mm_ram.sv, 260
+"error_str"
+  Dynamic types used in always_comb, always_latch, always (@*) will be ignored
+  for the inferred sensitivity list. 
+  
+  Declared at: 
+  /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/mm_ram.sv,
+  253
+  
+
+
+Warning-[DRTZ] Detect delay value roundoff to 0
+  Delay from design or SDF file roundoff to 0 based on timescale
+  Please use switch -diag timescale to dump detailed information.
+
+Notice: Ports coerced to inout, use -notice for details
+Starting vcs inline pass...
+
+29 modules and 0 UDP read.
+recompiling package _vcs_DPI_package
+recompiling package cv32e40p_apu_core_pkg
+recompiling package cv32e40p_fpu_pkg
+recompiling package cv32e40p_pkg
+recompiling module cv32e40p_cs_registers
+recompiling module cv32e40p_load_store_unit
+recompiling module cv32e40p_mult
+recompiling module cv32e40p_int_controller
+recompiling module cv32e40p_ex_stage
+recompiling module cv32e40p_apu_disp
+recompiling module cv32e40p_controller
+recompiling module cv32e40p_core
+recompiling package cf_math_pkg
+recompiling module rr_arb_tree
+recompiling module lzc
+recompiling package fpnew_pkg
+recompiling module pa_fpu_dp
+recompiling module pa_fpu_frbus
+recompiling module pa_fpu_src_type
+recompiling module fpnew_opgroup_block
+recompiling module cv32e40p_clock_gate
+recompiling package cv32e40p_tracer_pkg
+recompiling package perturbation_pkg
+recompiling module cv32e40p_random_interrupt_generator
+recompiling module dp_ram
+recompiling module tb_top
+recompiling module riscv_rvalid_stall
+recompiling module riscv_gnt_stall
+recompiling module mm_ram
+All of 29 modules done
+make[1]: Entering directory `/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/csrc'
+make[1]: Leaving directory `/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/csrc'
+make[1]: Entering directory `/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/csrc'
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib -L/opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib  -Wl,-rpath-link=./  /usr/lib64/libnuma.so.1   objs/amcQw_d.o   _25874_archive_1.so   SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o            -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -luclinative /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive          /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/vcs_save_restore_new.o -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory `/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/csrc'
+CPU time: 4.890 seconds to compile + .451 seconds to elab + .208 seconds to link
+make -C /home/s329514/TestingAssignment/cv32e40p_assignments/sbst
+make[1]: Entering directory `/home/s329514/TestingAssignment/cv32e40p_assignments/sbst'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/s329514/TestingAssignment/cv32e40p_assignments/sbst'
+cd /home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs &&\
+./simv +firmware=/home/s329514/TestingAssignment/cv32e40p_assignments/sbst/sbst.hex 
+Info: [VCS_SAVE_RESTORE_INFO] ASLR (Address Space Layout Randomization) is detected on the machine. To enable $save functionality, ASLR will be switched off and simv re-executed.
+Please use '-no_save' simv switch to avoid re-execution or '-suppress=ASLR_DETECTED_INFO' to suppress this message.
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP2-1_Full64; Runtime version U-2023.03-SP2-1_Full64;  Dec 16 22:53 2024
+
+Warning-[RT-NCMUCS] No condition matches in statement
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_load_store_unit.sv, 419
+  No condition matches in 'unique case' statement. 'default' specification is 
+  missing, inside tb_top.wrapper_i.top_i.core_i.load_store_unit_i, at time 
+  0ns.
+
+
+Warning-[RT-NCMUCS] No condition matches in statement
+/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl/cv32e40p_load_store_unit.sv, 419
+  No condition matches in 'unique case' statement. 'default' specification is 
+  missing, inside tb_top.wrapper_i.top_i.core_i.load_store_unit_i, at time 
+  0ns.
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+illegal instruction exception handler entered
+
+EXIT SUCCESS
+$finish called from file "/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/tb_top.sv", line 155.
+[TESTBENCH] 861290ns: test application time = 86124 clock cycles (861240 ns)
+$finish at simulation time  861290ns
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 861290 ns
+CPU Time:     45.710 seconds;       Data structure size:  16.1Mb
+Mon Dec 16 22:54:43 2024

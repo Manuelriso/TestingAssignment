@@ -14,7 +14,7 @@ FSIM ?=
 FUSA_SRC_PATH ?= $(CURDIR)/fsim
 FAULT_TYPE ?= saf
 
-ALL_VCS_FLAGS = $(if $(or $(VERDI),$(FSIM)), -kdb -debug_access+all -lca,) -sverilog -full64 -timescale=1ns/1ns $(if $(FSIM), $(FUSA_SRC_PATH)/strobe.sv -fsim -fsim=dut:tb_top.wrapper_i.top_i -fsim=portfaults +vcs+fsdbon ,) -suppress=TFIPC
+ALL_VCS_FLAGS = $(if $(or $(VERDI),$(FSIM)), -kdb -debug_access+all -lca,) -sverilog -full64 -timescale=1ns/1ns $(if $(FSIM), $(FUSA_SRC_PATH)/strobe.sv -fsim -fsim=dut:tb_top.wrapper_i.top_i.fpu_gen_fp_wrapper_i -fsim=portfaults +vcs+fsdbon ,) -suppress=TFIPC
 
 # RTL source files
 RTLSRC_HOME           := $(TB_DIR)/../..

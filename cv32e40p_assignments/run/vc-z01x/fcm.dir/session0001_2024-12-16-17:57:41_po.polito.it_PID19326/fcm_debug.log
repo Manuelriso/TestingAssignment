@@ -1,0 +1,617 @@
+
+2024-12-16 - 17:57:41.72 - ==================== New log session =======================
+
+2024-12-16 - 17:57:41.72 -                     Fault Campaign Manager
+
+2024-12-16 - 17:57:41.72 -     Release: U-2023.03-SP2-1; Built: Oct 13 2023, 20:53:53
+
+2024-12-16 - 17:57:41.72 - ================================================================================
+2024-12-16 - 17:57:41.72 - FCM command: /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/bin/vc_fcm.exe -connect -campaign cv32e40p -tcl_script /home/s329514/TestingAssignment/cv32e40p_assignments/fsim/fcm.tcl 
+CWD: /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x
+Home: /home/s329514
+Log file: fcm_debug.log
+FCM Directory: fcm.dir/
+FCM Session Directory: fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326
+Screen output file: /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/vc_fcm.log
+fdb_control path: /opt/synopsys/vcs/U-2023.03-SP2-1/bin/fdb_control
+init_fdb.sql path: /opt/synopsys/vcs/U-2023.03-SP2-1/etc/fdb/scripts/init_fdb.sql
+vc_fcc path: /opt/synopsys/vcs/U-2023.03-SP2-1/bin/vc_fcc
+vc_fdb_report path: /opt/synopsys/vcs/U-2023.03-SP2-1/bin/vc_fdb_report
+vc_coats path: /opt/synopsys/vcs/U-2023.03-SP2-1/bin/vc_coats
+hostname: po.polito.it
+
+
+All environment variables:
+MANPATH=/opt/synopsys/vcs/U-2023.03-SP2-1/doc/man:
+SYNOPSYS_LC_ROOT=/eda/synopsys/2022-23/RHELx86/LC_2022.03-SP5/
+XDG_SESSION_ID=15003
+SNPS_SYN=/eda/synopsys/2022-23/RHELx86/SYN_2022.12
+FSIM=1 
+SYNOPSYS_TMAX=/opt/synopsys/txs/V-2023.12-SP1
+HOSTNAME=po.polito.it
+TERM_PROGRAM=vscode
+SNPS_LC=/eda/synopsys/2022-23/RHELx86/LC_2022.12
+SSL_CERT_FILE=/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+NOVAS_HOME=/opt/synopsys/verdi/U-2023.03-SP2-1
+PULP_RISCV_GCC_TOOLCHAIN=/opt/riscv
+SHELL=/bin/bash
+TERM=xterm-256color
+MAKEFLAGS=
+TB_CLK_NS=10.0
+HISTSIZE=1000
+SSH_CLIENT=93.39.145.117 34951 22
+DESIGN_RTL_DIR=/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl
+QUESTASIM_HOME=/eda/Siemens/2022-23/RHELx86/QUESTA-CORE-PRIME_2022.4/questasim/linux_x86_64
+TB_DIR=/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core
+SYN_PPOWER=/eda/synopsys/2022-23/RHELx86/PRIMEPOWER_2022.12
+TERM_PROGRAM_VERSION=1.95.0
+VCS_TARGET_ARCH=amd64
+VCS_WORK_DIR=/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs
+SNPS_TMAX=/opt/synopsys/txs/V-2023.12-SP1
+ZOIXHOME=/eda/synopsys/2022-23/RHELx86/Z01X_2022.06-SP2
+SG_HTML_BROWSER=/usr/bin/firefox
+QT_GRAPHICSSYSTEM_CHECKED=1
+USER=s329514
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+MTI_HOME=/eda/Siemens/2022-23/RHELx86/QUESTA-CORE-PRIME_2022.4/questasim/linux_x86_64
+LD_LIBRARY_PATH=:/eda/synopsys/2022-23/RHELx86/LC_2022.12linux64/lc/shlib
+FIRMWARE=/home/s329514/TestingAssignment/cv32e40p_assignments/sbst/sbst.hex
+MTI_VCO_MODE=64
+SNPSLMD_LICENSE_FILE=27020@led-x3850-3.polito.it
+MAKELEVEL=1
+MFLAGS=
+PATH=/opt/corev/bin:/opt/riscv/bin:/opt/synopsys/verdi/U-2023.03-SP2-1/bin:/opt/synopsys/vcs/U-2023.03-SP2-1/bin:/home/s329514/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/bin/remote-cli:/opt/corev/bin:/opt/riscv/bin:/opt/synopsys/verdi/U-2023.03-SP2-1/bin:/opt/synopsys/vcs/U-2023.03-SP2-1/bin:/opt/corev/bin:/opt/riscv/bin:/opt/synopsys/verdi/U-2023.03-SP2-1/bin:/opt/synopsys/vcs/U-2023.03-SP2-1/bin:/usr/local/bin:/usr/bin:/eda/Siemens/2022-23/RHELx86/QUESTA-CORE-PRIME_2022.4/questasim/linux_x86_64:/eda/synopsys/2022-23/RHELx86/LC_2022.12/bin:/eda/synopsys/2022-23/RHELx86/PRIMEPOWER_2022.12/bin:/eda/synopsys/2022-23/RHELx86/PT_2022.12/bin:/eda/synopsys/2022-23/RHELx86/SPYGLASS_2022.06-SP2/SPYGLASS_HOME/bin:/eda/synopsys/2022-23/RHELx86/SYN_2022.12/bin:/eda/synopsys/2022-23/RHELx86/Z01X_2022.06-SP2/bin:/opt/synopsys/txs/V-2023.12-SP1/bin:/usr/local/sbin:/usr/sbin:/eda/Siemens/2022-23/RHELx86/QUESTA-CORE-PRIME_2022.4/questasim/linux_x86_64:/eda/synopsys/2022-23/RHELx86/LC_2022.12/bin:/eda/synopsys/2022-23/RHELx86/PRIMEPOWER_2022.12/bin:/eda/synopsys/2022-23/RHELx86/PT_2022.12/bin:/eda/synopsys/2022-23/RHELx86/SPYGLASS_2022.06-SP2/SPYGLASS_HOME/bin:/eda/synopsys/2022-23/RHELx86/SYN_2022.12/bin:/eda/synopsys/2022-23/RHELx86/Z01X_2022.06-SP2/bin:/opt/synopsys/txs/V-2023.12-SP1/bin:/home/s329514/.local/bin:/home/s329514/bin:/eda/Siemens/2022-23/RHELx86/QUESTA-CORE-PRIME_2022.4/questasim/linux_x86_64:/eda/synopsys/2022-23/RHELx86/LC_2022.12/bin:/eda/synopsys/2022-23/RHELx86/PRIMEPOWER_2022.12/bin:/eda/synopsys/2022-23/RHELx86/PT_2022.12/bin:/eda/synopsys/2022-23/RHELx86/SPYGLASS_2022.06-SP2/SPYGLASS_HOME/bin:/eda/synopsys/2022-23/RHELx86/SYN_2022.12/bin:/eda/synopsys/2022-23/RHELx86/Z01X_2022.06-SP2/bin:/opt/synopsys/txs/V-2023.12-SP1/bin
+MAIL=/var/spool/mail/s329514
+SNPS_Z01X=/eda/synopsys/2022-23/RHELx86/Z01X_2022.06-SP2
+VERDI_HOME=/opt/synopsys/verdi/U-2023.03-SP2-1
+PWD=/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x
+VCS_HOME=/opt/synopsys/vcs/U-2023.03-SP2-1
+LANG=en_US.UTF-8
+KDEDIRS=/usr
+MODEL_TECH=/eda/Siemens/2022-23/RHELx86/QUESTA-CORE-PRIME_2022.4/questasim/linux_x86_64
+SG_PDF_VIEWER=/usr/bin/xpdf
+SNPS_PT=/eda/synopsys/2022-23/RHELx86/PT_2022.12
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+SYN_CLK_NS=5.0
+LM_LICENSE_FILE=27020@led-x3850-3.polito.it:1717@led-x3850-3.polito.it
+HISTCONTROL=ignoredups
+SSL_CERT_DIR=/etc/pki/tls/certs
+HOME=/home/s329514
+RISCV=/opt/riscv
+SHLVL=7
+VSCODE_GIT_ASKPASS_MAIN=/home/s329514/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/extensions/git/dist/askpass-main.js
+LOGNAME=s329514
+CVS_RSH=ssh
+SPYGLASS_HOME=/eda/synopsys/2022-23/RHELx86/SPYGLASS_2022.06-SP2/SPYGLASS_HOME
+XDG_DATA_DIRS=/home/s329514/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+SSH_CONNECTION=93.39.145.117 34951 130.192.163.95 22
+VSCODE_GIT_IPC_HANDLE=/run/user/329514/vscode-git-b160659b9d.sock
+VSCODE_IPC_HOOK_CLI=/run/user/329514/vscode-ipc-a638ffe2-b717-46a4-b70b-ec8990289871.sock
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+SYNOPSYS_SYN_ROOT=/eda/synopsys/2022-23/RHELx86/SYN_2022.12
+BROWSER=/home/s329514/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/bin/helpers/browser.sh
+COREV=YES
+VSCODE_GIT_ASKPASS_NODE=/home/s329514/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/node
+GIT_ASKPASS=/home/s329514/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/extensions/git/dist/askpass.sh
+XDG_RUNTIME_DIR=/run/user/329514
+VERDI3_NEW_INTERACTIVE_DEBUG=
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+COLORTERM=truecolor
+SNPS_VERDI=/opt/synopsys/verdi/U-2023.03-SP2-1
+_=/opt/synopsys/vcs/U-2023.03-SP2-1/linux64/bin/vc_fcm.exe
+LC_ALL=C
+FLEXLM_BORROWFILE=/home/s329514/.po.polito.it-borrow.txt
+
+
+2024-12-16 - 17:57:41.73 - Command executed: fcm::fdb_connect -fdb_server "" -fdb_project "" -fdb_path ""
+2024-12-16 - 17:57:41.73 - (config: fdb_server = "", fdb_project = "", campaign = "cv32e40p", isCampaignConnected_ = false, fdb_storage_path = "")
+2024-12-16 - 17:57:41.73 - Prompt changed to: "<NO_SERVER> (cv32e40p)"
+2024-12-16 - 17:57:41.76 - NEW HOSTNAME: po.polito.it
+2024-12-16 - 17:57:41.76 - Prompt changed to: "po.polito.it:63461 (cv32e40p)"
+2024-12-16 - 17:57:41.76 - Prompt changed to: "po.polito.it:63461 (cv32e40p)"
+
+2024-12-16 - 17:57:41.76 - Command executed: fcm::set_campaign -campaign "cv32e40p"
+2024-12-16 - 17:57:41.76 - (config: fdb_server = "po.polito.it:63461", fdb_project = "default", campaign = "cv32e40p", isCampaignConnected_ = false, fdb_storage_path = "")
+2024-12-16 - 17:57:41.79 - Prompt changed to: "po.polito.it:63461 (cv32e40p)"
+2024-12-16 - 17:57:41.82 - Prompt changed to: "po.polito.it:63461 (cv32e40p)"
+
+2024-12-16 - 17:57:41.83 - Command executed: fcm::set_config -global_max_jobs "1"
+
+2024-12-16 - 17:57:41.83 - Command executed: fcm::create_testcases -name "test1" -path "" -stim_type {} -fc "" -exec "/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv" -args "./simv +firmware=/home/s329514/TestingAssignment/cv32e40p_assignments/sbst/sbst.hex" -daidir "" -fault_injection_time "" -fsdb "" -fsim_save_file "" -fsim_args = "" -tsim_args "" -pre_script "" -post_script "" -desc "" -max_faults -1 -timeout -1 -user_attr {}
+2024-12-16 - 17:57:41.83 - campaign cv32e40p is not hybrid
+2024-12-16 - 17:57:41.83 - System Command for verifying simulator executable path: readlink -e "/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv" 2>&1
+2024-12-16 - 17:57:41.83 - Resolved -exec: /home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv
+2024-12-16 - 17:57:41.83 - Resolved -args: ./simv +firmware=/home/s329514/TestingAssignment/cv32e40p_assignments/sbst/sbst.hex
+2024-12-16 - 17:57:41.84 - + entering getTsimFsdbDir, line 4345
+2024-12-16 - 17:57:41.84 - + entering fcmFsim, line 5662
+2024-12-16 - 17:57:41.84 - Command executed: fcm::fsim -fm {} -tc {} -selected_status {} -fids {} -max_faults_per_task -1 -post_fsim_task_proc  -fsim_args ""
+2024-12-16 - 17:57:41.84 - campaign cv32e40p is not hybrid
+2024-12-16 - 17:57:41.84 - + entering getTsimFsdbDir, line 4345
+2024-12-16 - 17:57:41.84 - + entering validateTestcases, line 577
+2024-12-16 - 17:57:41.84 - [serial_flow check] Found vcs fsim arg: -fsim=dut:tb_top.wrapper_i.top_i.fpu_gen_fp_wrapper_i
+2024-12-16 - 17:57:41.84 - [serial_flow check] Found vcs fsim arg: -fsim=portfaults
+2024-12-16 - 17:57:41.84 - ################################################################################
+2024-12-16 - 17:57:41.84 - ------------------------------------------------------------------------
+2024-12-16 - 17:57:41.84 - 
+
+2024-12-16 - 17:57:41.84 - Testability Analysis
+
+2024-12-16 - 17:57:41.84 - 
+
+2024-12-16 - 17:57:41.84 - ################################################################################
+2024-12-16 - 17:57:41.85 - cannot erase non-existing symlink "/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/worker/worker*.log"
+2024-12-16 - 17:57:41.85 - ExitCode: 1, Output:
+stat: cannot stat '/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/worker/worker*.log': No such file or directory
+
+2024-12-16 - 17:57:41.85 - cannot erase non-existing symlink "/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/worker/worker*.started"
+2024-12-16 - 17:57:41.85 - ExitCode: 1, Output:
+stat: cannot stat '/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/worker/worker*.started': No such file or directory
+
+2024-12-16 - 17:57:41.86 - cannot erase non-existing symlink "/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/worker/worker*.stopped"
+2024-12-16 - 17:57:41.86 - ExitCode: 1, Output:
+stat: cannot stat '/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/worker/worker*.stopped': No such file or directory
+
+2024-12-16 - 17:57:41.86 -  number of gridHostGroups: 1
+2024-12-16 - 17:57:41.86 -   entry for fcc group: no
+2024-12-16 - 17:57:41.86 -   entry for togglesim group: no
+2024-12-16 - 17:57:41.86 -   entry for coats group: no
+2024-12-16 - 17:57:41.86 -   entry for faultsim group: no
+2024-12-16 - 17:57:41.86 -   entry for report group: no
+2024-12-16 - 17:57:41.86 - + entering createTasksFromReadyTestcases, line 4480
+2024-12-16 - 17:57:41.86 - Scanning database for testcases and previous results from testability analysis ...
+2024-12-16 - 17:57:41.86 - 
+
+2024-12-16 - 17:57:41.86 - testcase 0
+2024-12-16 - 17:57:41.86 - + entering taskFinishedSuccessfully, line 2660
+2024-12-16 - 17:57:41.86 -  > TC0 (test1) failed tsim, or no attr 'fcm_tsim_exit_code' ()
+2024-12-16 - 17:57:41.86 - + entering taskFinishedSuccessfully, line 2660
+2024-12-16 - 17:57:41.86 -  > TC0 (test1) failed coats, or no attr 'fcm_coats_exit_code' ()
+2024-12-16 - 17:57:41.86 - + entering taskFinishedSuccessfully, line 2660
+2024-12-16 - 17:57:41.86 - FSDB file "/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm_tsim_fsdb/cv32e40p/test1.fsdb" not present, will run toggle simulation.
+2024-12-16 - 17:57:41.86 - + entering createTestabilityPhaseTask, line 4666
+2024-12-16 - 17:57:41.86 - tsim task 1 workdir set to: '/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/tsim:test1:task1'
+2024-12-16 - 17:57:41.86 - + entering createTsimTaskCommand, line 2310
+2024-12-16 - 17:57:41.86 - tsim task command: "/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv ./simv +firmware=/home/s329514/TestingAssignment/cv32e40p_assignments/sbst/sbst.hex +fsdbfile+/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm_tsim_fsdb/cv32e40p/test1.fsdb +vc_zoix_internal_toggle_sim +fsdb+max_var_elem=4096 +fsdb+packed_size=4096 +fsdb+mda +fsdb+packedmda +fsdb+struct +fsdb+no_msg+FSDB_PACKED_SIZE+packed -tsim=limit_toggle:1 -reportstats -tsim=task:/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/tsim:test1:task1/task.json,job_id+3896926629"
+2024-12-16 - 17:57:41.86 -    Task 
+2024-12-16 - 17:57:41.86 - 1
+2024-12-16 - 17:57:41.86 -  (
+2024-12-16 - 17:57:41.86 - tsim
+2024-12-16 - 17:57:41.86 - ) created for testcase '
+2024-12-16 - 17:57:41.86 - test1
+2024-12-16 - 17:57:41.86 - '
+2024-12-16 - 17:57:41.86 - 
+
+2024-12-16 - 17:57:41.86 - + entering createTestabilityPhaseTask, line 4666
+2024-12-16 - 17:57:41.86 - coats task 2 workdir set to: '/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/coats:test1:task2'
+2024-12-16 - 17:57:41.86 - + entering createCoatsTaskCommand, line 2377
+2024-12-16 - 17:57:41.86 - coats task command: "cd '/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/coats:test1:task2' && vc_coats -full64 -daidir '/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv.daidir' -test test1 -fsdb '/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm_tsim_fsdb/cv32e40p/test1.fsdb' -fdb_server po.polito.it:63461 -fdb_project default -campaign cv32e40p -l '/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/coats:test1:task2/vc_coats.log' "
+2024-12-16 - 17:57:41.86 -    Task 
+2024-12-16 - 17:57:41.86 - 2
+2024-12-16 - 17:57:41.86 -  (
+2024-12-16 - 17:57:41.86 - coats
+2024-12-16 - 17:57:41.86 - ) created for testcase '
+2024-12-16 - 17:57:41.86 - test1
+2024-12-16 - 17:57:41.86 - '
+2024-12-16 - 17:57:41.86 - 
+
+2024-12-16 - 17:57:41.86 - updated tc0
+2024-12-16 - 17:57:41.86 - Task Id 1 (1)
+--------------------------------------------------
+type:              tsim
+localTaskVec_ index: 0
+testcase:          test1
+faultId:           1 (hard coded)
+pre script:        ''
+post script:       ''
+work dir:          /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/tsim:test1:task1
+log file:          /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/tsim:test1:task1/out.log
+attributes:
+     fcm_task_type tsim
+     fcm_run_count 1
+cmd:               '/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv ./simv +firmware=/home/s329514/TestingAssignment/cv32e40p_assignments/sbst/sbst.hex +fsdbfile+/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm_tsim_fsdb/cv32e40p/test1.fsdb +vc_zoix_internal_toggle_sim +fsdb+max_var_elem=4096 +fsdb+packed_size=4096 +fsdb+mda +fsdb+packedmda +fsdb+struct +fsdb+no_msg+FSDB_PACKED_SIZE+packed -tsim=limit_toggle:1 -reportstats -tsim=task:/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/tsim:test1:task1/task.json,job_id+3896926629'
+
+Task Id 2 (2)
+--------------------------------------------------
+type:              coats
+localTaskVec_ index: 1
+testcase:          test1
+faultId:           1 (hard coded)
+pre script:        ''
+post script:       ''
+work dir:          /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/coats:test1:task2
+log file:          /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/coats:test1:task2/out.log
+attributes:
+     fcm_task_type coats
+     fcm_run_count 1
+     fcm_required_task_id 1
+cmd:               'cd '/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/coats:test1:task2' && vc_coats -full64 -daidir '/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv.daidir' -test test1 -fsdb '/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm_tsim_fsdb/cv32e40p/test1.fsdb' -fdb_server po.polito.it:63461 -fdb_project default -campaign cv32e40p -l '/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/coats:test1:task2/vc_coats.log' '
+
+2024-12-16 - 17:57:41.86 - created 1 tsim and 1 coats tasks
+2024-12-16 - 17:57:41.86 - + entering runCdplTasks, line 2353
+2024-12-16 - 17:57:41.86 - fine grained logging(0) is enabled for:
+2024-12-16 - 17:57:41.86 -  --- end list ---
+2024-12-16 - 17:57:41.86 - + entering startCdplMaster, line 62
+2024-12-16 - 17:57:41.86 - ################################################################################
+2024-12-16 - 17:57:41.86 - default pool size: 1
+2024-12-16 - 17:57:41.86 - tsim pool size: 0
+2024-12-16 - 17:57:41.86 - coats pool size: 0
+2024-12-16 - 17:57:41.86 - fsim pool size: 0
+2024-12-16 - 17:57:41.86 - need report pool: 0, need fcc pool: 0
+2024-12-16 - 17:57:41.86 - Setting submit timeout in seconds: 120
+2024-12-16 - 17:57:41.86 - Setting worker timeout in seconds: 21600
+2024-12-16 - 17:57:41.86 -  [CDPL] heartbeat timeout: 2s
+2024-12-16 - 17:57:41.86 -  [CDPL] heartbeat rate: 300
+2024-12-16 - 17:57:41.86 - + entering addHostToCdplMaster, line 331
+2024-12-16 - 17:57:41.86 - [CDPL] Adding default host to master
+2024-12-16 - 17:57:41.86 - [CDPL] ---------------------
+2024-12-16 - 17:57:41.86 - [CDPL]  --> grid type: SH
+2024-12-16 - 17:57:41.86 - [CDPL]  --> max workers: 1
+2024-12-16 - 17:57:41.86 - [CDPL]  --> submit command: sh
+2024-12-16 - 17:57:41.86 - + leaving addHostToCdplMaster
+2024-12-16 - 17:57:41.86 - + leaving startCdplMaster
+2024-12-16 - 17:57:41.86 - + entering createCdplJob, line 593
+2024-12-16 - 17:57:41.86 - [CDPL] will activate up to 1 workers
+2024-12-16 - 17:57:41.86 - [CDPL] worker executable: /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/bin/fcm_worker
+2024-12-16 - 17:57:41.86 - + entering createCdplTask, line 741
+2024-12-16 - 17:57:41.86 - + entering prepareCdplTaskDataIndexed, line 1264
+2024-12-16 - 17:57:41.86 - [Serialization] no fdef
+2024-12-16 - 17:57:41.86 - + entering createDependentCdplTask, line 2667
+2024-12-16 - 17:57:41.86 - + entering createCdplTask, line 741
+2024-12-16 - 17:57:41.86 - + entering prepareCdplTaskDataIndexed, line 1264
+2024-12-16 - 17:57:41.86 - [Serialization] no fdef
+2024-12-16 - 17:57:41.86 - + entering startCdplJob, line 663
+2024-12-16 - 17:57:41.86 - [CDPL] ~~~~~~~ Job started ~~~~~~~~
+2024-12-16 - 17:57:41.86 - ~startCdplJob
+2024-12-16 - 17:57:41.86 - Preparation took 
+2024-12-16 - 17:57:41.86 - 0
+2024-12-16 - 17:57:41.86 - s
+2024-12-16 - 17:57:41.86 - 
+
+2024-12-16 - 17:57:41.86 - 
+
+2024-12-16 - 17:57:41.86 - 
+
+2024-12-16 - 17:57:41.86 - ========== entering mainloop ==========
+2024-12-16 - 17:57:41.86 - default pool size: 1
+2024-12-16 - 17:57:41.86 - tsim pool size: 0
+2024-12-16 - 17:57:41.86 - coats pool size: 0
+2024-12-16 - 17:57:41.86 - fsim pool size: 0
+2024-12-16 - 17:57:41.86 - initial tsim count 1
+2024-12-16 - 17:57:41.86 - + entering getTsimFsdbDir, line 4345
+2024-12-16 - 17:57:41.86 - Starting execution of 1 tsim and 1 coats tasks using 1 worker
+Will store resulting fsdb files in /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm_tsim_fsdb/cv32e40p
+
+2024-12-16 - 17:57:41.86 - 
+
+2024-12-16 - 17:57:41.86 - Check progress of tasks by their output files stored in 
+2024-12-16 - 17:57:41.86 - /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326
+2024-12-16 - 17:57:41.86 - /tasks/*/out.log
+2024-12-16 - 17:57:41.86 - 
+
+2024-12-16 - 17:57:41.86 - and by 
+2024-12-16 - 17:57:41.86 - section 1
+2024-12-16 - 17:57:41.86 -  in 
+2024-12-16 - 17:57:41.86 - /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/summary.csv
+2024-12-16 - 17:57:41.86 - 
+
+2024-12-16 - 17:57:41.86 - + entering printFinishedMessageHeader, line 3505
+2024-12-16 - 17:57:41.86 - 
+  Time  | Workers |     Tasks        |  Time   Mem | results from completed task(s)
+        |act./req.|active    done    |   [s]   [MB]|                               
+--------+---------+------------------+-------------+-------------------------------
+17:57:41|   -/   1|    2     - (  0%)|     -      -|<START>
+2024-12-16 - 17:57:41.86 - 
+
+2024-12-16 - 17:57:41.86 - [current status] 2 fdb/2 cdpl tasks (0 started, 0 restarted, 0 running, 0 finished [0 ok, 0 failed])
+2024-12-16 - 17:57:42.86 - + entering handleCdplWorkerMessages, line 1383
+2024-12-16 - 17:57:42.86 - senderId: 1, msg: >STARTWORKER;0;19377;po.polito.it;1734368261;1734368261;<
+2024-12-16 - 17:57:42.86 - started worker 1 (hostname: po.polito.it, worker PID 19377) queued time is 0s
+2024-12-16 - 17:57:42.86 - senderId: 1, task 1, msg: >STARTTASK;1;19377;po.polito.it;1734368261;1734368261;<
+2024-12-16 - 17:57:42.86 - [status] started task 1 on worker 1 (hostname: 0, worker PID 19377)
+2024-12-16 - 17:59:11.88 - + entering handleCdplWorkerMessages, line 1383
+2024-12-16 - 17:59:11.88 - senderId: 1, task 1, msg: >INFO;1<
+2024-12-16 - 17:59:11.88 - received info message task1 finished on worker 1
+2024-12-16 - 17:59:11.88 - senderId: 1, task 2, msg: >STARTTASK;2;19377;po.polito.it;1734368350;1734368350;<
+2024-12-16 - 17:59:11.88 - [status] started task 2 on worker 1 (hostname: 0, worker PID 19377)
+2024-12-16 - 17:59:11.88 - + entering finishCdplTask, line 779
+2024-12-16 - 17:59:11.88 - -> finishing task 1 from worker 1
+2024-12-16 - 17:59:11.88 - [statusfin] taskExitData.size: 14, taskStatsData.size: 82
+2024-12-16 - 17:59:11.88 - stats data: STOPTASK;-1;T;90;88;509;171;41;164;0;F;0;0;0;<1 task results>;89;1;19377;po.polito.it;1734368350;
+2024-12-16 - 17:59:11.88 - task 1 on worker 1 (hostname: po.polito.it, process ID: 19377) finished
+2024-12-16 - 17:59:11.88 - [status] finished task 1 on worker 1 with CDPL exit code 0 and task exit code 0
+2024-12-16 - 17:59:11.88 - updated TC5116089176692883456: fcm_tsim_exit_code to 0
+
+2024-12-16 - 17:59:11.88 - updated TC5116089176692883456: fcm_tsim_elapsed_time to 90
+
+2024-12-16 - 17:59:11.88 - + entering updateTripleData, line 6788
+2024-12-16 - 17:59:11.88 - ~updateTripleData
+2024-12-16 - 17:59:11.88 - + entering createAndScheduleNewTask, line 3196
+2024-12-16 - 17:59:11.88 - + entering cleanupAfterFinish, line 2953
+2024-12-16 - 17:59:11.88 - cleanupAfterFinish: cdplTaskVec.size: 1 localTaskVec_.size: 1 index 0, workersCapacity: 1
+2024-12-16 - 17:59:11.88 - Currently 1 active workers, cannot reduce workers to 0, remaining tasks: 1
+2024-12-16 - 17:59:11.88 - 17:59:11|   1/   1|    1     1 ( 50%)|    89    171|Task1(tsim,test1)
+2024-12-16 - 17:59:11.88 - 
+
+2024-12-16 - 17:59:11.88 - [Task Manager] Releasing task 1 from memory
+2024-12-16 - 17:59:11.88 - [current status] 1 fdb/1 cdpl tasks (2 started, 0 restarted, 1 running, 1 finished [1 ok, 0 failed])
+2024-12-16 - 17:59:17.89 - + entering handleCdplWorkerMessages, line 1383
+2024-12-16 - 17:59:17.89 - senderId: 1, task 2, msg: >INFO;2<
+2024-12-16 - 17:59:17.89 - received info message task2 finished on worker 1
+2024-12-16 - 17:59:17.89 - + entering finishCdplTask, line 779
+2024-12-16 - 17:59:17.89 - -> finishing task 2 from worker 1
+2024-12-16 - 17:59:17.89 - [statusfin] taskExitData.size: 14, taskStatsData.size: 89
+2024-12-16 - 17:59:17.89 - stats data: STOPTASK;-1;F;0;0;0;0;0;0;0;T;5;3;201;<3 task results>;6;2;19377;po.polito.it;1734368356;
+2024-12-16 - 17:59:17.89 - task 2 on worker 1 (hostname: po.polito.it, process ID: 19377) finished
+2024-12-16 - 17:59:17.89 - [status] finished task 2 on worker 1 with CDPL exit code 0 and task exit code 0
+2024-12-16 - 17:59:17.89 - updated TC5116089176692883456: fcm_coats_exit_code to 0
+
+2024-12-16 - 17:59:17.89 - updated TC5116089176692883456: fcm_coats_elapsed_time to 5
+
+2024-12-16 - 17:59:17.89 - + entering updateTripleData, line 6788
+2024-12-16 - 17:59:17.89 - ~updateTripleData
+2024-12-16 - 17:59:17.89 - + entering createAndScheduleNewTask, line 3196
+2024-12-16 - 17:59:17.89 - + entering cleanupAfterFinish, line 2953
+2024-12-16 - 17:59:17.89 - cleanupAfterFinish: cdplTaskVec.size: 0 localTaskVec_.size: 0 index 0, workersCapacity: 1
+2024-12-16 - 17:59:17.89 - [status] scheduled pool size adjustment - lastWorkerId: 1, taskType: undefined, poolSize: 0
+2024-12-16 - 17:59:17.89 - 17:59:17|   0/   0|    0     2 (100%)|     6    201|Task2(coats,test1), NC:238 NO:45127 
+2024-12-16 - 17:59:17.89 - 
+
+2024-12-16 - 17:59:17.89 - [Task Manager] Releasing task 2 from memory
+2024-12-16 - 17:59:17.89 - [current status] 0 fdb/0 cdpl tasks (2 started, 0 restarted, 0 running, 2 finished [2 ok, 0 failed])
+2024-12-16 - 17:59:17.89 - ========== leaving mainloop ==========
+2024-12-16 - 17:59:17.89 - ################################################################################
+2024-12-16 - 17:59:17.89 - + entering printFinishedMessageTrailer, line 4200
+2024-12-16 - 17:59:17.89 - 17:59:17|   -/   -|    -     2 (100%)|     -      -|<FINISH>
+2024-12-16 - 17:59:17.89 - 
+
+2024-12-16 - 17:59:17.89 - 
+Testability analysis completed: 2 task(s) were run, all succeeded
+2024-12-16 - 17:59:17.89 - 
+
+2024-12-16 - 17:59:17.89 - 
+
+2024-12-16 - 17:59:17.89 - ################################################################################
+2024-12-16 - 17:59:17.89 - + entering printRunStatisticsToLogFile, line 3408
+2024-12-16 - 17:59:17.89 - 
+
+Run statistics
+================================================================================
+total active workers: 1
+initially started tasks: 2
+restarted tasks: 0
+successfuly finished tasks: 2
+in total processed tasks: 2
+
+worker 1 on host "po.polito.it" with pid 19377
+--------------------------------------------------------------------------------
+queued time: 0s
+tasks processed: 2
+average time to process a task: 47.5s
+accumulated time to process all tasks: 95s
+overall worker run time: 95s
+
+
+Overview:
+--------------------------------------------------------------------------------
+min/average/max of queued time: 0/0.0/0s
+min/average/max of total elapsed task time: 95/95.0/95s
+min/average/max of total worker run time: 95/95.0/95s
+
+
+2024-12-16 - 17:59:17.89 - + entering shutdownCdplMaster, line 298
+2024-12-16 - 17:59:17.89 - + entering skipFailedTestcasesForFaultsim, line 7115
+2024-12-16 - 17:59:17.89 - + entering taskFinishedSuccessfully, line 2660
+2024-12-16 - 17:59:17.89 -  > TC0 (test1) passed tsim
+2024-12-16 - 17:59:17.89 - + entering taskFinishedSuccessfully, line 2660
+2024-12-16 - 17:59:17.89 -  > TC0 (test1) passed coats
+2024-12-16 - 17:59:17.89 - ################################################################################
+2024-12-16 - 17:59:17.89 - ------------------------------------------------------------------------
+2024-12-16 - 17:59:17.89 - 
+
+2024-12-16 - 17:59:17.89 - Fault Simulation
+
+2024-12-16 - 17:59:17.89 - 
+
+2024-12-16 - 17:59:17.89 - ################################################################################
+2024-12-16 - 17:59:17.90 - erased symlink "/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/worker/worker*.log"
+2024-12-16 - 17:59:17.92 - erased symlink "/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/worker/worker*.started"
+2024-12-16 - 17:59:17.93 - erased symlink "/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/worker/worker*.stopped"
+2024-12-16 - 17:59:17.93 -  number of gridHostGroups: 1
+2024-12-16 - 17:59:17.93 -   entry for fcc group: no
+2024-12-16 - 17:59:17.93 -   entry for togglesim group: no
+2024-12-16 - 17:59:17.93 -   entry for coats group: no
+2024-12-16 - 17:59:17.93 -   entry for faultsim group: no
+2024-12-16 - 17:59:17.93 -   entry for report group: no
+2024-12-16 - 17:59:17.96 - [MaxSimTime] tc: test1, scaleUnit: 1ps
+2024-12-16 - 17:59:17.96 - [MaxSimTime] tc: test1, maxSimTime: 861290000ps
+2024-12-16 - 17:59:17.97 - [SimTime] SimulationTime - value: 861290000, unit: ps
+2024-12-16 - 17:59:17.97 - [SimTime] SimulationTime - value: 1, unit: ps
+2024-12-16 - 17:59:17.97 - + entering createInitialFsimTasks, line 4856
+2024-12-16 - 17:59:17.97 - Preparing...
+2024-12-16 - 17:59:17.97 - 
+
+2024-12-16 - 17:59:17.97 - 
+
+2024-12-16 - 17:59:17.97 - Selected fault status: NA NN AN 
+2024-12-16 - 17:59:17.97 - 
+
+2024-12-16 - 17:59:17.97 - Failure modes: DEFAULT
+
+2024-12-16 - 17:59:17.97 - 
+
+2024-12-16 - 17:59:17.97 - Scanning database for faults and results, keep only faults with selected status ...
+2024-12-16 - 17:59:17.97 - 
+
+2024-12-16 - 17:59:17.97 - + entering createPrimeFaultIdsVector, line 4775
+2024-12-16 - 17:59:18.71 - [Serialization] Stored 95448 faults
+2024-12-16 - 17:59:18.71 - + entering filterFaultIdsVecStage1, line 2699
+2024-12-16 - 17:59:19.15 - + entering createToBeRemovedFaultIds, line 2842
+2024-12-16 - 17:59:19.52 - FM 'DEFAULT' has 49584 prime faults (95448 total faults), 201 selected for fault simulation
+2024-12-16 - 17:59:19.52 - 
+
+2024-12-16 - 17:59:19.52 - + entering filterFaultIdsVecStage2a, line 2735
+2024-12-16 - 17:59:19.80 - + entering createToBeRemovedFaultIds, line 2842
+2024-12-16 - 17:59:19.87 - 90627 FIDs with previous results found
+2024-12-16 - 17:59:19.87 - [filter] FM: 2, TC: 0 did not reduce number of faults
+2024-12-16 - 17:59:19.87 - + entering filterFaultIdsVecStage2b, line 2780
+2024-12-16 - 17:59:19.91 - [filter] FM: 2, TC: 0 did not reduce number of faults
+2024-12-16 - 17:59:19.91 -    Testcase 'test1': 201 testable prime faults that have no previous results
+2024-12-16 - 17:59:19.91 - 
+
+2024-12-16 - 17:59:19.91 - [createSTask]  - created 201 runnable triples for FM 2 testcase 0=test1 tsim elapsed time: 90
+2024-12-16 - 17:59:19.91 -  in total: created 201 runnable triples, maxPossibleTaskCount is 1
+2024-12-16 - 17:59:19.91 - Workload: 
+2024-12-16 - 17:59:19.91 - 201
+2024-12-16 - 17:59:19.91 -  combinations of FM x testcase x prime FID
+2024-12-16 - 17:59:19.91 - 
+
+2024-12-16 - 17:59:19.91 - 
+
+2024-12-16 - 17:59:19.91 - 
+
+2024-12-16 - 17:59:19.91 - Create initial set of tasks
+2024-12-16 - 17:59:19.91 - 
+
+2024-12-16 - 17:59:19.91 -  creating fdb task for worker with index: 0
+2024-12-16 - 17:59:19.91 - + entering createFsimTask, line 5263
+2024-12-16 - 17:59:19.91 - [createFTask] trying to fetch with limit: 2046
+2024-12-16 - 17:59:19.91 - [bucket_size] distribute 201 triples onto 1 workers with min 100, max 2046 --> 201
+2024-12-16 - 17:59:19.91 - [createFTask] scheduler not in FMSH mode, disable_same_fault_in_concurrent_testcases==false:
+2024-12-16 - 17:59:19.91 - [createFTask]   Total triples=201 ==> desired_bucket_size=201
+2024-12-16 - 17:59:19.91 - [createFTask] fetched bucket FM "DEFAULT" (2), testcase "test1" (0) with 201 faults, without shuffling
+2024-12-16 - 17:59:19.91 - [Serialization] serialization finished. size: 25910
+2024-12-16 - 17:59:19.91 - fsim task 3 workdir set to: '/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/fsim:test1:DEFAULT:task3'
+2024-12-16 - 17:59:19.91 - + entering createFsimTaskCommand, line 2475
+2024-12-16 - 17:59:19.91 - fsim task command: "/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv ./simv +firmware=/home/s329514/TestingAssignment/cv32e40p_assignments/sbst/sbst.hex -fsim=task:/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/fsim:test1:DEFAULT:task3/task.json,job_id+3896926677 -reportstats"
+2024-12-16 - 17:59:19.91 -    Task 3 created with 201 prime faults for faultsim of FM 'DEFAULT' with testcase 'test1'
+2024-12-16 - 17:59:19.91 - 
+
+2024-12-16 - 17:59:19.91 - fsim task 3 created (index 0)
+2024-12-16 - 17:59:19.91 - 
+Task Id 3 (-1)
+--------------------------------------------------
+type:              faultsim 
+localTaskVec_ index: 0
+failure mode:      DEFAULT - 2 (4827858800541171714)
+testcase:          test1 - 0 (5116089176692883456)
+faults:            201 (fetch limit 201)
+pre script:        ''
+post script:       ''
+work dir:          /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/fsim:test1:DEFAULT:task3
+log file:          /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/fsim:test1:DEFAULT:task3/out.log
+cmd:               '/home/s329514/TestingAssignment/cv32e40p_assignments/run/vcs/simv ./simv +firmware=/home/s329514/TestingAssignment/cv32e40p_assignments/sbst/sbst.hex -fsim=task:/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/0xxxx/0xx/fsim:test1:DEFAULT:task3/task.json,job_id+3896926677 -reportstats'
+attributes:
+     fcm_task_type fsim
+     fcm_run_count: 1
+     fsim_mode: concurrent
+
+
+2024-12-16 - 17:59:19.91 - + entering runCdplTasks, line 2353
+2024-12-16 - 17:59:19.91 - fine grained logging(0) is enabled for:
+2024-12-16 - 17:59:19.91 -  --- end list ---
+2024-12-16 - 17:59:19.91 - + entering startCdplMaster, line 62
+2024-12-16 - 17:59:19.91 - ################################################################################
+2024-12-16 - 17:59:19.91 - default pool size: 1
+2024-12-16 - 17:59:19.91 - tsim pool size: 0
+2024-12-16 - 17:59:19.91 - coats pool size: 0
+2024-12-16 - 17:59:19.91 - fsim pool size: 0
+2024-12-16 - 17:59:19.91 - need report pool: 0, need fcc pool: 0
+2024-12-16 - 17:59:19.91 - Setting submit timeout in seconds: 120
+2024-12-16 - 17:59:19.91 - Setting worker timeout in seconds: 21600
+2024-12-16 - 17:59:19.91 -  [CDPL] heartbeat timeout: 2s
+2024-12-16 - 17:59:19.91 -  [CDPL] heartbeat rate: 300
+2024-12-16 - 17:59:19.91 - + entering addHostToCdplMaster, line 331
+2024-12-16 - 17:59:19.91 - [CDPL] Adding default host to master
+2024-12-16 - 17:59:19.91 - [CDPL] ---------------------
+2024-12-16 - 17:59:19.91 - [CDPL]  --> grid type: SH
+2024-12-16 - 17:59:19.91 - [CDPL]  --> max workers: 1
+2024-12-16 - 17:59:19.91 - [CDPL]  --> submit command: sh
+2024-12-16 - 17:59:19.91 - + leaving addHostToCdplMaster
+2024-12-16 - 17:59:19.91 - + leaving startCdplMaster
+2024-12-16 - 17:59:19.91 - + entering createCdplJob, line 593
+2024-12-16 - 17:59:19.91 - [CDPL] will activate up to 1 workers
+2024-12-16 - 17:59:19.91 - [CDPL] worker executable: /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/bin/fcm_worker
+2024-12-16 - 17:59:19.91 - + entering createCdplTask, line 741
+2024-12-16 - 17:59:19.91 - + entering prepareCdplTaskDataIndexed, line 1264
+2024-12-16 - 17:59:19.91 - [Serialization] fdef size: 25910
+2024-12-16 - 17:59:19.91 - + entering startCdplJob, line 663
+2024-12-16 - 17:59:19.91 - [CDPL] ~~~~~~~ Job started ~~~~~~~~
+2024-12-16 - 17:59:19.91 - ~startCdplJob
+2024-12-16 - 17:59:19.91 - Preparation took 
+2024-12-16 - 17:59:19.91 - 2
+2024-12-16 - 17:59:19.91 - s
+2024-12-16 - 17:59:19.91 - 
+
+2024-12-16 - 17:59:19.91 - 
+
+2024-12-16 - 17:59:19.91 - 
+
+2024-12-16 - 17:59:19.91 - ========== entering mainloop ==========
+2024-12-16 - 17:59:19.91 - default pool size: 1
+2024-12-16 - 17:59:19.91 - tsim pool size: 0
+2024-12-16 - 17:59:19.91 - coats pool size: 0
+2024-12-16 - 17:59:19.91 - fsim pool size: 0
+2024-12-16 - 17:59:19.91 - Starting execution of task3 using 1 worker
+2024-12-16 - 17:59:19.91 - 
+
+2024-12-16 - 17:59:19.91 - Check progress of tasks by their output files stored in 
+2024-12-16 - 17:59:19.91 - /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326
+2024-12-16 - 17:59:19.91 - /tasks/*/out.log
+2024-12-16 - 17:59:19.91 - 
+
+2024-12-16 - 17:59:19.91 - and by 
+2024-12-16 - 17:59:19.91 - section 1
+2024-12-16 - 17:59:19.91 -  in 
+2024-12-16 - 17:59:19.91 - /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/tasks/summary.csv
+2024-12-16 - 17:59:19.91 - 
+
+2024-12-16 - 17:59:19.91 - + entering printFinishedMessageHeader, line 3505
+2024-12-16 - 17:59:19.91 - 
+  Time  | Workers |          Workload               |  Time   Mem | results from completed task(s)
+        |act./req.|  queued   active     done       |   [s]   [MB]| (testable prime faults)       
+--------+---------+---------------------------------+-------------+-------------------------------
+17:59:19|   -/   1|       0      201        0 (  0%)|     -      -|<START>
+2024-12-16 - 17:59:19.91 - 
+
+2024-12-16 - 17:59:19.91 - [current status] 1 fdb/1 cdpl tasks (0 started, 0 restarted, 0 running, 0 finished [0 ok, 0 failed]) --- 201 runnableTriples (201 total, 0 queued, 201 running [201 active], 0 finished)
+2024-12-16 - 17:59:20.92 - + entering handleCdplWorkerMessages, line 1383
+2024-12-16 - 17:59:20.92 - senderId: 1, msg: >STARTWORKER;0;28073;po.polito.it;1734368359;1734368359;<
+2024-12-16 - 17:59:20.92 - started worker 1 (hostname: po.polito.it, worker PID 28073) queued time is 0s
+2024-12-16 - 17:59:20.92 - senderId: 1, task 3, msg: >STARTTASK;3;28073;po.polito.it;1734368359;1734368359;<
+2024-12-16 - 17:59:20.92 - [status] started task 3 on worker 1 (hostname: 0, worker PID 28073)
+2024-12-16 - 18:01:32.57 - + entering handleTermination, line 3013
+2024-12-16 - 18:01:32.57 - [status] released task 3
+2024-12-16 - 18:01:32.57 - [status] 1 tasks aborted
+2024-12-16 - 18:01:32.57 - [status] job terminated
+
+2024-12-16 - 18:01:32.57 - Task details:
+2024-12-16 - 18:01:32.57 - task 1: OK
+2024-12-16 - 18:01:32.57 - task 2: OK
+2024-12-16 - 18:01:32.57 - task 3: aborted
+2024-12-16 - 18:01:32.57 - ========== leaving mainloop ==========
+2024-12-16 - 18:01:32.57 - ################################################################################
+2024-12-16 - 18:01:32.57 - 
+Fault simulation aborted: 1 task(s) were run, 0 succeeded, 0 failed, 1 aborted
+2024-12-16 - 18:01:32.57 - 
+
+2024-12-16 - 18:01:32.57 - 
+
+2024-12-16 - 18:01:32.57 - ################################################################################
+2024-12-16 - 18:01:32.57 - + entering printRunStatisticsToLogFile, line 3408
+2024-12-16 - 18:01:32.57 - 
+
+Run statistics
+================================================================================
+total active workers: 1
+initially started tasks: 1
+restarted tasks: 0
+successfuly finished tasks: 0
+in total processed tasks: 1
+
+
+2024-12-16 - 18:01:32.57 - + entering shutdownCdplMaster, line 298
+2024-12-16 - 18:01:32.57 - Received signal SIGINT. Terminating...
+
+2024-12-16 - 18:01:32.57 - 
+
+2024-12-16 - 18:01:32.58 - shutting down

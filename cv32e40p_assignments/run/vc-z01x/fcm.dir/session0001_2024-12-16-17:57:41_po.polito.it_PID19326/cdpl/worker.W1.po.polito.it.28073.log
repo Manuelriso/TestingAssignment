@@ -1,0 +1,39 @@
+1734368359.960931: 28073-7efdf02eb740: cdpl_log.c:231: in cdpl_log_open(): info: @@start_of_log@@
+1734368359.960956: 28073-7efdf02eb740: cdpl_log.c:869: in cdpl_log_dump_sysinfo(): info: time: 2024/12/16 17:59:19 CET +0100
+1734368359.960960: 28073-7efdf02eb740: cdpl_log.c:871: in cdpl_log_dump_sysinfo(): info: version: T-2022.03-SP1-2 
+1734368359.960964: 28073-7efdf02eb740: cdpl_log.c:873: in cdpl_log_dump_sysinfo(): info: system: Linux 3.10.0-1160.92.1.el7.x86_64 #1 SMP Tue Jun 20 11:48:01 UTC 2023
+1734368359.960967: 28073-7efdf02eb740: cdpl_log.c:878: in cdpl_log_dump_sysinfo(): info: processor: x86_64 64-bits
+1734368359.960970: 28073-7efdf02eb740: cdpl_log.c:882: in cdpl_log_dump_sysinfo(): info: hostname: po.polito.it
+1734368359.960973: 28073-7efdf02eb740: cdpl_log.c:233: in cdpl_log_open(): debug: path: /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/cdpl/worker.W1.po.polito.it.28073.log
+1734368359.960977: 28073-7efdf02eb740: cdpl_log.c:234: in cdpl_log_open(): debug: dir: /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm.dir/session0001_2024-12-16-17:57:41_po.polito.it_PID19326/cdpl
+1734368359.960984: 28073-7efdf02eb740: cdpl_worker.c:916: in cdpl_wk_new(): info: creating worker instance
+1734368359.960996: 28073-7efdf02eb740: cdpl_ipc.c:3090: in cdpl_ipc_init(): info: requesting IPv4 protocol
+1734368359.962007: 28073-7efdf02eb740: cdpl_ipc.c:807: in _selectaddrfamily(): info: selected IPv4 protocol
+1734368359.962584: 28073-7efdf02eb740: cdpl_worker.c:1150: in cdpl_wk_start(): debug: starting worker
+1734368359.962593: 28073-7efdf02eb740: cdpl_worker.c:329: in cdpl_wk_setup(): info: CDPL_SERVER is "130.192.163.95:46881"
+1734368359.962597: 28073-7efdf02eb740: cdpl_worker.c:351: in cdpl_wk_setup(): info: server 130.192.163.95, port 46881
+1734368359.962600: 28073-7efdf02eb740: cdpl_worker.c:372: in cdpl_wk_setup(): info: CDPL_ID is "1:1:1:1:1939640017"
+1734368359.962609: 28073-7efdf02eb740: cdpl_worker.c:414: in cdpl_wk_setup(): info: we are W1-B1-J1-M1-S1939640017
+1734368359.962612: 28073-7efdf02eb740: cdpl_worker.c:422: in cdpl_wk_setup(): info: we are on host po.polito.it
+1734368359.962615: 28073-7efdf02eb740: cdpl_worker.c:448: in cdpl_wk_daemonize(): debug: will *not* daemonize
+1734368359.962619: 28073-7efdf02eb740: cdpl_ipc.c:3394: in cdpl_ipc_connect(): info: connecting to 130.192.163.95:46881
+1734368359.962688: 28073-7efdf02eb740: cdpl_ipc.c:3465: in cdpl_ipc_connect(): info: connected as `130.192.163.95:55280'
+1734368359.962699: 28073-7efdf02eb740: cdpl_ipc.c:2231: in cdpl_ipc_host_accept(): debug: accepted host `130.192.163.95:46881'
+1734368359.962709: 28073-7efdf02eb740: cdpl_ipc.c:3237: in cdpl_ipc_start(): debug: starting IPC server 130.192.163.95:44243
+1734368359.962780: 28073-7efdf02eb740: cdpl_compat_worker.c:433: in cdplStartWorker(): info: SNPSLMD_LICENSE_FILE is 27020@led-x3850-3.polito.it
+1734368359.962819: 28073-7efdee5c1700: cdpl_worker.c:716: in cdpl_wk_listen(): debug: ready
+1734368359.962982: 28073-7efdeddc0700: cdpl_worker.c:844: in cdpl_wk_heartbeat(): debug: starting heartbeat
+1734368359.962992: 28073-7efdeddc0700: cdpl_worker.c:853: in cdpl_wk_heartbeat(): info: setting heartbeat period to 300 sec
+1734368359.962997: 28073-7efdeddc0700: cdpl_worker.c:861: in cdpl_wk_heartbeat(): info: first heartbeat in 1 sec
+1734368359.963626: 28073-7efdee5c1700: cdpl_worker.c:773: in cdpl_wk_listen(): debug: received ASSIGN message
+1734368359.963671: 28073-7efdf02eb740: cdpl_worker.c:1317: in cdpl_wk_wait_timeout(): info: starting task T0
+1734368492.572289: 28073-7efdeedc2700: cdpl_ipc.c:745: in _readv(): warning: read(): EOF
+1734368492.572349: 28073-7efdeedc2700: cdpl_ipc.c:1917: in _epoll_recv(): debug: _readv(): Broken pipe
+1734368492.572354: 28073-7efdeedc2700: cdpl_ipc.c:2152: in _epoll_main(): debug: _epoll_recv(): Broken pipe
+1734368492.572368: 28073-7efdeedc2700: cdpl_ipc.c:1474: in _host_drop__UNSAFE(): debug: dropping host `130.192.163.95:46881'
+1734368492.572429: 28073-7efdee5c1700: cdpl_worker.c:749: in cdpl_wk_listen(): debug: received DROP notification
+1734368492.572460: 28073-7efdee5c1700: cdpl_worker.c:753: in cdpl_wk_listen(): debug: we were dropped by the server
+1734368492.572466: 28073-7efdee5c1700: cdpl_worker.c:568: in _wk_kill(): debug: killing worker
+1734368492.572470: 28073-7efdee5c1700: cdpl_ipc.c:3282: in cdpl_ipc_kill(): debug: stopping event server
+1734368492.572491: 28073-7efdee5c1700: cdpl_worker.c:730: in cdpl_wk_listen(): debug: leaving now
+1734368492.572509: 28073-7efdeedc2700: cdpl_ipc.c:2188: in _epoll_main(): debug: server going down...

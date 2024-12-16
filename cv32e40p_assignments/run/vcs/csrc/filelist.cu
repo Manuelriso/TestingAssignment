@@ -4,12 +4,12 @@ ifeq ($(LDVERSION), 0)
 endif
 
 ARCHIVE_OBJS=
-ARCHIVE_OBJS += _11313_archive_1.so
-_11313_archive_1.so : archive.0/_11313_archive_1.a
+ARCHIVE_OBJS += _25874_archive_1.so
+_25874_archive_1.so : archive.0/_25874_archive_1.a
 	@$(AR) -s $<
-	@$(PIC_LD) -shared  -Bsymbolic $(LD_NORELAX_FLAG)  -o .//../simv.daidir//_11313_archive_1.so --whole-archive $< --no-whole-archive
+	@$(PIC_LD) -shared  -Bsymbolic $(LD_NORELAX_FLAG)  -o .//../simv.daidir//_25874_archive_1.so --whole-archive $< --no-whole-archive
 	@rm -f $@
-	@ln -sf .//../simv.daidir//_11313_archive_1.so $@
+	@ln -sf .//../simv.daidir//_25874_archive_1.so $@
 
 
 
@@ -27,8 +27,7 @@ $(O0_OBJS) : %.o: %.c
 	$(CC_CG) $(CFLAGS_CG) -c -o $@ $<
 
 CU_UDP_OBJS = \
-objs/udps/m9nzD.o objs/udps/fTq4m.o objs/udps/nC9PF.o objs/udps/u1p1q.o objs/udps/Ka3iY.o  \
-objs/udps/dnrsM.o objs/udps/GUwfU.o 
+
 
 CU_UDP_OBJS += 
 CU_LVL_OBJS = \

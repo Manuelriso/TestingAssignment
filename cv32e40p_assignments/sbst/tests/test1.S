@@ -37,14 +37,26 @@ test1:
     sw t2, 0(t3)        # Salva il risultato di t2 (addizione) in memoria
 
     # Test 2: Conversione intero -> floating-point
-    fcvt.s.w fa0, t0     # Converte il valore intero in floating-point (fa0 = float(t0))
+    fcvt.s.w f0, t0     # Converte il valore intero in floating-point (fa0 = float(t0))
 
     # Test 3: Operazioni floating-point
     # Carica operandi floating-point
 	la t3,float_a
-    flw fa1,0(t3)     # Carica float_a in fa1
+    flw f1,0(t3)     # Carica float_a in f1
 	la t3,float_b
-    flw fa2, 0(t3)    # Carica float_b in fa2
+    flw f2, 0(t3)    # Carica float_b in f2
+	flw f19, 0(t3)    # Carica float_b in f19
+	flw f20, 0(t3)    # Carica float_b in f20
+	flw f21, 0(t3)    # Carica float_b in f21
+	flw f22, 0(t3)    # Carica float_b in f22
+	flw f23, 0(t3)    # Carica float_b in f23
+	flw f24, 0(t3)    # Carica float_b in f24
+	flw f25, 0(t3)    # Carica float_b in f25
+	flw f26, 0(t3)    # Carica float_b in f26
+	flw f27, 0(t3)    # Carica float_b in f27
+	flw f28, 0(t3)    # Carica float_b in f28
+	flw f29, 0(t3)    # Carica float_b in f29
+
 
     fadd.s f3, f1, f2 # Addizione floating-point: fa3 = fa1 + fa2
     fsub.s f4, f1, f2 # Sottrazione floating-point: fa4 = fa1 - fa2
