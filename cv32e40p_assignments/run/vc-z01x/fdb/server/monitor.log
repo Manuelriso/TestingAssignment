@@ -1,25 +1,25 @@
-2024-12-13 17:44:25 [fdb_monitor:30373] start monitor 
-2024-12-13 17:44:25 [fdb_monitor:30373] =====================
-2024-12-13 17:44:25 [fdb_monitor:30373] fdb_path: /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fdb
-2024-12-13 17:44:25 [fdb_monitor:30373] SERVER_HOST=po.polito.it
-2024-12-13 17:44:25 [fdb_monitor:30373] SERVER_PORT=54146
-2024-12-13 17:44:25 [fdb_monitor:30373] SERVER_PID=30313
-2024-12-13 17:44:25 [fdb_monitor:30373] auto_stop: 1
-2024-12-13 17:44:25 [fdb_monitor:30373] auto_stop_timeout: 60
-2024-12-13 17:44:25 [fdb_monitor:30373] monitor_period: 3
-2024-12-13 17:44:25 [fdb_monitor:30373] kill_timeout: 15
-2024-12-13 17:44:25 [fdb_monitor:30373] CONFIG_FILE=/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fdb/server/monitor.conf
-2024-12-13 17:44:25 [fdb_monitor:30373] MONITOR_HEARTBEAT=/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fdb/server/monitor.tick
-2024-12-13 17:44:25 [fdb_monitor:30373] bin_dir: /opt/synopsys/vcs/U-2023.03-SP2-1/bin
-2024-12-13 17:44:25 [fdb_monitor:30373] pg_home: /opt/synopsys/vcs/U-2023.03-SP2-1/etc/fdb/PostgreSQL/linux64/pgsql/
-2024-12-13 17:44:25 [fdb_monitor:30373] detach: 1
-2024-12-13 17:44:25 [fdb_monitor:30373] verbose: 0
-2024-12-13 17:44:25 [fdb_monitor:30373] Monitor started, server pid=30313 host po.polito.it
-2024-12-13 17:44:25 [fdb_monitor:30373] Current server log file '/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fdb/log/server-2024-12-13_17:44:24.log'
-2024-12-13 17:44:25 [fdb_monitor:30373] CURRENT_SERVER_LOG_TIME:1734108265
-2024-12-13 17:47:22 [fdb_monitor:30373] Autostop timeout 60 reached, request a smart stop of the server
-2024-12-13 17:47:22 [fdb_monitor:30373] waiting for server to shut down.... done
+2024-12-16 13:23:54 [fdb_monitor:13967] start monitor 
+2024-12-16 13:23:54 [fdb_monitor:13967] =====================
+2024-12-16 13:23:54 [fdb_monitor:13967] fdb_path: /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fdb
+2024-12-16 13:23:54 [fdb_monitor:13967] SERVER_HOST=po.polito.it
+2024-12-16 13:23:54 [fdb_monitor:13967] SERVER_PORT=49952
+2024-12-16 13:23:54 [fdb_monitor:13967] SERVER_PID=13912
+2024-12-16 13:23:54 [fdb_monitor:13967] auto_stop: 1
+2024-12-16 13:23:54 [fdb_monitor:13967] auto_stop_timeout: 60
+2024-12-16 13:23:54 [fdb_monitor:13967] monitor_period: 3
+2024-12-16 13:23:54 [fdb_monitor:13967] kill_timeout: 15
+2024-12-16 13:23:54 [fdb_monitor:13967] CONFIG_FILE=/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fdb/server/monitor.conf
+2024-12-16 13:23:54 [fdb_monitor:13967] MONITOR_HEARTBEAT=/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fdb/server/monitor.tick
+2024-12-16 13:23:54 [fdb_monitor:13967] bin_dir: /opt/synopsys/vcs/U-2023.03-SP2-1/bin
+2024-12-16 13:23:54 [fdb_monitor:13967] pg_home: /opt/synopsys/vcs/U-2023.03-SP2-1/etc/fdb/PostgreSQL/linux64/pgsql/
+2024-12-16 13:23:54 [fdb_monitor:13967] detach: 1
+2024-12-16 13:23:54 [fdb_monitor:13967] verbose: 0
+2024-12-16 13:23:54 [fdb_monitor:13967] Monitor started, server pid=13912 host po.polito.it
+2024-12-16 13:23:54 [fdb_monitor:13967] Current server log file '/home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fdb/log/server-2024-12-16_13:23:54.log'
+2024-12-16 13:23:54 [fdb_monitor:13967] CURRENT_SERVER_LOG_TIME:1734351834
+2024-12-16 13:29:01 [fdb_monitor:13967] Autostop timeout 60 reached, request a smart stop of the server
+2024-12-16 13:29:02 [fdb_monitor:13967] waiting for server to shut down.... done
 server stopped
-2024-12-13 17:47:22 [fdb_monitor:30373] Sent smart stop to server
-2024-12-13 17:47:25 [fdb_monitor:30373] Error: Invalid server PID 30313: process does not exist
-2024-12-13 17:47:25 [fdb_monitor:30373] Server not found, exiting
+2024-12-16 13:29:02 [fdb_monitor:13967] Sent smart stop to server
+2024-12-16 13:29:05 [fdb_monitor:13967] Error: Invalid server PID 13912: process does not exist
+2024-12-16 13:29:05 [fdb_monitor:13967] Server not found, exiting

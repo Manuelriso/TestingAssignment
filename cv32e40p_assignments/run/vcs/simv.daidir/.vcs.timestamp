@@ -62,13 +62,13 @@ strobe
 /home/s329514/TestingAssignment/cv32e40p_assignments/fsim/strobe.sv
 78
 ZOIXHOME=/eda/synopsys/2022-23/RHELx86/Z01X_2022.06-SP2
-XDG_SESSION_ID=14362
+XDG_SESSION_ID=14935
 XDG_RUNTIME_DIR=/run/user/329514
 XDG_DATA_DIRS=/home/s329514/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
-VSCODE_IPC_HOOK_CLI=/run/user/329514/vscode-ipc-c5d388c8-89ac-4367-a7c8-3ce70af2929d.sock
-VSCODE_GIT_IPC_HANDLE=/run/user/329514/vscode-git-b160659b9d.sock
-VSCODE_GIT_ASKPASS_NODE=/home/s329514/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/node
-VSCODE_GIT_ASKPASS_MAIN=/home/s329514/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/extensions/git/dist/askpass-main.js
+VSCODE_IPC_HOOK_CLI=/run/user/329514/vscode-ipc-e660e8c2-9652-4cb4-97b9-aab9d1d03e08.sock
+VSCODE_GIT_IPC_HANDLE=/run/user/329514/vscode-git-916c26878b.sock
+VSCODE_GIT_ASKPASS_NODE=/home/s329514/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/node
+VSCODE_GIT_ASKPASS_MAIN=/home/s329514/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/askpass-main.js
 VSCODE_GIT_ASKPASS_EXTRA_ARGS=
 VMR_MODE_FLAG=64
 VERDI_HOME=/opt/synopsys/verdi/U-2023.03-SP2-1
@@ -87,7 +87,7 @@ VCS_ARG_ADDED_FOR_TMP=1
 VCS_ARCH=linux64
 UNAME=/bin/uname
 TOOL_HOME=/opt/synopsys/vcs/U-2023.03-SP2-1/linux64
-TERM_PROGRAM_VERSION=1.95.0
+TERM_PROGRAM_VERSION=1.95.2
 TERM_PROGRAM=vscode
 TB_DIR=/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core
 TB_CLK_NS=10.0
@@ -98,8 +98,8 @@ SYNOPSYS_SYN_ROOT=/eda/synopsys/2022-23/RHELx86/SYN_2022.12
 SYNOPSYS_LC_ROOT=/eda/synopsys/2022-23/RHELx86/LC_2022.03-SP5/
 SSL_CERT_FILE=/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
 SSL_CERT_DIR=/etc/pki/tls/certs
-SSH_CONNECTION=93.39.144.129 20835 130.192.163.95 22
-SSH_CLIENT=93.39.144.129 20835 22
+SSH_CONNECTION=172.29.9.68 51972 130.192.163.95 22
+SSH_CLIENT=172.29.9.68 51972 22
 SPYGLASS_HOME=/eda/synopsys/2022-23/RHELx86/SPYGLASS_2022.06-SP2/SPYGLASS_HOME
 SNPS_Z01X=/eda/synopsys/2022-23/RHELx86/Z01X_2022.06-SP2
 SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
@@ -132,7 +132,7 @@ LESSOPEN=||/usr/bin/lesspipe.sh %s
 LC_ALL=C
 KDEDIRS=/usr
 HISTCONTROL=ignoredups
-GIT_ASKPASS=/home/s329514/.vscode-server/cli/servers/Stable-912bb683695358a54ae0c670461738984cbb5b95/server/extensions/git/dist/askpass.sh
+GIT_ASKPASS=/home/s329514/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/askpass.sh
 FSIM=1 
 FIRMWARE=/home/s329514/TestingAssignment/cv32e40p_assignments/sbst/sbst.hex
 DESIGN_RTL_DIR=/home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/../../rtl
@@ -143,7 +143,7 @@ COLORTERM=truecolor
 0
 23
 1734020132 /home/s329514/TestingAssignment/cv32e40p_assignments/syn/techlib/NangateOpenCellLibrary.v
-1734107877 /home/s329514/TestingAssignment/cv32e40p_assignments/fsim/strobe.sv
+1734351223 /home/s329514/TestingAssignment/cv32e40p_assignments/fsim/strobe.sv
 1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/mm_ram.sv
 1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/amo_shim.sv
 1733825023 /home/s329514/TestingAssignment/cv32e40p_assignments/example_tb/core/riscv_gnt_stall.sv
@@ -170,5 +170,5 @@ COLORTERM=truecolor
 1697254610 /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/liberrorinf.so
 1697254517 /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libsnpsmalloc.so
 1697254604 /opt/synopsys/vcs/U-2023.03-SP2-1/linux64/lib/libvfs.so
-1734108260 simv.daidir
+1734351828 simv.daidir
 -1 partitionlib

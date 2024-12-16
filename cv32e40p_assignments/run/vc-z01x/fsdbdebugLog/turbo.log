@@ -1,3 +1,3 @@
 Command Line: /opt/synopsys/verdi/U-2023.03-SP2-1/platform/LINUXAMD64/bin/fsdbdebug -info /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm_tsim_fsdb/cv32e40p/test1.fsdb
 uname(Linux po.polito.it 3.10.0-1160.92.1.el7.x86_64 #1 SMP Tue Jun 20 11:48:01 UTC 2023 x86_64)
-au time 0.008683 0.002013 0.007121 delta 32894976 32894976 total 166400000 166400000
+au time 0.010621 0.004456 0.006498 delta 25653248 25653248 total 159158272 159158272

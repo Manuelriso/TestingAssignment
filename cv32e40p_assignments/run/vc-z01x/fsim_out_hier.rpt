@@ -1,8 +1,8 @@
 # Unified Fault Platform Hierarchical Report
 # Version: U-2023.03-SP2-1
-# Date: "12/13/24 17:46:18" 
+# Date: "12/16/24 13:27:59" 
 # User: "s329514"
-# Command: "fcm::report -hierarchical 0 -report 'fsim_out_hier.rpt' -overwrite -campaign cv32e40p -fdb_server po.polito.it:54146 -fdb_project default"
+# Command: "fcm::report -hierarchical 0 -report 'fsim_out_hier.rpt' -overwrite -campaign cv32e40p -fdb_server po.polito.it:49952 -fdb_project default"
 
 
 # FailureMode: Default

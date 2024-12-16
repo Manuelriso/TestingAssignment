@@ -23,6 +23,55 @@ test1:
 
     # You can write your code here 
 
+	#-------------------------------------------------------------------------ManuelCODE-----------------------------------------------------------------------------
+	# Carica gli operandi
+    lw t0, int_a         # Carica il valore di int_a in t0
+    lw t1, int_b         # Carica il valore di int_b in t1
+
+    add t2, t0, t1       # Esegui addizione intera: t2 = t0 + t1
+    sub t3, t0, t1       # Esegui sottrazione intera: t3 = t0 - t1
+    mul t4, t0, t1       # Esegui moltiplicazione intera: t4 = t0 * t1
+
+    # Salva un risultato per verifica
+	la t3,result
+    sw t2, 0(t3)        # Salva il risultato di t2 (addizione) in memoria
+
+    # Test 2: Conversione intero -> floating-point
+    fcvt.s.w fa0, t0     # Converte il valore intero in floating-point (fa0 = float(t0))
+
+    # Test 3: Operazioni floating-point
+    # Carica operandi floating-point
+	la t3,float_a
+    flw fa1,0(t3)     # Carica float_a in fa1
+	la t3,float_b
+    flw fa2, 0(t3)    # Carica float_b in fa2
+
+    fadd.s f3, f1, f2 # Addizione floating-point: fa3 = fa1 + fa2
+    fsub.s f4, f1, f2 # Sottrazione floating-point: fa4 = fa1 - fa2
+    fmul.s f5, f1, f2 # Moltiplicazione floating-point: fa5 = fa1 * fa2
+	fdiv.s f6,f1,f2 # Divisione floating-point
+	fadd.s f7, f1, f2 # Addizione floating-point: fa3 = fa1 + fa2
+    fsub.s f8, f1, f2 # Sottrazione floating-point: fa4 = fa1 - fa2
+    fmul.s f9, f1, f2 # Moltiplicazione floating-point: fa5 = fa1 * fa2
+	fdiv.s f10,f1,f2 # Divisione floating-point
+	fadd.s f11, f1, f2 # Addizione floating-point: fa3 = fa1 + fa2
+    fsub.s f12, f1, f2 # Sottrazione floating-point: fa4 = fa1 - fa2
+    fmul.s f13, f1, f2 # Moltiplicazione floating-point: fa5 = fa1 * fa2
+	fdiv.s f14,f1,f2 # Divisione floating-point
+	fadd.s f15, f1, f2 # Addizione floating-point: fa3 = fa1 + fa2
+    fsub.s f16, f1, f2 # Sottrazione floating-point: fa4 = fa1 - fa2
+    fmul.s f17, f1, f2 # Moltiplicazione floating-point: fa5 = fa1 * fa2
+	fdiv.s f18,f1,f2 # Divisione floating-point
+
+
+
+	# -----------------------------------------------SimoneCODE------------------------------------------------------------------------
+
+
+
+	# -----------------------------------------------FabioCODE-------------------------------------------------------------------------
+
+
 	addi s1,s1,4
 	la a0, test_vector_A
 	la a2, test_results
@@ -75,6 +124,12 @@ loop_int:
 # READ/WRITE VARIABLES
 
 .section .data
+
+result:  .word 0        # Per memorizzare il risultato del test
+int_a:   .word 10       # Primo operando intero
+int_b:   .word 5        # Secondo operando intero
+float_a: .float 3.14    # Primo operando floating-point
+float_b: .float 2.71    # Secondo operando floating-point
 
 test_results:
 	.space 4

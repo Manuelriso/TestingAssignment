@@ -1,0 +1,3 @@
+Command Line: /opt/synopsys/verdi/U-2023.03-SP2-1/platform/LINUXAMD64/bin/fsdbdebug -show_dumper_sim_info /home/s329514/TestingAssignment/cv32e40p_assignments/run/vc-z01x/fcm_tsim_fsdb/cv32e40p/test1.fsdb
+uname(Linux po.polito.it 3.10.0-1160.92.1.el7.x86_64 #1 SMP Tue Jun 20 11:48:01 UTC 2023 x86_64)
+au time 0.007081 0.000825 0.003381 delta 25595904 25595904 total 159100928 159100928

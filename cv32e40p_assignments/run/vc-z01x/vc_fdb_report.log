@@ -1,15 +1,15 @@
-Command: fcm::report -hierarchical 0 -report 'fsim_out_hier.rpt' -overwrite -campaign cv32e40p -fdb_server po.polito.it:54146 -fdb_project default
+Command: fcm::report -hierarchical 0 -report 'fsim_out_hier.rpt' -overwrite -campaign cv32e40p -fdb_server po.polito.it:49952 -fdb_project default
 
 User:	s329514
 Log:	vc_fdb_report.log
-Date:	Fri Dec 13 17:46:15 2024
+Date:	Mon Dec 16 13:27:57 2024
 
 Loading fault results...
-Done (CPU time: 1s, elapsed time: 2s, memory increased by 0Mb, peak: 165Mb).
-Preparing hierarchical report...
 Done (CPU time: 1s, elapsed time: 1s, memory increased by 0Mb, peak: 165Mb).
+Preparing hierarchical report...
+Done (CPU time: 0s, elapsed time: 1s, memory increased by 0Mb, peak: 165Mb).
 Preparing report...
-Done (CPU time: 0s, elapsed time: 0s, memory increased by 0Mb, peak: 165Mb).
+Done (CPU time: 1s, elapsed time: 0s, memory increased by 0Mb, peak: 165Mb).
 Writing to report...
 Info:	Wrote Hierarchical report to fsim_out_hier.rpt
 Done (CPU time: 0s, elapsed time: 0s, memory increased by 0Mb, peak: 165Mb).
